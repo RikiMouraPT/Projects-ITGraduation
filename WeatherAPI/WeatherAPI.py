@@ -89,17 +89,64 @@ def get_forecast_day1():
 
 	print(f"\nThe following forecast is from {region}, {country}")
 	print(f"The following data was last update at {last_updated}")
-	print(f"The following data is for tomorrow,{forecast_date}\n")
+	print(f"The following data is for tomorrow, {forecast_date}\n")
 	print(f"The average temperature for tomorrow is {avg_temp_c}ºC")
 	print(f"The minimum temperature for tomorrow is {min_temp_c}ºC")
 	print(f"The max temperature for tomorrow is {max_temp_c}ºC")
 	print(f"The condition for tomorrow is '{condition}'")
 	print(f"The max wind speed for tomorrow is {max_wind_kph}km/h")
-	print(f"The total precipitation for tomorrow is {totalprecip_mm} mm")
+	print(f"The total precipitation for tomorrow is {totalprecip_mm}mm")
 	print(f"The chance of rain for tomorrow is {chance_of_rain}%")
 	print(f"The chance of snow for tomorrow is {chance_of_snow}%")
 	print(f"The average humidity for tomorrow is {avg_humidity}%")
 	print(f"The average visibility for tomorrow is {avgvis_km}km\n")
+
+def get_forecast_day2():
+	## API ##  ## API ##  ## API ##
+	url = "https://weatherapi-com.p.rapidapi.com/forecast.json"
+	querystring = {"q":{city},"days":"3"}
+	headers = {
+	"X-RapidAPI-Key": "d78e25739emsh1ebb038d6fdff39p1ee51fjsn3c022600587c",
+	"X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com"
+				}
+	response = requests.get(url, headers=headers, params=querystring)
+	res = response.json()
+		## API ##  ## API ##  ## API ##
+
+	###DATA###
+	#location
+	region = res["location"]["name"]
+	country = res["location"]["country"]
+	#forecast day 2
+
+	last_updated = res["current"]["last_updated"]
+	forecast_date = res["forecast"]["forecastday"][2]["date"]
+	min_temp_c = res["forecast"]["forecastday"][2]["day"]["mintemp_c"]
+	max_temp_c = res["forecast"]["forecastday"][2]["day"]["maxtemp_c"]
+	avg_temp_c = res["forecast"]["forecastday"][2]["day"]["avgtemp_c"]
+	max_wind_kph = res["forecast"]["forecastday"][2]["day"]["maxwind_kph"]
+	totalprecip_mm = res["forecast"]["forecastday"][2]["day"]["totalprecip_mm"]
+	avgvis_km = res["forecast"]["forecastday"][2]["day"]["avgvis_km"]
+	avg_humidity = res["forecast"]["forecastday"][2]["day"]["avghumidity"]
+	chance_of_rain = res["forecast"]["forecastday"][2]["day"]["daily_chance_of_rain"]
+	chance_of_snow = res["forecast"]["forecastday"][2]["day"]["daily_chance_of_snow"]
+	condition = res["forecast"]["forecastday"][2]["day"]["condition"]["text"]
+
+	#PRINTS
+
+	print(f"\nThe following forecast is from {region}, {country}")
+	print(f"The following data was last update at {last_updated}")
+	print(f"The following data is for the day after tomorrow,{forecast_date}\n")
+	print(f"The average temperature for {forecast_date} is {avg_temp_c}ºC")
+	print(f"The minimum temperature for {forecast_date} is {min_temp_c}ºC")
+	print(f"The max temperature for {forecast_date} is {max_temp_c}ºC")
+	print(f"The condition for {forecast_date} is '{condition}'")
+	print(f"The max wind speed for {forecast_date} is {max_wind_kph}km/h")
+	print(f"The total precipitation for {forecast_date} is {totalprecip_mm}mm")
+	print(f"The chance of rain for {forecast_date} is {chance_of_rain}%")
+	print(f"The chance of snow for {forecast_date} is {chance_of_snow}%")
+	print(f"The average humidity for {forecast_date} is {avg_humidity}%")
+	print(f"The average visibility for {forecast_date} is {avgvis_km}km\n")
 
 while True:
 	### MENU ###
@@ -111,7 +158,7 @@ while True:
 	print("1 - Choose a city.")
 	print("2 - Check current weather.")
 	print("3 - Check forecast for tomorrow.")
-	print("4 - Check forecast for after tomorrow.(NOT DONE)")
+	print("4 - Check forecast for after tomorrow.")
 	print("5 - Exit.")
 	question = input("Choose an option -> ")
 
@@ -122,11 +169,15 @@ while True:
 		case "2":
 			print("______________________CURRENT_WEATHER______________________")
 			get_current_weather()
-			print("___________________________________________________________")
+			print("___________________________________________________________") 
 		case "3":
-			print("__________________________________________________________")
+			print("___________________________________________________________") ## ADICIONAR DATA C/ GLOBAL VARIABLE
 			get_forecast_day1()
-			print("__________________________________________________________")
+			print("___________________________________________________________")
+		case "4":
+			print("___________________________________________________________") ## ADICIONAR DATA C/ GLOBAL VARIABLE
+			get_forecast_day2()
+			print("___________________________________________________________")
 		case "5":
 			print("\nLeaving the Weather Station.")
 			time.sleep(0.8)
