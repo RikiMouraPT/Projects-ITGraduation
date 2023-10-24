@@ -1,2 +1,2 @@
 # Projects-ITGraduation
-Projects made during Graduation
+Projects made during IT Graduation
