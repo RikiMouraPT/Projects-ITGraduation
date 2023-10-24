@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 
 url = "https://weatherapi-com.p.rapidapi.com/forecast.json"
 
@@ -89,7 +90,7 @@ def get_forecast_day1():
 	print(f"\nThe following forecast is from {region}, {country}")
 	print(f"The following data was last update at {last_updated}")
 	print(f"The following data is for tomorrow,{forecast_date}\n")
-	print(f"The average temperature for tomorrow {avg_temp_c}ºC")
+	print(f"The average temperature for tomorrow is {avg_temp_c}ºC")
 	print(f"The minimum temperature for tomorrow is {min_temp_c}ºC")
 	print(f"The max temperature for tomorrow is {max_temp_c}ºC")
 	print(f"The condition for tomorrow is '{condition}'")
@@ -102,7 +103,11 @@ def get_forecast_day1():
 
 while True:
 	### MENU ###
-	print("Welcome to the Weather Station!\n")
+	print("""
+#######################################
+### Welcome to the Weather Station! ###
+#######################################\n""")
+
 	print("1 - Choose a city.")
 	print("2 - Check current weather.")
 	print("3 - Check forecast for tomorrow.")
@@ -115,12 +120,20 @@ while True:
 			city = input("Whats the city?\n")
 			print(f"{city} was defined as the city.\n")
 		case "2":
-			print("__________________________________________________________")
+			print("______________________CURRENT_WEATHER______________________")
 			get_current_weather()
-			print("__________________________________________________________")
+			print("___________________________________________________________")
 		case "3":
+			print("__________________________________________________________")
 			get_forecast_day1()
+			print("__________________________________________________________")
 		case "5":
+			print("\nLeaving the Weather Station.")
+			time.sleep(0.8)
+			print("Leaving the Weather Station..")
+			time.sleep(0.8)
+			print("Leaving the Weather Station...\n")
+			time.sleep(0.5)
 			break
 		case _:
 			print("That's not an option.")
