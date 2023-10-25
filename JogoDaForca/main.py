@@ -1,6 +1,6 @@
 import random
 list = ['ricardo','baguette']
-palavras = ['Maria','Alice','Benedita', 'Beatriz', 'Margarida', 'Francisca', 'Camila', 'Francisco', 'Afonso', 'Duarte', 'Santiago', 'Martim', 'Miguel', 'Gabriel']
+palavras = ['Maria','Alice','Benedita', 'Beatriz', 'Margarida', 'Francisca', 'Camila', 'Francisco', 'Afonso', 'Duarte', 'Santiago', 'Martim', 'Miguel', 'Gabriel', 'Vitor']
 palavra = random.choice(palavras)
 chances = 5
 letras_tentativa = []
