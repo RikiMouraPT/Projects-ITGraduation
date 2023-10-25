@@ -101,4 +101,6 @@ while True:
 			time.sleep(0.5)
 			break
 		case _:
-			print("That's not an option.")
+                        time.sleep(1)
+                        print("That's not an option.")
+                        time.sleep(1)
