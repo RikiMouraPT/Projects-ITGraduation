@@ -2,6 +2,7 @@
 soma = 0 
 produto = 0 
 media = 0 
+## 2
 Numero1 =  int(input("Introduza o primeiro número: "))
 Numero2 =  int(input("Introduza o segundo número: "))
 Numero3 =  int(input("Introduza o terceiro número: "))
