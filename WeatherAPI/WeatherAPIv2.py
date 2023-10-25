@@ -29,7 +29,7 @@ def get_forecast():
     res = response.json()
     ## API ##  ## API ##  ## API ##
 
-    day_input = int(input("What's the day you want? (max 2 day forecast)"))
+    day_input = int(input("What's the day you want? (max 2 day forecast)\n"))
     today_day = date.today().day
 	
     if   today_day == day_input  :
@@ -80,10 +80,8 @@ while True:
 #######################################\n""")
 
 	print("1 - Choose a city.")
-	print("2 - Check current weather.")
-	print("3 - Check forecast for tomorrow.")
-	print("4 - Check forecast for after tomorrow.")
-	print("5 - Exit.")
+	print("2 - Check weather.")
+	print("9 - Exit.")
 	question = input("Choose an option -> ")
 
 	match(question):
@@ -94,7 +92,7 @@ while True:
 			print("___________________________________________________________") ## ADICIONAR DATA C/ GLOBAL VARIABLE
 			get_forecast()
 			print("___________________________________________________________")
-		case "5":
+		case "9":
 			print("\nLeaving the Weather Station.")
 			time.sleep(0.8)
 			print("Leaving the Weather Station..")
