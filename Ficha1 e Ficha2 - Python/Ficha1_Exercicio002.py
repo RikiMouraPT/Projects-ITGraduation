@@ -1,6 +1,6 @@
 import math
 
-kmm = 0.0
+km = 0.0
 milhas = 0 
 milhasnauticas = 0 
 pes = 0 
