@@ -1,9 +1,17 @@
-tarefas = []
+file = open("tasks_file.txt", "r")
+data = file.read()
+tarefas = data.split("\n")
 
 def AdicTarefa():
     tarefa = input("Write the task.\n")
     tarefas.append(tarefa)
     print("Task Added.")
+    file = open("tasks_file.txt", "w")
+    for tarefa in tarefas:
+        file.write(tarefa + "\n")
+    file.close()
+
+
 
 def ListaTarefas():
         print("\n### Task List ###")
