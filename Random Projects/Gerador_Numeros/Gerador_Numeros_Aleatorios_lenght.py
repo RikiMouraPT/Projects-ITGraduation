@@ -5,6 +5,6 @@ def RandomNumber(L):
     max = pow(10, L)-1
     return random.randint(min, max)
 
-length = float(input("How many digits? "))
+length = int(input("How many digits? "))
 
 print(RandomNumber(length))

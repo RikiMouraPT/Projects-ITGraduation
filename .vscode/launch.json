@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "externalConsole":true,
+    "diagnosticLogging": true,
+        "configurations": [
+            {
+                "name": "C/C++ Debug",
+                "type": "cppdbg",
+                "request": "launch",
+                "program": "${workspaceFolder}/your_program.exe",
+                "args": [],
+                "stopAtEntry": false,
+                "cwd": "${workspaceFolder}",
+                "externalConsole": false,
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
+                "preLaunchTask": "build",
+                "miDebuggerPath": "C:/MinGW/bin/gdb.exe", // Specify the path to GDB here
+                "setupCommands": [
+                    {
+                        "description": "Setting up environment",
+                        "text": "-environment-cd ${workspaceFolder}"
+                    }
+                ],
+                "launchCompleteCommand": "exec-run",
+                "windows": {
+                    "program": "${workspaceFolder}/your_program.exe"
+                },
+                "pipeTransport": {
+                    "pipeProgram": "C:\\msys64\\usr\\bin\\bash.exe",
+                    "pipeCwd": "${workspaceFolder}",
+                    "pipeArgs": ["-c"]
+                }
+            }
+        ]
+
+}

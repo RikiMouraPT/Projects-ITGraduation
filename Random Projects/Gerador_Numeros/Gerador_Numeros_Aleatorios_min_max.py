@@ -4,8 +4,8 @@ import random
 # Faça um programa que gere números aleatórios e ofereça opções
 # para configurar os intervalos e a quantidade de números a serem gerados.
 
-range_min = float(input("Whats the minimum number?"))
-range_max = float(input("Whats the maximum number?"))
+range_min = int(input("Whats the minimum number?"))
+range_max = int(input("Whats the maximum number?"))
 
 if range_min < range_max:
     print(random.randint(range_min, range_max))
