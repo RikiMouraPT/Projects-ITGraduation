@@ -8,7 +8,9 @@ soma = 0
 total_pares = 0
 total_impares = 0
 i = 1
+
 while True:
+    
     numero = int(input(f"Digite o {i}º número (0 para sair): "))
 
     if numero == 0:  #Condição Saida
