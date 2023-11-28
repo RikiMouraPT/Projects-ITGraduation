@@ -5,13 +5,8 @@ from rich.layout import Layout
 from rich.panel import Panel
 from rich import box
 
-
-#Definir formatação da tabela.
-table = Table(title="Filmes - Óscares",title_style="bold")
+#Para usar console.print()
 console = Console()
-#Definir Colunas para tabela.
-table.add_column("Filme", justify="left", style="cyan", no_wrap=False)
-table.add_column("Pontuação (0-20)", justify="center", style="magenta")
 
 filmes_testes = {
     "Matrix":             18,
@@ -22,20 +17,14 @@ filmes_testes = {
     "Interestelar":       20,
     "O Senhor dos Anéis": 14,
     "Forrest Gump":       16,
-    "A Origem":           19, 
+    "A ":           19, 
     "Cidade de Deus":     13
 }
 #Dicionario para guardar {Filmes: Pontuação}
 filmes = {}
+
 def separador():
     console.print("----------------------------------------")
-def tabela_reset_consultar():
-    # Remover colunas.
-    table.columns.clear()
-    # Adicionar ascolunas à tabela
-    table.add_column("Filme", justify="left", style="cyan", no_wrap=True)
-    table.add_column("Pontuação (0-20)", justify="center", style="magenta")
-
 def introduzir_dados():
     separador()
     console.print("----------- ", end="")
@@ -98,11 +87,16 @@ def eliminar_dados():
     else:
         console.print(f"O filme [b]{filme_eliminar}[/b] não foi encontrado na lista.\n")
 def consultar_dados():
+    #Criar tabela para dados.
+    table = Table(title="[b]Filmes - Óscares[/b]",title_style="yellow1", box=box.ROUNDED, border_style="medium_spring_green")
+    # Adicionar as colunas à tabela
+    table.add_column("Filme", justify="left", no_wrap=True)
+    table.add_column("Pontuação (0-20)", justify="center")
+
     #filmes_ordenados_lista = sorted(filmes.items(), key = lambda ordenar_pelo: ordenar_pelo[1], reverse=True)
     #filmes_ordenados_dict = dict(filmes_ordenados_lista)                ###### FUNÇÃO EM BAIXO É IGUAL A TER ESTAS DUAS JUNTAS######
     filmes_ordenados = dict(sorted(filmes.items(), key = lambda ordenar_pelo: ordenar_pelo[1], reverse=True))
-    #Dá clear à tabela e cria as colunas novamente.
-    tabela_reset_consultar() 
+
     # Adicionar dados às linhas da tabela
     for filme, pontuacao in filmes_ordenados.items():
         table.add_row(filme, str(pontuacao))
@@ -121,7 +115,6 @@ def pesquisar_dados():
             break
     else:
         console.print(f"O filme [b]{pesquisar_input}[/b] não está na lista.\n")
-
 def podio_dados():
     filmes_ordenados = dict(sorted(filmes.items(), key = lambda ordenar_pelo: ordenar_pelo[1], reverse=True))   
     filmes_ordenados_iter = iter(filmes_ordenados)        #Itera pelo dicionario e pega na primeira key usando o next().
@@ -136,26 +129,26 @@ def podio_dados():
 
     #TABELA 1º LUGAR
     Podio1 = Table(title="1ºLugar", box=box.ROUNDED, border_style="yellow1", title_style="yellow1", title_justify="center", expand=True)
-    Podio1.add_column("Filme")
+    Podio1.add_column("Filme", justify="center")
     Podio1.add_column("Pontos", justify="center")
     Podio1.add_row(primeiro_filme, str(primeira_pontuacao))
 
     #TABELA 2º LUGAR
     Podio2 = Table(title="2ºLugar", box=box.ROUNDED, border_style="grey78", title_style="grey78", title_justify="center", expand=True)
-    Podio2.add_column("Filme")
+    Podio2.add_column("Filme", justify="center")
     Podio2.add_column("Pontos", justify="center")
     Podio2.add_row(segundo_filme, str(segunda_pontuacao))
 
     #TABELA 3º LUGAR
     Podio3 = Table(title="3ºLugar", box=box.ROUNDED, border_style="gold3", title_style="orange3", title_justify="center", expand=True)
-    Podio3.add_column("Filme")
+    Podio3.add_column("Filme", justify="center")
     Podio3.add_column("Pontos", justify="center")
     Podio3.add_row(terceiro_filme, str(terceira_pontuacao))
     
     #PRINT PODIO 
     layout = Layout()
     layout.split_row(Podio1, Podio2, Podio3) #Mete tabelas lado a lado
-    console.print(Panel(layout, title="[b]### Pódio ###[/b]",border_style="blue1" ,height=9, width=80), justify="center") #Print com panel à volta
+    console.print(Panel(layout, title="[b]### Pódio ###[/b]",border_style="blue1" ,height=9, width=120), justify="center") #Print com panel à volta
     
     #Tabela Restantes
     tabela_restantes = Table(title="[b]Restantes Ordenados[/b]", border_style="medium_spring_green",box=box.ROUNDED, title_style="medium_spring_green", title_justify="center")
