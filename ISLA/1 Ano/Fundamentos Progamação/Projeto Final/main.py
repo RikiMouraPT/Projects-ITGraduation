@@ -182,6 +182,9 @@ def sair():
     time.sleep(0.6)
     exit()
 
+def extra_filme_info(): #API? lib IMBD?
+    pass
+
 ### Menu ###
 while True: #Repete sempre para mostrar sempre o menu até escolher opção sair.
     console.print(" ### [b]Menu[/b] ###", style="blue1")
