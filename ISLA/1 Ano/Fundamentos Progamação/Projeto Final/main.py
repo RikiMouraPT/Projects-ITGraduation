@@ -2,6 +2,7 @@
 import time
 #Para formatar melhor o terminal
 from rich.console import Console
+console = Console()
 from rich.table import Table
 from rich.layout import Layout
 from rich.panel import Panel
@@ -9,8 +10,9 @@ from rich import box
 #Para export e import
 import json
 import os
-#Para usar console.print()
-console = Console()
+import imdb
+ia = imdb.Cinemagoer()
+
 #Para usar variavel na Função ls_dir e no Menu
 ultimo_index = -1
 
@@ -259,7 +261,6 @@ def ls_dir():
             else:
                 print(f"├──{file}")
     separador()
-
 def apagar_exportado():
     separador()
     console.print("---------- ", end="")
@@ -276,8 +277,33 @@ def apagar_exportado():
     else:
             console.print("[red1]Esse ficheiro não existe.[/red1]")
             separador()
-def info_filme(): #API? lib IMBD?
-    pass
+def info_filme(): 
+    filme_input = console.input("[yellow1]Que filme quer pesquisar? [/yellow1]")
+    filmes = ia.search_movie(filme_input)
+
+    if filmes: #se tiver algo dentro de filmes == TRUE
+        filme = filmes[0] #Pega no primeiro filme encontrado.
+        ia.update(filme) #Dá mais infos do filme
+
+        console.print(f'[yellow1]\nTítulo: [/yellow1]{filme["title"]}')
+        console.print(f'[yellow1]Ano: [/yellow1]{filme["year"]}')
+        console.print(f'[yellow1]Avaliação: [/yellow1]{filme["rating"]}')
+        console.print(f'[yellow1]Duração: [/yellow1]{filme["runtime"]}')
+        console.print(f'[yellow1]Diretor do Filme: [/yellow1]{filme["director"]}')
+        sinopse = filme.get("plot outline", "N/A")
+        console.print(f'[yellow1]Sinopse: [/yellow1]{sinopse}')
+    else:
+        print("Filme não encontrado.")
+        """"
+        "title": Título do filme.
+        "year": Ano de lançamento do filme.
+        "kind": Tipo de título (por exemplo, "movie" para filme).
+        "plot outline": Resumo da trama do filme.
+        "genres": Gêneros do filme (retorna uma lista de gêneros).
+        "runtime": Duração do filme em minutos.
+        "cast": Elenco do filme (retorna uma lista de atores/personagens).
+        "director": Diretor do filme.
+        """
 
 
 ### Menu ###
