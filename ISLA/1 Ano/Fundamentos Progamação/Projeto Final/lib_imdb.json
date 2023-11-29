@@ -37,209 +37,29 @@
     "certificates": ["Portugal:M/12"],
     "original_air_date": "25 Mar 1977 (Portugal)",
     "rating": 8.1
-    }
-    {
-        "votes": 646099,
-        "imdbid": "0073195",
-        "videos": [
-        "http://www.imdb.com/title/tt0073195/videoplayer/vi4242122009",
-        "http://www.imdb.com/title/tt0073195/videoplayer/vi153068313"
-        ],
-        "plot_outline": "It's a hot summer on Amity Island, a small community whose main business is its beaches. When new Sheriff Martin Brody discovers the remains of a shark attack victim, his first inclination is to close the beaches to swimmers. This doesn't sit well with Mayor Larry Vaughn and several of the local businessmen. Brody backs down to his regret as that weekend a young boy is killed by the predator. The dead boy's mother puts out a bounty on the shark and Amity is soon swamped with amateur hunters and fishermen hoping to cash in on the reward. A local fisherman with much experience hunting sharks, Quint, offers to hunt down the creature for a hefty fee. Soon Quint, Brody and Matt Hooper from the Oceanographic Institute are at sea hunting the Great White shark. As Brody succinctly surmises after their first encounter with the creature, they're going to need a bigger boat.",
-        "languages": ["English"],
-        "director": [
-        {"id": "0000229", "name": "Steven Spielberg"}
-        ],
-        "writer": [
-        {"id": "0001940", "name": "Peter Benchley"},
-        {"id": "0331956", "name": "Carl Gottlieb"},
-        {"id": null, "name": "None"},
-        {"id": "0001940", "name": "Peter Benchley"}
-        ],
-        "producer": [
-        {"id": "0113360", "name": "David Brown"},
-        {"id": "0005573", "name": "Richard D. Zanuck"}
-        ],
-        "composer": [
-        {"id": "0002354", "name": "John Williams"}
-        ],
-        "cinematographer": [
-        {"id": "0124832", "name": "Bill Butler"}
-        ],
-        "editor": [
-        {"id": "0276368", "name": "Verna Fields"}
-        ],
-        "editorial_department": [
-        {"id": "0141089", "name": "William C. Carruth"},
-        {"id": "0276336", "name": "Rick Fields"},
-        {"id": "0324122", "name": "Jeff Gourson"},
-        {"id": "0377948", "name": "Mo Henry"}
-        ],
-        "production_design": [
-        {"id": "0023469", "name": "Joe Alves"}
-        ],
-        "set_decoration": [
-        {"id": "0245501", "name": "John M. Dwyer"}
-        ],
-        "make_up": [
-        {"id": "0035680", "name": "Del Armstrong"},
-        {"id": "0142348", "name": "Verne Caruso"},
-        {"id": "0150357", "name": "John Chambers"},
-        {"id": "0318948", "name": "Jim Gillespie"},
-        {"id": "0449157", "name": "Werner Keppler"}
-        ],
-        "production_manager": [
-        {"id": "0267309", "name": "James Fargo"},
-        {"id": "0166069", "name": "Charles Clement"}
-        ],
-        "assistant_director": [
-        {"id": "0060028", "name": "Barbara Bass"},
-        {"id": "0431666", "name": "Tom Joyner"},
-        {"id": "0023469", "name": "Joe Alves"},
-        {"id": "0276368", "name": "Verna Fields"},
-        {"id": "0831997", "name": "L. Andrew Stone"}
-        ],
-        "art_department": [
-        {"id": "0562079", "name": "Mike May"},
-        {"id": "1775935", "name": "Frank Nifong"},
-        {"id": "0678149", "name": "William A. Petrotta"},
-        {"id": "0920669", "name": "Ward Welton"},
-        {"id": "0942869", "name": "Thomas J. Wright"}
-        ],
-        "sound_crew": [
-        {"id": "0141728", "name": "John R. Carter"},
-        {"id": "0398480", "name": "Robert L. Hoyt"},
-        {"id": "0021108", "name": "Thomas E. Allen"},
-        {"id": "0292963", "name": "George Fredrick"},
-        {"id": "0315179", "name": "Walter A. Gest"},
-        {"id": "0341444", "name": "William Griffith"},
-        {"id": "0375947", "name": "Roger Heman Jr."},
-        {"id": "0428071", "name": "Franklin Jones Jr."},
-        {"id": "0531071", "name": "Earl Madery"},
-        {"id": "0567827", "name": "John McDonald"},
-        {"id": "0575020", "name": "Frank Meadows"},
-        {"id": "0609620", "name": "Colin C. Mouat"},
-        {"id": "0757800", "name": "Dennis C. Salcedo"},
-        {"id": "0821089", "name": "John Stacy"},
-        {"id": "0002298", "name": "Roger Sword"},
-        {"id": "0873806", "name": "James Troutman"}
-        ],
-        "special_effects": [
-        {"id": "0559871", "name": "Robert A. Mattey"},
-        {"id": "0033405", "name": "Roy Arbogast"},
-        {"id": "0056579", "name": "Tim Baar"},
-        {"id": "0096611", "name": "Johnny Borgese"},
-        {"id": "0151352", "name": "Don Chandler"},
-        {"id": "2577496", "name": "Richard S. Edwards"},
-        {"id": "0256846", "name": "Gerald Endler"},
-        {"id": "0375690", "name": "Richard O. Helmer"},
-        {"id": "0462946", "name": "Ted Koerner"},
-        {"id": "5025696", "name": "Conrad Kromm"},
-        {"id": "5025910", "name": "Stanley Mahony"},
-        {"id": "0683234", "name": "Kevin Pike"},
-        {"id": "5025945", "name": "Harry Shepherd"},
-        {"id": "0819924", "name": "Charles Spurgeon"},
-        {"id": "0836483", "name": "Richard Stutsman"},
-        {"id": "0839666", "name": "Eddie Surkin"},
-        {"id": "5025838", "name": "Gary Wood"},
-        {"id": "0939887", "name": "Michael Wood"},
-        {"id": "2845318", "name": "Paul Wurtzel"}
-        ],
-        "visual_effects": [
-        {"id": "4164647", "name": "Jeremy P. Carroll"},
-        {"id": "1150550", "name": "Prafull Gade"},
-        {"id": "1825996", "name": "Alex Guri"},
-        {"id": "4154099", "name": "Alex Heffner"},
-        {"id": "3800622", "name": "Franklin Mascarenhas"},
-        {"id": "12629483", "name": "Alexandra Merritt-Gambrill"},
-        {"id": "7773879", "name": "Trent Newton"},
-        {"id": "1026930", "name": "Aaron Parry"},
-        {"id": "1391664", "name": "Mark Simone"},
-        {"id": "2433682", "name": "Steve Stransman"},
-        {"id": "11179533", "name": "Amanda Viveiros"},
-        {"id": "4465357", "name": "Dane Wylie"},
-        {"id": "9120450", "name": "Ieva Cerps"},
-        {"id": "8239413", "name": "Jordan Lucchino"},
-        {"id": "3860367", "name": "Yael Majors"},
-        {"id": "0567263", "name": "Grant McCune"}
-        ],
-        "stunt_performer": [
-        {"id": "0125103", "name": "Richard E. Butler"},
-        {"id": "0156186", "name": "Denise Cheshire"},
-        {"id": "0193349", "name": "Howard Curtis"},
-        {"id": "0343722", "name": "Ted Grossman"},
-        {"id": "0003822", "name": "Hubie Kerns Jr."},
-        {"id": "0677345", "name": "Preston Peterson"},
-        {"id": "0816984", "name": "Frank James Sparks"},
-        {"id": "2096458", "name": "Ron Veto"},
-        {"id": "0006441", "name": "Dick Warlock"},
-        {"id": "0954824", "name": "Fred Zendar"}
-        ],
-        "camera_and_electrical_department": [
-        {"id": "0152469", "name": "Michael Chapman"},
-        {"id": "7764093", "name": "Franklyn B. James"},
-        {"id": "0582701", "name": "Rexford L. Metz"},
-        {"id": "1038955", "name": "Ron Taylor"},
-        {"id": "0853294", "name": "Valerie Taylor"},
-        {"id": "0055181", "name": "Lou Barlia"},
-        {"id": "0111743", "name": "Sandy Brooke"},
-        {"id": "0136836", "name": "Vito Carenzo"},
-        {"id": "0170609", "name": "Joe Cole"},
-        {"id": "0176448", "name": "James A. Contner"},
-        {"id": "0198796", "name": "Rocco Damiano"},
-        {"id": "5025881", "name": "Tony DeGeorge"},
-        {"id": "0263261", "name": "Tim Evans"},
-        {"id": "0269555", "name": "David Fay"},
-        {"id": "0325837", "name": "Louis Goldman"},
-        {"id": "0418901", "name": "Jake Jarrell"},
-        {"id": "0432131", "name": "Harry Jukes"},
-        {"id": "0689975", "name": "Guy Polzel"},
-        {"id": "0758306", "name": "Peter Salim"},
-        {"id": "0005865", "name": "Fred Schuler"},
-        {"id": "0849204", "name": "William Tandrow"},
-        {"id": "0855136", "name": "Bill Tenny"},
-        {"id": "0896546", "name": "Ronald Vidor"},
-        {"id": "2344076", "name": "Dennis Young"},
-        {"id": "0953482", "name": "Ron Zarilla"}
-        ],
-        "casting_department": [
-        {"id": "0722526", "name": "Shari Rhodes"}
-        ],
-        "costume_department": [
-        {"id": "0164224", "name": "Louise Clark"},
-        {"id": "0255313", "name": "Robert Ellsworth"},
-        {"id": "0741436", "name": "Irwin Rose"}
-        ],
-        "location_management": [
-        {"id": "0157076", "name": "Nick Chiarolanzio"}
-        ],
-        "music_department": [
-        {"id": "0047727", "name": "Robert Bain"},
-        {"id": "1876240", "name": "Israel Baker"},
-        {"id": "0089581", "name": "Harry Bluestone"},
-        {"id": "2036352", "name": "Tom Boyd"},
-        {"id": "0120488", "name": "Larry Bunker"},
-        {"id": "1179904", "name": "Vince De Rosa"},
-        {"id": "3445432", "name": "David Duke"},
-        {"id": "0322094", "name": "Joseph Glassman"},
-        {"id": "0340965", "name": "Ralph Grierson"},
-        {"id": "3049582", "name": "The Hollywood Studio Symphony"},
-        {"id": "1016083", "name": "Joe Howard"},
-        {"id": "2482917", "name": "Tommy Johnson"},
-        {"id": "0444792", "name": "Ted Keep"},
-        {"id": "1179933", "name": "Paul Kegg"},
-        {"id": "0543072", "name": "Shelly Manne"},
-        {"id": "0563056", "name": "William Mays"},
-        {"id": "0573522", "name": "Malcolm McNab"},
-        {"id": "2149152", "name": "Richard Nash"},
-        {"id": "2993756", "name": "Erno Neufeld"},
-        {"id": "0626881", "name": "John Neufeld"},
-        {"id": "0711107", "name": "Uan Rasey"},
-        {"id": "1882416", "name": "Dorothy Remsen"},
-        {"id": "0724079", "name": "Emil Richards"},
-        {"id": "6915489", "name": "George Roberts"},
-        {"id": "9105356", "name": "Ernie Rosecrans"},
-        {"id": "9105357", "name": "Glen Rosecrans"},
+}
+{
+
+    "votes": 646099,
+    "imdbid": "0073195",
+    "videos": [
+    "http://www.imdb.com/title/tt0073195/videoplayer/vi4242122009",
+    "http://www.imdb.com/title/tt0073195/videoplayer/vi153068313"
+    ],
+    "plot_outline": "It's a hot summer on Amity Island, a small community whose main business is its beaches. When new Sheriff Martin Brody discovers the remains of a shark attack victim, his first inclination is to close the beaches to swimmers. This doesn't sit well with Mayor Larry Vaughn and several of the local businessmen. Brody backs down to his regret as that weekend a young boy is killed by the predator. The dead boy's mother puts out a bounty on the shark and Amity is soon swamped with amateur hunters and fishermen hoping to cash in on the reward. A local fisherman with much experience hunting sharks, Quint, offers to hunt down the creature for a hefty fee. Soon Quint, Brody and Matt Hooper from the Oceanographic Institute are at sea hunting the Great White shark. As Brody succinctly surmises after their first encounter with the creature, they're going to need a bigger boat.",
+    "languages": ["English"],
+    "director": [
+    {"id": "0000229", "name": "Steven Spielberg"}]}
+{
+"Plot": [
+    "When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
+    "It's a hot summer on Amity Island, a small community whose main business is its beaches. When new Sheriff Martin Brody discovers the remains of a shark attack victim, his first inclination is to close the beaches to swimmers. This doesn't sit well with Mayor Larry Vaughn and several of the local businessmen. Brody backs down to his regret as that weekend a young boy is killed by the predator. The dead boy's mother puts out a bounty on the shark and Amity is soon swamped with amateur hunters and fisherman hoping to cash in on the reward. A local fisherman with much experience hunting sharks, Quint, offers to hunt down the creature for a hefty fee. Soon Quint, Brody and Matt Hooper from the Oceanographic Institute are at sea hunting the Great White shark. As Brody succinctly surmises after their first encounter with the creature, they're going to need a bigger boat.—garykmcd",
+    "One short week before the annual 4th of July celebrations, Martin Brody, the new police chief of the small summer resort town of Amity Island, has reasons to believe that the mangled body of the missing young swimmer found washed up on shore is the work of a predatory shark. Worried about the unsuspecting tourists, Brody insists on closing down the beaches; however, greed, and Mayor Larry Vaughn, get in the way of security, only to spark a series of additional bloody attacks. Now, all eyes are on the deep blue ocean, while Brody, along with the marine biologist, Matt Hooper, and the expert shark killer, Quint, hunt for the undisputed ruler of the sea: a monstrous, slate-grey great white shark that patrols the waters, hungry for human flesh. But, can they outsmart the ultimate aquatic man-eater, and escape from its massive jaws?—Nick Riganas",
+    "The peaceful community of Amity island is being terrorized. There is something in the sea that is attacking swimmers. They can no longer enjoy the sea and the sun as they used to, and the spreading fear is affecting the numbers of tourists that are normally attracted to this island. After many attempts the great white shark won't go away and sheriff Brody, with friends Hooper and Quint decide to go after the shark and kill it.—Sami Al-Taher <staher2000@yahoo.com>",
+    "A Great White Shark decides to make the small beach resort town of Amity his private feeding grounds. This greatly frustrates the town police chief who wants to close the beaches to chase the shark away. He is thwarted in his efforts by the town's mayor who finally relents when nothing else seems to work and the chief, a scientist, and an old fisherman with revenge on his mind take to the sea to kill the beast.—<drewgrgich@netzone.com>"
+  ],
+}
+
 
 
 

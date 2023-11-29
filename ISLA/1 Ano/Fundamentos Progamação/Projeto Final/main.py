@@ -10,12 +10,18 @@ from rich import box
 #Para export e import
 import json
 import os
+#Para 18. Info Filme
 import imdb
 ia = imdb.Cinemagoer()
+#Importa filmes de outro ficheiro
+import filmes_db
+#Para escolher um dicionario à sote
+import random
 
 #Para usar variavel na Função ls_dir e no Menu
 ultimo_index = -1
-
+#Usado para testes
+"""
 filmes_testes = {
     "Matrix":             18,
     "O Poderoso Chefão":  15,
@@ -25,9 +31,10 @@ filmes_testes = {
     "Interestelar":       20,
     "O Senhor dos Anéis": 14,
     "Forrest Gump":       16,
-    "A":                  19, 
+    "A":                  19,
     "Cidade de Deus":     13
 }
+"""
 #Dicionario para guardar {Filmes: Pontuação}
 filmes = {}
 
@@ -60,7 +67,10 @@ def gerar_dados():
     console.print("A gerar dados...", style='yellow1')
     time.sleep(0.6)
     console.print("[b]Dados gerados[/b]\n", style='yellow1')
-    filmes = filmes_testes.copy()
+    num = random.randint(1,8)
+    filmes_lista = [filmes_db.filmes_gerar_1, filmes_db.filmes_gerar_2, filmes_db.filmes_gerar_3, filmes_db.filmes_gerar_4, filmes_db.filmes_gerar_5, filmes_db.filmes_gerar_6, filmes_db.filmes_gerar_7]
+    filmes = filmes_lista[num]
+    #filmes = filmes_testes.copy()
 def alterar_dados():
     separador()
     console.print("------------ ", end="")
@@ -163,7 +173,6 @@ def podio_dados():
     layout = Layout()
     layout.split_row(Podio1, Podio2, Podio3) #Mete tabelas lado a lado
     console.print(Panel(layout, title="[b]### Pódio ###[/b]",border_style="dodger_blue2" ,height=9, width=120), justify="center") #Print com panel à volta
-    
     #Tabela Restantes
     tabela_restantes = Table(title="[b]Restantes Ordenados[/b]", border_style="medium_spring_green",box=box.ROUNDED, title_style="medium_spring_green", title_justify="center")
     # Adicionar as colunas à tabela
@@ -296,30 +305,34 @@ def info_filme():
         separador()
         console.print("---------------- [yellow1]DADOS[/yellow1] -----------------")
         separador()
-        console.print(f'[yellow1]Título: [/yellow1]{filme["title"]}', highlight=False)
-        console.print(f'[yellow1]Ano: [/yellow1]{filme["year"]}', highlight=False)
-        console.print(f'[yellow1]Avaliação: [/yellow1]{filme["rating"]}/10', highlight=False)
-        duracoes = filme.get("runtime", "N/A")
-        duracao = duracoes[0]
-        console.print(f'[yellow1]Duração: [/yellow1]{duracao} minutos', highlight=False)
-        diretores = filme.get("director", "N/A")
-        diretor = diretores[0]
-        console.print(f'[yellow1]Diretor do Filme: [/yellow1]{diretor}', highlight=False)
-        sinopse = filme.get("plot outline", "N/A")
-        console.print(f'[yellow1]Sinopse: [/yellow1]{sinopse}', highlight=False)
+        console.print(f'[yellow1]Título: [/yellow1]{filme["title"]}', highlight=False)              #Titulo
+        console.print(f'[yellow1]Ano: [/yellow1]{filme["year"]}', highlight=False)                  #Ano
+        console.print(f'[yellow1]Avaliação: [/yellow1]{filme["rating"]}/10', highlight=False)       #Rating
+        
+        duracoes = filme.get("runtime", "N/A")                                                      #Duração   |
+        duracao = duracoes[0]                                                                       #Duração   |-> Como dá lista de durações, é preciso fazer assim.
+        console.print(f'[yellow1]Duração: [/yellow1]{duracao} minutos', highlight=False)            #Duração   |
+        
+        diretores = filme.get("director", "N/A")                                                    #Diretor   |
+        diretor = diretores[0]                                                                      #Diretor   |-> Como dá lista de diretores, é preciso fazer assim.
+        console.print(f'[yellow1]Diretor do Filme: [/yellow1]{diretor}', highlight=False)           #Diretor   |
+        
+        plot = filme.get("plot outline", "N/A")                                                     #plot
+        console.print(f'[yellow1]Plot: [/yellow1]{plot}', highlight=False)                          #plot
+        console.print(f'[yellow1]Budget: [/yellow1]{filme["budget"]}', highlight=False)             #Budget estimado
         separador()
     else:
         print("Filme não encontrado.")
         separador()
+
         """"
         "title": Título do filme.
         "year": Ano de lançamento do filme.
-        "kind": Tipo de título (por exemplo, "movie" para filme).
-        "plot outline": Resumo da trama do filme.
-        "genres": Gêneros do filme (retorna uma lista de gêneros).
+        "plot outline": Resumo do filme
         "runtime": Duração do filme em minutos.
-        "cast": Elenco do filme (retorna uma lista de atores/personagens).
+        "cast": Cast do filme (retorna lista de atores).
         "director": Diretor do filme.
+        "
         """
 
 
