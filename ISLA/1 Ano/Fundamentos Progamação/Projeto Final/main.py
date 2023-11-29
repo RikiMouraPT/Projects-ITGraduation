@@ -299,8 +299,6 @@ def info_filme():
     if filmes: #se tiver algo dentro de filmes == TRUE
         filme = filmes[0] #Pega no primeiro filme encontrado.
         ia.update(filme) #Dá mais infos do filme
-        for chave, valor in filme.items():
-            print(f"{chave.capitalize()}:{valor}")
         print("")
         separador()
         console.print("---------------- [yellow1]DADOS[/yellow1] -----------------")
@@ -319,7 +317,7 @@ def info_filme():
         
         plot = filme.get("plot outline", "N/A")                                                     #plot
         console.print(f'[yellow1]Plot: [/yellow1]{plot}', highlight=False)                          #plot
-        console.print(f'[yellow1]Budget: [/yellow1]{filme["budget"]}', highlight=False)             #Budget estimado
+        #console.print(f'[yellow1]Budget: [/yellow1]{filme["budget"]}', highlight=False)             #Budget estimado
         separador()
     else:
         print("Filme não encontrado.")
