@@ -278,22 +278,39 @@ def apagar_exportado():
             console.print("[red1]Esse ficheiro não existe.[/red1]")
             separador()
 def info_filme(): 
+    separador()
+    console.print("--------------- ", end="")
+    console.print(" Filme ", style="yellow1", end="")
+    console.print(" ----------------")
+    separador()
+
     filme_input = console.input("[yellow1]Que filme quer pesquisar? [/yellow1]")
     filmes = ia.search_movie(filme_input)
 
     if filmes: #se tiver algo dentro de filmes == TRUE
         filme = filmes[0] #Pega no primeiro filme encontrado.
         ia.update(filme) #Dá mais infos do filme
-
-        console.print(f'[yellow1]\nTítulo: [/yellow1]{filme["title"]}')
-        console.print(f'[yellow1]Ano: [/yellow1]{filme["year"]}')
-        console.print(f'[yellow1]Avaliação: [/yellow1]{filme["rating"]}')
-        console.print(f'[yellow1]Duração: [/yellow1]{filme["runtime"]}')
-        console.print(f'[yellow1]Diretor do Filme: [/yellow1]{filme["director"]}')
+        for chave, valor in filme.items():
+            print(f"{chave.capitalize()}:{valor}")
+        print("")
+        separador()
+        console.print("---------------- [yellow1]DADOS[/yellow1] -----------------")
+        separador()
+        console.print(f'[yellow1]Título: [/yellow1]{filme["title"]}', highlight=False)
+        console.print(f'[yellow1]Ano: [/yellow1]{filme["year"]}', highlight=False)
+        console.print(f'[yellow1]Avaliação: [/yellow1]{filme["rating"]}/10', highlight=False)
+        duracoes = filme.get("runtime", "N/A")
+        duracao = duracoes[0]
+        console.print(f'[yellow1]Duração: [/yellow1]{duracao} minutos', highlight=False)
+        diretores = filme.get("director", "N/A")
+        diretor = diretores[0]
+        console.print(f'[yellow1]Diretor do Filme: [/yellow1]{diretor}', highlight=False)
         sinopse = filme.get("plot outline", "N/A")
-        console.print(f'[yellow1]Sinopse: [/yellow1]{sinopse}')
+        console.print(f'[yellow1]Sinopse: [/yellow1]{sinopse}', highlight=False)
+        separador()
     else:
         print("Filme não encontrado.")
+        separador()
         """"
         "title": Título do filme.
         "year": Ano de lançamento do filme.
@@ -323,7 +340,7 @@ while True: #Repete sempre para mostrar sempre o menu até escolher opção sair
     print("15. Eliminar Lista.")
     print("16. Ver ficheiros exportados")
     print("17. Apagar Ficheiros Exportados")
-    print("18. API - Info Filme\n")
+    print("18. Info Filme\n")
     menu = input("Escolha uma opção do menu: ")
     print("")
     match menu:

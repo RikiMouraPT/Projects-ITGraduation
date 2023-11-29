@@ -1,0 +1,336 @@
+{
+    "title": "Jaws",
+    "year": 1975,
+    "kind": "movie",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+    "original_title": "Jaws",
+    "localized_title": "Jaws",
+    "cast": [
+    {"id": "0001702", "name": "Roy Scheider"},
+    {"id": "0001727", "name": "Robert Shaw"},
+    {"id": "0000377", "name": "Richard Dreyfuss"},
+    {"id": "0308882", "name": "Lorraine Gary"},
+    {"id": "0358069", "name": "Murray Hamilton"},
+    {"id": "0331956", "name": "Carl Gottlieb"},
+    {"id": "0469552", "name": "Jeffrey Kramer"},
+    {"id": "0045681", "name": "Susan Backlinie"},
+    {"id": "0277204", "name": "Jonathan Filley"},
+    {"id": "0343722", "name": "Ted Grossman"}
+    ],
+    "genres": ["Adventure", "Mystery", "Thriller"],
+    "runtimes": ["124"],
+    "countries": ["United States"],
+    "country_codes": ["us"],
+    "language_codes": ["en"],
+    "color_info": ["Color"],
+    "aspect_ratio": "2.39 : 1",
+    "sound_mix": [
+    "Mono::(Westrex Recording System)",
+    "DTS::(2000 Special Edition has 5.1 audio in english)",
+    "Dolby Atmos::(Ultra HD Blu-ray release)"
+    ],
+    "box_office": {
+    "budget": "$9,000,000 (estimated)",
+    "opening_weekend_us": "$7,061,513, 22 Jun 1975",
+    "cumulative_worldwide_gross": "$470,653,000"
+    },
+    "certificates": ["Portugal:M/12"],
+    "original_air_date": "25 Mar 1977 (Portugal)",
+    "rating": 8.1
+    }
+    {
+        "votes": 646099,
+        "imdbid": "0073195",
+        "videos": [
+        "http://www.imdb.com/title/tt0073195/videoplayer/vi4242122009",
+        "http://www.imdb.com/title/tt0073195/videoplayer/vi153068313"
+        ],
+        "plot_outline": "It's a hot summer on Amity Island, a small community whose main business is its beaches. When new Sheriff Martin Brody discovers the remains of a shark attack victim, his first inclination is to close the beaches to swimmers. This doesn't sit well with Mayor Larry Vaughn and several of the local businessmen. Brody backs down to his regret as that weekend a young boy is killed by the predator. The dead boy's mother puts out a bounty on the shark and Amity is soon swamped with amateur hunters and fishermen hoping to cash in on the reward. A local fisherman with much experience hunting sharks, Quint, offers to hunt down the creature for a hefty fee. Soon Quint, Brody and Matt Hooper from the Oceanographic Institute are at sea hunting the Great White shark. As Brody succinctly surmises after their first encounter with the creature, they're going to need a bigger boat.",
+        "languages": ["English"],
+        "director": [
+        {"id": "0000229", "name": "Steven Spielberg"}
+        ],
+        "writer": [
+        {"id": "0001940", "name": "Peter Benchley"},
+        {"id": "0331956", "name": "Carl Gottlieb"},
+        {"id": null, "name": "None"},
+        {"id": "0001940", "name": "Peter Benchley"}
+        ],
+        "producer": [
+        {"id": "0113360", "name": "David Brown"},
+        {"id": "0005573", "name": "Richard D. Zanuck"}
+        ],
+        "composer": [
+        {"id": "0002354", "name": "John Williams"}
+        ],
+        "cinematographer": [
+        {"id": "0124832", "name": "Bill Butler"}
+        ],
+        "editor": [
+        {"id": "0276368", "name": "Verna Fields"}
+        ],
+        "editorial_department": [
+        {"id": "0141089", "name": "William C. Carruth"},
+        {"id": "0276336", "name": "Rick Fields"},
+        {"id": "0324122", "name": "Jeff Gourson"},
+        {"id": "0377948", "name": "Mo Henry"}
+        ],
+        "production_design": [
+        {"id": "0023469", "name": "Joe Alves"}
+        ],
+        "set_decoration": [
+        {"id": "0245501", "name": "John M. Dwyer"}
+        ],
+        "make_up": [
+        {"id": "0035680", "name": "Del Armstrong"},
+        {"id": "0142348", "name": "Verne Caruso"},
+        {"id": "0150357", "name": "John Chambers"},
+        {"id": "0318948", "name": "Jim Gillespie"},
+        {"id": "0449157", "name": "Werner Keppler"}
+        ],
+        "production_manager": [
+        {"id": "0267309", "name": "James Fargo"},
+        {"id": "0166069", "name": "Charles Clement"}
+        ],
+        "assistant_director": [
+        {"id": "0060028", "name": "Barbara Bass"},
+        {"id": "0431666", "name": "Tom Joyner"},
+        {"id": "0023469", "name": "Joe Alves"},
+        {"id": "0276368", "name": "Verna Fields"},
+        {"id": "0831997", "name": "L. Andrew Stone"}
+        ],
+        "art_department": [
+        {"id": "0562079", "name": "Mike May"},
+        {"id": "1775935", "name": "Frank Nifong"},
+        {"id": "0678149", "name": "William A. Petrotta"},
+        {"id": "0920669", "name": "Ward Welton"},
+        {"id": "0942869", "name": "Thomas J. Wright"}
+        ],
+        "sound_crew": [
+        {"id": "0141728", "name": "John R. Carter"},
+        {"id": "0398480", "name": "Robert L. Hoyt"},
+        {"id": "0021108", "name": "Thomas E. Allen"},
+        {"id": "0292963", "name": "George Fredrick"},
+        {"id": "0315179", "name": "Walter A. Gest"},
+        {"id": "0341444", "name": "William Griffith"},
+        {"id": "0375947", "name": "Roger Heman Jr."},
+        {"id": "0428071", "name": "Franklin Jones Jr."},
+        {"id": "0531071", "name": "Earl Madery"},
+        {"id": "0567827", "name": "John McDonald"},
+        {"id": "0575020", "name": "Frank Meadows"},
+        {"id": "0609620", "name": "Colin C. Mouat"},
+        {"id": "0757800", "name": "Dennis C. Salcedo"},
+        {"id": "0821089", "name": "John Stacy"},
+        {"id": "0002298", "name": "Roger Sword"},
+        {"id": "0873806", "name": "James Troutman"}
+        ],
+        "special_effects": [
+        {"id": "0559871", "name": "Robert A. Mattey"},
+        {"id": "0033405", "name": "Roy Arbogast"},
+        {"id": "0056579", "name": "Tim Baar"},
+        {"id": "0096611", "name": "Johnny Borgese"},
+        {"id": "0151352", "name": "Don Chandler"},
+        {"id": "2577496", "name": "Richard S. Edwards"},
+        {"id": "0256846", "name": "Gerald Endler"},
+        {"id": "0375690", "name": "Richard O. Helmer"},
+        {"id": "0462946", "name": "Ted Koerner"},
+        {"id": "5025696", "name": "Conrad Kromm"},
+        {"id": "5025910", "name": "Stanley Mahony"},
+        {"id": "0683234", "name": "Kevin Pike"},
+        {"id": "5025945", "name": "Harry Shepherd"},
+        {"id": "0819924", "name": "Charles Spurgeon"},
+        {"id": "0836483", "name": "Richard Stutsman"},
+        {"id": "0839666", "name": "Eddie Surkin"},
+        {"id": "5025838", "name": "Gary Wood"},
+        {"id": "0939887", "name": "Michael Wood"},
+        {"id": "2845318", "name": "Paul Wurtzel"}
+        ],
+        "visual_effects": [
+        {"id": "4164647", "name": "Jeremy P. Carroll"},
+        {"id": "1150550", "name": "Prafull Gade"},
+        {"id": "1825996", "name": "Alex Guri"},
+        {"id": "4154099", "name": "Alex Heffner"},
+        {"id": "3800622", "name": "Franklin Mascarenhas"},
+        {"id": "12629483", "name": "Alexandra Merritt-Gambrill"},
+        {"id": "7773879", "name": "Trent Newton"},
+        {"id": "1026930", "name": "Aaron Parry"},
+        {"id": "1391664", "name": "Mark Simone"},
+        {"id": "2433682", "name": "Steve Stransman"},
+        {"id": "11179533", "name": "Amanda Viveiros"},
+        {"id": "4465357", "name": "Dane Wylie"},
+        {"id": "9120450", "name": "Ieva Cerps"},
+        {"id": "8239413", "name": "Jordan Lucchino"},
+        {"id": "3860367", "name": "Yael Majors"},
+        {"id": "0567263", "name": "Grant McCune"}
+        ],
+        "stunt_performer": [
+        {"id": "0125103", "name": "Richard E. Butler"},
+        {"id": "0156186", "name": "Denise Cheshire"},
+        {"id": "0193349", "name": "Howard Curtis"},
+        {"id": "0343722", "name": "Ted Grossman"},
+        {"id": "0003822", "name": "Hubie Kerns Jr."},
+        {"id": "0677345", "name": "Preston Peterson"},
+        {"id": "0816984", "name": "Frank James Sparks"},
+        {"id": "2096458", "name": "Ron Veto"},
+        {"id": "0006441", "name": "Dick Warlock"},
+        {"id": "0954824", "name": "Fred Zendar"}
+        ],
+        "camera_and_electrical_department": [
+        {"id": "0152469", "name": "Michael Chapman"},
+        {"id": "7764093", "name": "Franklyn B. James"},
+        {"id": "0582701", "name": "Rexford L. Metz"},
+        {"id": "1038955", "name": "Ron Taylor"},
+        {"id": "0853294", "name": "Valerie Taylor"},
+        {"id": "0055181", "name": "Lou Barlia"},
+        {"id": "0111743", "name": "Sandy Brooke"},
+        {"id": "0136836", "name": "Vito Carenzo"},
+        {"id": "0170609", "name": "Joe Cole"},
+        {"id": "0176448", "name": "James A. Contner"},
+        {"id": "0198796", "name": "Rocco Damiano"},
+        {"id": "5025881", "name": "Tony DeGeorge"},
+        {"id": "0263261", "name": "Tim Evans"},
+        {"id": "0269555", "name": "David Fay"},
+        {"id": "0325837", "name": "Louis Goldman"},
+        {"id": "0418901", "name": "Jake Jarrell"},
+        {"id": "0432131", "name": "Harry Jukes"},
+        {"id": "0689975", "name": "Guy Polzel"},
+        {"id": "0758306", "name": "Peter Salim"},
+        {"id": "0005865", "name": "Fred Schuler"},
+        {"id": "0849204", "name": "William Tandrow"},
+        {"id": "0855136", "name": "Bill Tenny"},
+        {"id": "0896546", "name": "Ronald Vidor"},
+        {"id": "2344076", "name": "Dennis Young"},
+        {"id": "0953482", "name": "Ron Zarilla"}
+        ],
+        "casting_department": [
+        {"id": "0722526", "name": "Shari Rhodes"}
+        ],
+        "costume_department": [
+        {"id": "0164224", "name": "Louise Clark"},
+        {"id": "0255313", "name": "Robert Ellsworth"},
+        {"id": "0741436", "name": "Irwin Rose"}
+        ],
+        "location_management": [
+        {"id": "0157076", "name": "Nick Chiarolanzio"}
+        ],
+        "music_department": [
+        {"id": "0047727", "name": "Robert Bain"},
+        {"id": "1876240", "name": "Israel Baker"},
+        {"id": "0089581", "name": "Harry Bluestone"},
+        {"id": "2036352", "name": "Tom Boyd"},
+        {"id": "0120488", "name": "Larry Bunker"},
+        {"id": "1179904", "name": "Vince De Rosa"},
+        {"id": "3445432", "name": "David Duke"},
+        {"id": "0322094", "name": "Joseph Glassman"},
+        {"id": "0340965", "name": "Ralph Grierson"},
+        {"id": "3049582", "name": "The Hollywood Studio Symphony"},
+        {"id": "1016083", "name": "Joe Howard"},
+        {"id": "2482917", "name": "Tommy Johnson"},
+        {"id": "0444792", "name": "Ted Keep"},
+        {"id": "1179933", "name": "Paul Kegg"},
+        {"id": "0543072", "name": "Shelly Manne"},
+        {"id": "0563056", "name": "William Mays"},
+        {"id": "0573522", "name": "Malcolm McNab"},
+        {"id": "2149152", "name": "Richard Nash"},
+        {"id": "2993756", "name": "Erno Neufeld"},
+        {"id": "0626881", "name": "John Neufeld"},
+        {"id": "0711107", "name": "Uan Rasey"},
+        {"id": "1882416", "name": "Dorothy Remsen"},
+        {"id": "0724079", "name": "Emil Richards"},
+        {"id": "6915489", "name": "George Roberts"},
+        {"id": "9105356", "name": "Ernie Rosecrans"},
+        {"id": "9105357", "name": "Glen Rosecrans"},
+
+
+
+    Title:Jaws
+Year:1975
+Kind:movie
+Cover url:https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg
+Original title:Jaws
+Localized title:Jaws
+Cast:[<Person id:0001702[http] name:_Roy Scheider_>, <Person id:0001727[http] name:_Robert Shaw_>, <Person id:0000377[http] name:_Richard Dreyfuss_>, <Person id:0308882[http] name:_Lorraine Gary_>, <Person id:0358069[http] name:_Murray Hamilton_>, <Person id:0331956[http] name:_Carl Gottlieb_>, <Person id:0469552[http] name:_Jeffrey Kramer_>, <Person id:0045681[http] name:_Susan Backlinie_>, <Person id:0277204[http] name:_Jonathan Filley_>, <Person id:0343722[http] name:_Ted Grossman_>, <Person id:0714268[http] name:_Chris Rebello_>, <Person id:0578054[http] name:_Jay Mello_>, <Person id:0276444[http] name:_Lee Fierro_>, <Person id:0903386[http] name:_Jeffrey Voorhees_>, <Person id:0455475[http] name:_Craig Kingsbury_>, <Person id:0627495[http] name:_Robert Nevin_>, <Person id:0001940[http] name:_Peter Benchley_>, <Person id:13682124[http] name:_Jonathan Searle_>, <Person id:13682123[http] name:_Steven Searle_>, <Person id:7295817[http] name:_Tim Aguirre_>, <Person id:0025702[http] name:_Chris Anastasio_>, <Person id:0046949[http] name:_John Bahr_>, <Person id:12179114[http] name:_Bruce_>, <Person id:3392729[http] name:_Mike Burnham_>, <Person id:5026317[http] name:_Jean Canha_>, <Person id:5026552[http] name:_Edwin C. Carlson_>, <Person id:2402943[http] name:_Henry Carreiro_>, <Person id:0140964[http] name:_Robert Carroll_>, <Person id:0150019[http] name:_Edward Chalmers Jr._>, <Person id:0150430[http] name:_Robert Chambers_>, <Person id:0183914[http] name:_Fritzi Jane Courtney_>, <Person id:7912416[http] name:_David Daniel_>, <Person id:5026359[http] name:_Gregory S. Dole_>, <Person id:0239220[http] name:_Cyprian R. Dube_>, <Person id:0247350[http] name:_Stephen Earle_>, <Person id:0257168[http] name:_David Engelbach_>, <Person id:0276127[http] name:_Dorothy Fielding_>, <Person id:5026475[http] name:_Francis A. Frank_>, <Person id:5026385[http] name:_Brendan Gallagher_>, <Person id:5026468[http] name:_Elizabeth K. Gifford_>, <Person id:5026495[http] name:_Willis B. Gifford_>, 
+<Person id:5026768[http] name:_Alston Goff_>, <Person id:1133668[http] name:_Paul Goulart_>, <Person id:5026436[http] name:_Beardsley Graham_>, <Person id:5026260[http] name:_Eleanor 
+L. Harvey_>, <Person id:0370820[http] name:_Mike Haydn_>, <Person id:5026257[http] name:_Richard P. Hewitt_>, <Person id:5026794[http] name:_Carla Hogendyk_>, <Person id:0393705[http] name:_Wally Hooper Jr._>, <Person id:5026561[http] name:_Janice T. Hull_>, <Person id:5026388[http] name:_Stephanie Hull_>, <Person id:5026571[http] name:_Wayne Iacono_>, <Person id:0408456[http] name:_Duncan Inches_>, <Person id:5026670[http] name:_Joseph G. Kraetzer_>, <Person id:0478483[http] name:_Joe La Creta_>, <Person id:8226412[http] name:_Robin Lebert_>, <Person id:5026498[http] name:_William Lymon_>, <Person id:0567655[http] name:_Belle McDonald_>, <Person id:0595622[http] name:_John Moffet_>, <Person id:1012649[http] name:_Phil Murray_>, <Person id:8550199[http] name:_Devon Nelson_>, <Person id:3900003[http] name:_Philip Norton_>, <Person id:5026863[http] name:_William O'Gorman_>, <Person id:5857646[http] name:_Joseph Oliveira_>, <Person id:6440464[http] name:_Dennett Paula_>, <Person id:5026399[http] name:_William Pfluger_>, <Person id:0690827[http] name:_Donald Poole_>, <Person id:5026721[http] name:_Steven Potter_>, <Person id:0694500[http] name:_Beverly Powers_>, <Person id:0752267[http] name:_Ayn Ruymen_>, <Person id:0762300[http] name:_Christopher Sands_>, <Person id:5026738[http] name:_Henry E. Scott III_>, <Person id:2137043[http] name:_Peggy Scott_>, <Person id:1790698[http] name:_John Searle_>, <Person id:0000229[http] name:_Steven Spielberg_>, <Person id:5026860[http] name:_Joy Stuart_>, <Person id:5026719[http] name:_Jerome S. Tartar_>, <Person id:1440423[http] name:_Julie Taylor_>, <Person id:5026437[http] name:_Paul G. Thibodeau_>, <Person id:0870668[http] name:_Rex Trailer_>, <Person id:5026609[http] name:_Paul F. Tremblay_>, <Person id:2398199[http] name:_Hershel West_>, <Person id:5026827[http] name:_Robert Whelden Jr._>, <Person id:0928406[http] name:_Alfred Wilde_>, <Person id:1188078[http] name:_Dick Young_>]
+Genres:['Adventure', 'Mystery', 'Thriller']
+Runtimes:['124']
+Countries:['United States']
+Country codes:['us']
+Language codes:['en']
+Color info:['Color']
+Aspect ratio:2.39 : 1
+Sound mix:['Mono::(Westrex Recording System)', 'DTS::(2000 Special Edition has 5.1 audio in english)', 'Dolby Atmos::(Ultra HD Blu-ray release)']
+Box office:{'Budget': '$9,000,000 (estimated)', 'Opening Weekend United States': '$7,061,513, 22 Jun 1975', 'Cumulative Worldwide Gross': '$470,653,000'}
+Certificates:['Argentina:14', 'Argentina:13', 'Australia:M', 'Belgium:14', 'Brazil:14', 'Bulgaria:C', 'Canada:14A::(Canadian Home Video rating)', 'Canada:PG::(Manitoba)', 'Canada:R::(Nova Scotia)', 'Canada:AA::(Ontario)', 'Canada:13+::(Quebec)', 'Canada:14::(Nova Scotia)', 'Chile:TE+7', 'Czechia:15', 'Denmark:15', 'Ecuador:12::(self-applied)', 'Egypt:7+::(self-applied)', 'Finland:K-16', 'France:Tous publics', 'France:12::(new rating)', 'France:13', 'Germany:16', 'Greece:K-8', 'Hong Kong:IIB', 'Hungary:12', 'Hungary:16', 'Iceland:16', 'India:U', 'India:A', 'Ireland:12A', 'Ireland:15::(original DVD rating)', 'Ireland:12', 'Israel:PG', 'Italy:T', 'Japan:PG-12', 'Japan:PG12', 'Kuwait:18+', 'Malaysia:P13', 'Maldives:15+', 'Mexico:B', 'Netherlands:12::(TV rating)', 'Netherlands:16', 'Netherlands:14::(orginal rating)', 'New Zealand:M', 'Nigeria:PG', 'Norway:15::(video rating)', 'Norway:15', 'Norway:16', 'Peru:14', 'Philippines:PG-13', 'Poland:16::(self-applied)', 'Portugal:M/12', 'Russia:16+', 'Russia:18+::(iTunes rating)', 'Saudi Arabia:PG', 'Singapore:PG', 'Singapore:PG13', 'South Africa:10::(DVD rating)', 'South Africa:16::(DVD rating)', 'South Korea:15::(TV rating)', 'South Korea:12::(DVD rating)', 'South Korea:18::(VHS rating)', 'South Korea:All::(theatrical rating)', 'Spain:A', 'Spain:14', 'Sweden:15', 'Sweden:7+::(Amazon Prime)', 'Sweden:12::(Viaplay self-rating)', 'Taiwan:GP', 'Taiwan:7+::(self-applied)', 'Thailand:u 13+::(self-applied)', 
+'Turkey:16+::(self-applied)', 'United Kingdom:12::(Netflix rating)', 'United Kingdom:A', 'United Kingdom:12A', 'United Kingdom:PG', 'United States:PG', 'United States:TV-PG::(LSV)', 'United States:TV-14::(TV rating)', 'United Arab Emirates:7+::(self-applied)', 'West Germany:16']
+Original air date:25 Mar 1977 (Portugal)
+Rating:8.1
+Votes:646099
+Imdbid:0073195
+Videos:['http://www.imdb.com/title/tt0073195/videoplayer/vi4242122009', 'http://www.imdb.com/title/tt0073195/videoplayer/vi153068313']
+Plot outline:It's a hot summer on Amity Island, a small community whose main business is its beaches. When new Sheriff Martin Brody discovers the remains of a shark attack victim, his first inclination is to close the beaches to swimmers. This doesn't sit well with Mayor Larry Vaughn and several of the local businessmen. Brody backs down to his regret as that weekend a young boy is killed by the predator. The dead boy's mother puts out a bounty on the shark and Amity is soon swamped with amateur hunters and fisherman hoping to cash in on the reward. A local fisherman with much experience hunting sharks, Quint, offers to hunt down the creature for a hefty fee. Soon Quint, Brody and Matt Hooper from the Oceanographic Institute are at sea hunting the Great White shark. As Brody succinctly surmises after their first encounter with the creature, they're going to need a bigger boat.
+Languages:['English']
+Director:[<Person id:0000229[http] name:_Steven Spielberg_>]
+Writer:[<Person id:0001940[http] name:_Peter Benchley_>, <Person id:0331956[http] name:_Carl Gottlieb_>, <Person id:None[http] name:_None_>, <Person id:0001940[http] name:_Peter Benchley_>]
+Producer:[<Person id:0113360[http] name:_David Brown_>, <Person id:0005573[http] name:_Richard D. Zanuck_>]
+Composer:[<Person id:0002354[http] name:_John Williams_>]
+Cinematographer:[<Person id:0124832[http] name:_Bill Butler_>]
+Editor:[<Person id:0276368[http] name:_Verna Fields_>]
+Editorial department:[<Person id:0141089[http] name:_William C. Carruth_>, <Person id:0276336[http] name:_Rick Fields_>, <Person id:0324122[http] name:_Jeff Gourson_>, <Person id:0377948[http] name:_Mo Henry_>]
+Production design:[<Person id:0023469[http] name:_Joe Alves_>]
+Set decoration:[<Person id:0245501[http] name:_John M. Dwyer_>]
+Make up:[<Person id:0035680[http] name:_Del Armstrong_>, <Person id:0142348[http] name:_Verne Caruso_>, <Person id:0150357[http] name:_John Chambers_>, <Person id:0318948[http] name:_Jim Gillespie_>, <Person id:0449157[http] name:_Werner Keppler_>]
+Production manager:[<Person id:0267309[http] name:_James Fargo_>, <Person id:0166069[http] name:_Charles Clement_>]
+Assistant director:[<Person id:0060028[http] name:_Barbara Bass_>, <Person id:0431666[http] name:_Tom Joyner_>, <Person id:0023469[http] name:_Joe Alves_>, <Person id:0276368[http] name:_Verna Fields_>, <Person id:0831997[http] name:_L. Andrew Stone_>]
+Art department:[<Person id:0562079[http] name:_Mike May_>, <Person id:1775935[http] name:_Frank Nifong_>, <Person id:0678149[http] name:_William A. Petrotta_>, <Person id:0920669[http] name:_Ward Welton_>, <Person id:0942869[http] name:_Thomas J. Wright_>]
+Sound crew:[<Person id:0141728[http] name:_John R. Carter_>, <Person id:0398480[http] name:_Robert L. Hoyt_>, <Person id:0021108[http] name:_Thomas E. Allen_>, <Person id:0292963[http] name:_George Fredrick_>, <Person id:0315179[http] name:_Walter A. Gest_>, <Person id:0341444[http] name:_William Griffith_>, <Person id:0375947[http] name:_Roger Heman Jr._>, <Person id:0428071[http] name:_Franklin Jones Jr._>, <Person id:0531071[http] name:_Earl Madery_>, <Person id:0567827[http] name:_John McDonald_>, <Person id:0575020[http] name:_Frank Meadows_>, <Person id:0609620[http] name:_Colin C. Mouat_>, <Person id:0757800[http] name:_Dennis C. Salcedo_>, <Person id:0821089[http] name:_John Stacy_>, <Person id:0002298[http] name:_Roger Sword_>, <Person id:0873806[http] name:_James Troutman_>]
+Special effects:[<Person id:0559871[http] name:_Robert A. Mattey_>, <Person id:0033405[http] name:_Roy Arbogast_>, <Person id:0056579[http] name:_Tim Baar_>, <Person id:0096611[http] 
+name:_Johnny Borgese_>, <Person id:0151352[http] name:_Don Chandler_>, <Person id:2577496[http] name:_Richard S. Edwards_>, <Person id:0256846[http] name:_Gerald Endler_>, <Person id:0375690[http] name:_Richard O. Helmer_>, <Person id:0462946[http] name:_Ted Koerner_>, <Person id:5025696[http] name:_Conrad Kromm_>, <Person id:5025910[http] name:_Stanley Mahony_>, 
+<Person id:0683234[http] name:_Kevin Pike_>, <Person id:5025945[http] name:_Harry Shepherd_>, <Person id:0819924[http] name:_Charles Spurgeon_>, <Person id:0836483[http] name:_Richard Stutsman_>, <Person id:0839666[http] name:_Eddie Surkin_>, <Person id:5025838[http] name:_Gary Wood_>, <Person id:0939887[http] name:_Michael Wood_>, <Person id:2845318[http] name:_Paul Wurtzel_>]
+Visual effects:[<Person id:4164647[http] name:_Jeremy P. Carroll_>, <Person id:1150550[http] name:_Prafull Gade_>, <Person id:1825996[http] name:_Alex Guri_>, <Person id:4154099[http] name:_Alex Heffner_>, <Person id:3800622[http] name:_Franklin Mascarenhas_>, <Person id:12629483[http] name:_Alexandra Merritt-Gambrill_>, <Person id:7773879[http] name:_Trent Newton_>, <Person id:1026930[http] name:_Aaron Parry_>, <Person id:1391664[http] name:_Mark Simone_>, <Person id:2433682[http] name:_Steve Stransman_>, <Person id:11179533[http] name:_Amanda Viveiros_>, <Person id:4465357[http] name:_Dane Wylie_>, <Person id:9120450[http] name:_Ieva Cerps_>, <Person id:8239413[http] name:_Jordan Lucchino_>, <Person id:3860367[http] name:_Yael Majors_>, <Person id:0567263[http] name:_Grant McCune_>]
+Stunt performer:[<Person id:0125103[http] name:_Richard E. Butler_>, <Person id:0156186[http] name:_Denise Cheshire_>, <Person id:0193349[http] name:_Howard Curtis_>, <Person id:0343722[http] name:_Ted Grossman_>, <Person id:0003822[http] name:_Hubie Kerns Jr._>, <Person id:0677345[http] name:_Preston Peterson_>, <Person id:0816984[http] name:_Frank James Sparks_>, <Person id:2096458[http] name:_Ron Veto_>, <Person id:0006441[http] name:_Dick Warlock_>, <Person id:0954824[http] name:_Fred Zendar_>, <Person id:0004227[http] name:_Dick Ziker_>] 
+Camera and electrical department:[<Person id:0152469[http] name:_Michael Chapman_>, <Person id:7764093[http] name:_Franklyn B. James_>, <Person id:0582701[http] name:_Rexford L. Metz_>, <Person id:1038955[http] name:_Ron Taylor_>, <Person id:0853294[http] name:_Valerie Taylor_>, <Person id:0055181[http] name:_Lou Barlia_>, <Person id:0111743[http] name:_Sandy Brooke_>, <Person id:0136836[http] name:_Vito Carenzo_>, <Person id:0170609[http] name:_Joe Cole_>, <Person id:0176448[http] name:_James A. Contner_>, <Person id:0198796[http] name:_Rocco Damiano_>, <Person id:5025881[http] name:_Tony DeGeorge_>, <Person id:0263261[http] name:_Tim Evans_>, <Person id:0269555[http] name:_David Fay_>, <Person id:0325837[http] name:_Louis Goldman_>, <Person id:0418901[http] name:_Jake Jarrell_>, <Person id:0432131[http] name:_Harry Jukes_>, <Person id:0689975[http] name:_Guy Polzel_>, <Person id:0758306[http] name:_Peter Salim_>, <Person id:0005865[http] name:_Fred Schuler_>, <Person id:0849204[http] name:_William Tandrow_>, <Person id:0855136[http] name:_Bill Tenny_>, <Person id:0896546[http] name:_Ronald Vidor_>, <Person id:2344076[http] name:_Dennis Young_>, <Person id:0953482[http] name:_Ron Zarilla_>]
+Casting department:[<Person id:0722526[http] name:_Shari Rhodes_>]
+Costume department:[<Person id:0164224[http] name:_Louise Clark_>, <Person id:0255313[http] name:_Robert Ellsworth_>, <Person id:0741436[http] name:_Irwin Rose_>]
+Location management:[<Person id:0157076[http] name:_Nick Chiarolanzio_>]
+Music department:[<Person id:0047727[http] name:_Robert Bain_>, <Person id:1876240[http] name:_Israel Baker_>, <Person id:0089581[http] name:_Harry Bluestone_>, <Person id:2036352[http] name:_Tom Boyd_>, <Person id:0120488[http] name:_Larry Bunker_>, <Person id:1179904[http] name:_Vince De Rosa_>, <Person id:3445432[http] name:_David Duke_>, <Person id:0322094[http] name:_Joseph Glassman_>, <Person id:0340965[http] name:_Ralph Grierson_>, <Person id:3049582[http] name:_The Hollywood Studio Symphony_>, <Person id:1016083[http] name:_Joe Howard_>, <Person id:2482917[http] name:_Tommy Johnson_>, <Person id:0444792[http] name:_Ted Keep_>, <Person id:1179933[http] name:_Paul Kegg_>, <Person id:0543072[http] name:_Shelly Manne_>, <Person id:0563056[http] name:_William Mays_>, <Person id:0573522[http] name:_Malcolm McNab_>, <Person id:2149152[http] name:_Richard Nash_>, <Person id:2993756[http] name:_Erno Neufeld_>, <Person id:0626881[http] name:_John Neufeld_>, <Person id:0711107[http] name:_Uan Rasey_>, <Person id:1882416[http] name:_Dorothy Remsen_>, <Person id:0724079[http] name:_Emil Richards_>, <Person id:6915489[http] name:_George Roberts_>, <Person id:9105356[http] name:_Ernie Rosecrans_>, <Person id:9105357[http] name:_Glen Rosecrans_>, <Person id:0795930[http] name:_Paul Shure_>, <Person id:0817965[http] name:_Herbert W. Spencer_>, <Person id:0000229[http] name:_Steven Spielberg_>, <Person id:0830924[http] name:_Ann Stockton_>, <Person id:0831388[http] name:_Sheridon Stokes_>, <Person id:0853770[http] name:_Tommy Tedesco_>, <Person id:0857125[http] name:_James Thatcher_>, <Person id:1320320[http] name:_Louise Di Tullio_>, <Person id:0880769[http] name:_Lloyd Ulyate_>, <Person id:0002354[http] name:_John Williams_>, <Person id:10051413[http] name:_Graham Young_>]
+Script department:[<Person id:0117067[http] name:_Charlsie Bryant_>, <Person id:0059493[http] name:_Hal Barwood_>, <Person id:10450702[http] name:_Lowell James Gerry Sr._>, <Person id:0730422[http] name:_Matthew Robbins_>, <Person id:0755274[http] name:_Howard Sackler_>]
+Transportation department:[<Person id:0082947[http] name:_Mel Bingham_>, <Person id:2170613[http] name:_Frank Khoury_>, <Person id:4387803[http] name:_Lorenzo Porricelli_>, <Person id:7932620[http] name:_Julian Powell_>]
+Miscellaneous crew:[<Person id:0319501[http] name:_William S. Gilmore_>, <Person id:0954824[http] name:_Fred Zendar_>, <Person id:12298813[http] name:_Mark DeFeo_>, <Person id:0248225[http] name:_Al Ebner_>, <Person id:0276336[http] name:_Rick Fields_>, <Person id:5025526[http] name:_Helen Jackson_>, <Person id:6180127[http] name:_Gerry Lewis_>, <Person id:0587518[http] name:_John Milius_>, <Person id:2096458[http] name:_Ron Veto_>, <Person id:1947536[http] name:_Danny Young_>]
+Thanks:[<Person id:2646017[http] name:_Leonard J.V. Compagno_>]
+Akas:['Stillness in the Water (United States)', 'Les Dents de la mer (France)', 'Der weiße Hai (Germany)', 'Tiburón (Spain)', 'Tauró (Spain, Catalan title)']
+Top 250 rank:203
+Production companies:[<Company id:0019166[http] name:_Zanuck/Brown Productions_>, <Company id:0005073[http] name:_Universal Pictures_>]
+Distributors:[<Company id:0005073[http] name:_Universal Pictures_>, <Company id:0534543[http] name:_Cinema International Corporation (CIC)_>, <Company id:0645080[http] name:_Cinema International Corporation (CIC)_>, <Company id:0646534[http] name:_Cinema International Corporation (CIC)_>, <Company id:0184431[http] name:_Cinema International Corporation (CIC)_>, <Company id:0234432[http] name:_Cinema International Corporation (CIC)_>, <Company id:0234395[http] name:_Cinema International Corporation (CIC)_>, <Company id:0371559[http] name:_Cinema International Corporation (CIC)_>, <Company id:0605538[http] name:_Cinema International Corporation (CIC)_>, <Company id:0646535[http] name:_Cinema International Corporation (CIC)_>, <Company id:0036998[http] name:_Cinema International Corporation (CIC)_>, <Company id:0033484[http] name:_DiscoVision_>, <Company id:0037052[http] name:_American Broadcasting Company (ABC)_>, <Company id:0794561[http] name:_Universal Films of India_>, <Company id:0076366[http] name:_MCA Videocassette_>, <Company id:0033484[http] name:_DiscoVision_>, <Company id:0009692[http] name:_MCA Home Video_>, <Company id:0009692[http] name:_MCA Home Video_>, <Company id:0031085[http] name:_Argentina Video Home_>, <Company id:0009692[http] name:_MCA Home Video_>, <Company id:0009692[http] name:_MCA Home Video_>, <Company id:0060214[http] name:_MCA/Universal Home Video_>, <Company id:0060214[http] name:_MCA/Universal Home Video_>, <Company id:0060214[http] name:_MCA/Universal Home Video_>, <Company id:0497201[http] name:_Pioneer LDCE_>, <Company id:0060214[http] name:_MCA/Universal Home Video_>, <Company id:0060214[http] name:_MCA/Universal Home Video_>, <Company id:0021294[http] name:_Universal Studios Home Video_>, <Company id:0137854[http] name:_Nordisk Film_>, <Company id:0824421[http] name:_Universal Pictures Video_>, <Company id:0021294[http] name:_Universal Studios Home Video_>, <Company id:0446627[http] name:_Cinema Foobio_>, <Company id:0824424[http] name:_Universal Pictures Video_>, <Company id:0021294[http] name:_Universal Studios Home Video_>, <Company id:0031085[http] name:_Argentina Video Home_>, <Company id:0031085[http] name:_Argentina Video Home_>, <Company id:0824424[http] name:_Universal Pictures Video_>, <Company id:0021294[http] name:_Universal Studios Home Video_>, <Company id:0031085[http] name:_Argentina Video Home_>, <Company id:0023827[http] name:_Universal Pictures Home Entertainment (UPHE)_>, <Company id:0824424[http] name:_Universal Pictures Video_>, <Company id:0824424[http] name:_Universal Pictures Video_>, <Company id:0031085[http] name:_Argentina Video Home_>, <Company id:0023827[http] name:_Universal Pictures Home Entertainment (UPHE)_>, <Company id:0023827[http] name:_Universal Pictures Home Entertainment (UPHE)_>, <Company id:0297627[http] name:_Universal Pictures Home Entertainment_>, <Company id:0219620[http] name:_Universal Pictures Video_>, <Company id:0824424[http] name:_Universal Pictures Video_>, <Company id:0824424[http] name:_Universal Pictures Video_>, <Company id:0364463[http] name:_Waylen Group_>, <Company id:0210003[http] name:_Deliverance Pictures_>, <Company id:0360057[http] name:_Fathom Events_>, <Company id:0360057[http] name:_Fathom Events_>, <Company id:0011489[http] name:_Turner Classic Movies (TCM)_>, <Company id:0005073[http] name:_Universal Pictures_>, <Company id:0023827[http] name:_Universal Pictures Home Entertainment (UPHE)_>, <Company id:0023827[http] name:_Universal Pictures Home Entertainment (UPHE)_>, <Company id:0023827[http] name:_Universal Pictures Home Entertainment (UPHE)_>, <Company id:0023827[http] name:_Universal Pictures Home Entertainment (UPHE)_>, <Company id:0005073[http] name:_Universal Pictures_>, <Company id:0735534[http] name:_9Go!_>, <Company id:0647501[http] name:_Cinemark Argentina_>, <Company id:0530363[http] name:_Cinemundo_>, <Company id:0715686[http] name:_Tulip Entertainment_>, <Company id:0820078[http] name:_Universal Pictures International (UPI)_>, <Company id:0005073[http] name:_Universal Pictures_>, <Company id:0225291[http] name:_CIC Victor Video_>, <Company id:0225291[http] name:_CIC Victor Video_>, <Company id:0225291[http] name:_CIC Victor Video_>, <Company id:0021304[http] name:_CIC Video_>, <Company id:0118320[http] name:_CIC Video_>, <Company id:0158548[http] name:_CIC Video_>, <Company id:0158548[http] 
+name:_CIC Video_>, <Company id:0106040[http] name:_CIC Video_>, <Company id:0106040[http] name:_CIC Video_>, <Company id:0106040[http] name:_CIC Video_>, <Company id:0233794[http] name:_CIC Video_>, <Company id:0080094[http] name:_CIC Vídeo_>, <Company id:0393411[http] name:_Columbia TriStar Home Entertainment_>, <Company id:0045926[http] name:_Columbia TriStar Home Video_>, <Company id:0001850[http] name:_Columbia TriStar Home Video_>, <Company id:0001850[http] name:_Columbia TriStar Home Video_>, <Company id:0001850[http] name:_Columbia TriStar Home Video_>, <Company id:0135306[http] name:_Egmont Entertainment_>, <Company id:0315145[http] name:_Esselte CIC Video_>, <Company id:0179262[http] name:_Esselte Video_>, <Company id:0778133[http] name:_Foxtel Now_>, <Company id:0108034[http] name:_Gaumont/Columbia TriStar Home Video_>, <Company id:0754095[http] name:_HBO Max_>, <Company id:0754095[http] name:_HBO Max_>, <Company id:0069920[http] name:_Mainostelevisio (MTV3)_>, <Company id:1019617[http] name:_MonsterVision_>, <Company id:0563252[http] name:_NTV_>, <Company id:0144901[http] name:_Netflix_>, <Company id:0144901[http] name:_Netflix_>, <Company id:0144901[http] name:_Netflix_>, <Company id:0051891[http] name:_Paramount Home Entertainment_>, <Company id:0764707[http] name:_Peacock_>, <Company id:0135913[http] name:_Pioneer LDCE_>, <Company id:0095832[http] name:_Prem'er Video Fil'm_>, <Company id:0131809[http] name:_Rete 4_>, <Company 
+id:0057464[http] name:_Samsung Nices_>, <Company id:0775797[http] name:_Sony Pictures España_>, <Company id:0260673[http] name:_Sub_>, <Company id:0009512[http] name:_TNT_>, <Company 
+id:0724460[http] name:_Tubi TV_>, <Company id:0110681[http] name:_Universal Home Entertainment_>, <Company id:0110681[http] name:_Universal Home Entertainment_>, <Company id:0110681[http] name:_Universal Home Entertainment_>, <Company id:0110681[http] name:_Universal Home Entertainment_>, <Company id:0110681[http] name:_Universal Home Entertainment_>, <Company id:0388514[http] name:_Universal Pictures Finland_>, <Company id:0388514[http] name:_Universal Pictures Finland_>, <Company id:0388514[http] name:_Universal Pictures Finland_>, <Company 
+id:0297627[http] name:_Universal Pictures Home Entertainment_>, <Company id:0180647[http] name:_Universal Pictures Home Video_>, <Company id:0180647[http] name:_Universal Pictures Home Video_>, <Company id:0180647[http] name:_Universal Pictures Home Video_>, <Company id:0055622[http] name:_Universal Pictures Spain_>, <Company id:0205372[http] name:_Universal Pictures Video_>, <Company id:0117467[http] name:_Universal Pictures Video_>, <Company id:0117467[http] name:_Universal Pictures Video_>, <Company id:0117467[http] name:_Universal Pictures Video_>, <Company id:0117467[http] name:_Universal Pictures Video_>, <Company id:0199066[http] name:_Universal Pictures Video_>, <Company id:0824425[http] name:_Universal Pictures Video_>, <Company id:0824425[http] name:_Universal Pictures Video_>, <Company id:0824424[http] name:_Universal Pictures Video_>, <Company id:0565928[http] name:_Universal Sony Pictures 
+Home Entertainment Nordic_>, <Company id:0533783[http] name:_Universal Sony Pictures Home Entertainment Nordic_>, <Company id:0565929[http] name:_Universal Sony Pictures Home Entertainment Nordic_>, <Company id:0600878[http] name:_Universal Sony Pictures Home Entertainment Nordic_>, <Company id:0375381[http] name:_Universal Sony Pictures Home Entertainment_>, <Company id:0573772[http] name:_Universal Studios Home Entertainment_>, <Company id:0573772[http] name:_Universal Studios Home Entertainment_>, <Company id:0842674[http] name:_Universal Studios Home Video_>, <Company id:0295614[http] name:_Universal Studios Home Video_>, <Company id:0295614[http] name:_Universal Studios Home Video_>, <Company id:0505091[http] name:_Warner Home Video_>, <Company id:0013526[http] name:_Yleisradio (YLE)_>]
+Special effects companies:[<Company id:0094616[http] name:_Dickson/Vasu_>, <Company id:0008838[http] name:_Nick Vasu_>]
+Other companies:[<Company id:0008022[http] name:_Chapman/Leonard Studio Equipment_>, <Company id:0119119[http] name:_Cinematique_>, <Company id:0104988[http] name:_Decca Records_>, <Company id:0063116[http] name:_Hollywood Studio Symphony_>, <Company id:0190210[http] name:_International Alliance of Theatrical Stage Employees (IATSE)_>, <Company id:0042246[http] name:_MCA Records_>, <Company id:0140145[http] name:_Motion Picture Association_>, <Company id:0059975[http] name:_National Geographic Society_>, <Company id:0041930[http] name:_Panavision_>, <Company id:0041930[http] name:_Panavision_>, <Company id:0072003[http] name:_Skywalker Sound_>, <Company id:0131611[http] name:_THX Ltd._>, <Company id:0238415[http] name:_The Department of Biological Sciences, Stanford University_>, <Company id:0003378[http] name:_The Newman Scoring Stage, Twentieth Century Fox Studios_>, <Company id:0011489[http] name:_Turner Classic Movies (TCM)_>, <Company id:0108500[http] name:_Universal Title_>, <Company id:0017459[http] name:_Varèse Sarabande_>]
+Plot:["When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.", "It's a hot summer on Amity Island, a small community whose main business is its beaches. When new Sheriff Martin Brody discovers the remains of a shark attack victim, his first inclination is to close the beaches to swimmers. This doesn't sit well with Mayor Larry Vaughn and several of the local businessmen. Brody backs down to his regret as that weekend a young boy is killed by the predator. The dead boy's mother puts out a bounty on the shark and Amity is soon swamped with amateur hunters and fisherman hoping to cash in on the reward. A local fisherman with much experience hunting sharks, Quint, offers to hunt down the creature for a hefty fee. Soon Quint, Brody and Matt Hooper from the Oceanographic Institute are at sea hunting the Great White shark. As Brody succinctly surmises after their first encounter with the creature, they're going to need a bigger boat.—garykmcd", 'One short week before the annual 4th of July celebrations, Martin Brody, the new police chief of the small summer resort town of Amity Island, has reasons to believe that the mangled body of the missing young swimmer found washed up on shore is the work of a predatory shark. Worried about the unsuspecting tourists, Brody insists on closing down the beaches; however, greed, and Mayor Larry Vaughn, get in the way of security, only to spark a series of additional bloody attacks. Now, all eyes are on the deep blue ocean, while Brody, along with the marine biologist, Matt Hooper, and the expert shark killer, Quint, hunt for the undisputed ruler of the sea: a monstrous, slate-grey great white shark that patrols the waters, hungry for human flesh. But, can they outsmart the ultimate aquatic man-eater, and escape from its massive jaws?—Nick Riganas', "The peaceful community of Amity island is being terrorized. There is something in the sea that 
+is attacking swimmers. They can no longer enjoy the sea and the sun as they used to, and the spreading fear is affecting the numbers of tourists that are normally attracted to this island. After many attempts the great white shark won't go away and sheriff Brody, with friends Hooper and Quint decide to go after the shark and kill it.—Sami Al-Taher <staher2000@yahoo.com>", "A Great White Shark decides to make the small beach resort town of Amity his private feeding grounds. This greatly frustrates the town police chief who wants to close the beaches to chase the shark away. He is thwarted in his efforts by the town's mayor who finally relents when nothing else seems to work and the chief, a scientist, and an old fisherman with revenge on his mind take to the sea to kill the beast.—<drewgrgich@netzone.com>"]
+Synopsis:['During an evening beach party on a New England coast, attractive blonde Chrissie Watkins (Susan Backlinie) catches the eye of partygoer Tom Cassidy (Jonathan Filley) and leads him away from the group to go skinny-dipping in the ocean. Tom, quite drunk, passes out on the sand before he can even undress, but Chrissie, undeterred, strips down and dives into the surf.As Chrissie swims further from the shoreline, she pauses to tread water. An unseen creature notices Chrissie\'s paddling legs from beneath the surface and begins to approach her. Chrissie is quickly attacked by the creature, which grabs hold of her leg and, after a violent struggle, drags her below the waves. Her screams for help go unheard, and eerie silence follows her submergence.The surrounding town of Amity is preparing for the upcoming Independence Day weekend, their most financially lucrative time of the year. The community depends on tourism as a major source of economic support and waits eagerly for each summer to arrive when herds of mainlanders come to savor Amity\'s shores. Martin Brody (Roy Scheider), Amity\'s chief of police, receives a call at home regarding Chrissie Watkins\' disappearance. Following the report made by Tom Cassidy that she was last seen off the coast, Brody goes to the beach with his deputy Jeff Hendricks (Jeffrey Kramer) to search for clues. Hendricks soon stumbles upon the segmented remains of Chrissie, washed up on the shore and being 
+feasted upon by crabs.Back at the police station, Brody receives a call from the coroner (Robert Nevin) , who determines that Chrissie Watkins was the victim of a shark attack. Fearing for the safety of Amity\'s many swimmers, Brody immediately prepares to close the beaches until further investigations can be made. His intentions are quickly noticed by Mayor Larry Vaughn (Murray Hamilton), who, fearing for the income loss that would result from closing the beach at such a pivotal point in the summer, attempts to convince Brody that a shark attack is too hasty a conclusion, and pressures him and the coroner to change Chrissie\'s official cause of death to mutilation by boat propeller. Brody remains dedicated to the safety of Amity\'s citizens and tourists, regardless of the financial toll the town might endure. However, Vaughn forbids him to close the beaches just yet.Over the next few days, ferryloads 
+of tourists arrive on Amity\'s docks. The beaches are crowded each day, and Brody is extremely concerned about more potential attacks. As Brody and his wife Ellen (Lorraine Gary) sit 
+in the sand, Brody scans the shoreline for any sign of trouble. A ways down the beach, young Alex Kintner (Jeffrey Voorhees) asks his mother for permission to go swimming. Though Mrs. Kintner (Lee Fierro) notes that her son\'s fingers are starting to "prune" from the time he has already spent in the water that day, she allows him ten more minutes. Alex and his yellow raft enter the ocean one last time before being set upon by what is unmistakably an enormous shark. Amid the ensuing panic of the other beachgoers, Mrs. Kintner, who had not seen 
+the attack, calls out desperately for her son as the bloodied and shredded remains of his raft wash up in the surf.With dozens of witnesses to Alex Kintner\'s gruesome death, the presence of a shark in Amity waters is undeniable and Brody is finally permitted to close the beaches. Alex\'s grieving mother offers a $3000 reward to anyone who can catch the shark that killed her son, and a town meeting is held to discuss the official shark problem. Brody announces that the police department is expanding its efforts to keep the beaches safe, as well as bringing in a shark expert from the Oceanographic Institute to assist them. Most of the assembled townspeople are more concerned with finances than safety, and remain angry about the beaches being closed, although Mayor Vaughn assures them it will only be for 24 hours. The chatter is quelled by Sam Quint (Robert Shaw), an eccentric and roughened local fisherman who guarantees the capture and slaughter of the offending shark for the price of $10,000. Though his offer is not accepted at that point, Quint seems confident that the job will fall to him eventually.With Mrs. Kintner\'s reward made public, scores of amateur shark hunters crowd Amity\'s docks, coming from all over the Northeast. Two local men make a clumsy attempt to lure the shark with a pork roast, which results in one of them nearly becoming the shark\'s third victim. Arriving at the same time as the horde of overconfident fishermen is 
+Matt Hooper (Richard Dreyfuss), the shark expert from the Oceanographic Institute hired by the Amity police. After meeting with Brody, Hooper is allowed to view the remains of Chrissie Watkins, which are brought to him in an ominously small container. Hooper, visibly shaken after examining the mangled body parts, assures Brody that Chrissie did not die in a boating accident, but was attacked by a shark.The town breathes a sigh of relief when the corpse of a large tiger shark is displayed on the docks, having been caught by some of the contending fishermen. Brody is initially elated, believing the nightmare to be over, until Hooper examines the creature\'s mouth and determines that its bite radius does not match the wounds 
+on Chrissie Watkins\' remains, and therefore is likely not the shark they are seeking. Hooper, wanting to be certain, suggests that he examine the contents of the shark\'s stomach, as its slow digestive system would ensure that any recent meals would still be inside. Brody supports this plan, but Vaughn seems disturbed by the notion and disapproves.\nThe crowd falls silent as Mrs. Kintner arrives, clad in black and choking back tears, presumably returning from her son\'s funeral. She approaches Brody and slaps him across the face, furiously accusing him of keeping the beaches open despite having prior knowledge that there was a man-eating shark in the water. Brody, angry and ashamed, becomes all the more determined to prevent further attacks.While Brody attempts to unwind at home with his wife and children, Hooper stops by to discuss the shark situation, underlining his earlier suspicion that the captured tiger shark is not the animal responsible for the deaths of Alex Kintner and Chrissie Watkins. He believes that the culprit is not a tiger shark, but a Great White, and that unless it is stopped, it will likely remain in Amity\'s waters until its food source is depleted. Hooper and Brody decide to examine the shark\'s stomach contents themselves, regardless of Mayor Vaughn\'s opinions.The men visit the deserted docks at night and locate the dead tiger shark. Hooper slices its belly open, only to find some bisected fish, several tin cans, and a Louisiana license plate, leading him to theorize that the shark made it\'s way up the Atlantic coast from the Gulf of Mexico. Finding no human remains, Hooper and Brody confirm that this cannot be the shark they are after.Hooper convinces Brody to continue their investigation out on the water, though Brody is terrified of the ocean. Using sonar equipment, Hooper locates a large object a good distance away from the shoreline. Brody recognizes it as the boat of Ben Gardner (Craig Kingsbury), a local fisherman. Hooper decides to investigate 
+the half-submerged craft, despite Brody\'s protests, and dons his scuba gear before entering the water. Hooper discovers a large hole in the hull of the boat, and finds an enormous tooth embedded in the side. While examining the tooth, he is suddenly horrified to see the corpse of Ben Gardner floating out of the hull, one of his eyes missing. Hooper drops the tooth and his flashlight and rushes to the surface.Brody and Hooper make yet another attempt to reason with the mayor, hoping their latest discoveries will make a difference. Vaughn, however, still stubbornly dismisses their arguments, insisting that even with the evidence of Ben Gardner\'s ravaged boat, there is no proof that a shark is responsible. Hooper explains that he pulled the tooth of a Great White Shark out of the hull of Gardner\'s boat, but Vaughn merely rebuffs him once again since Hooper cannot produce the tooth he dropped in the water. Though he allows Brody and Hooper to take precautions to keep the beaches safe, he refuses to close them.Independence Day weekend finally arrives, bringing plenty of tourists, but the beachgoers are made uneasy by the numerous police boats patrolling the water for the shark. Vaughn is concerned that no one is swimming, and asks a personal friend in attendance 
+to enter the water, along with his wife and grandchildren, to put everyone\'s minds at ease. The man and his family reluctantly and warily obey, and others begin to relax and follow suit.Remaining on the beach, Brody is aiding with shark patrol. When his elder son Michael (Chris Rebello) wishes to take his new sailboat out into the water with his friends, Brody asks him to take it into the adjacent estuary just to be safe. Michael reluctantly agrees. In the meantime, a dorsal fin appears among the swimmers in the main water, and panic erupts. 
+The crowd scrambles back onto the beach and the police boats close in, only to discover that the "shark" is merely a cardboard fin wielded by two young pranksters in snorkel gear.The 
+beachgoers begin to relax, but a young woman overlooking the water sees the unmistakable form of a huge shark making its way into the estuary where Michael and his friends are sailing. The woman\'s cry is first dismissed as another prank, but when Ellen reminds her husband that their son is in the pond, Brody goes to investigate. Michael and his friends are approached by a man in a rowboat (Ted Grossman), who is instructing them on knotting techniques, when both vessels are suddenly capsized by the shark. The startled sailors surface, and Michael watches in paralyzed horror as the man fails to reach his rowboat before the shark rips him apart.Michael and his friends are brought safely to shore, though Michael is taken to the hospital to be treated for shock. Brody confronts Vaughn once again and puts his foot down, demanding that real action be taken to deal with the shark. Vaughn, for once, is vulnerable and shaken, realizing that his own children were on the beach that day as well. He finally relents and gives Brody full permission to close the beaches and do all that is necessary to stop the shark. Sam Quint is immediately hired.Though Quint, a vastly experienced shark hunter, desires to take on the mission alone, Brody insists that he and Hooper will go as 
+well. There is instant tension between Quint and Hooper, with Quint seeing Hooper as a rich snob with no real shark-hunting experience, and Hooper seeing Quint as a reckless thrill-seeker with a bullish attitude. Though Hooper proves himself to be a capable sailor, the discomfort remains as the three men embark on their voyage in Quint\'s boat, the "Orca."Once out to sea, the men set about attracting the shark by ladling chum off the stern of the boat. Quint attaches a line of piano wire to a sturdy rod secured against a specially-designed fishing chair on the deck. After hours of waiting, the wire goes taut and eventually snaps as the immense creature swims under the boat before disappearing again. Brody, Hooper, and Quint realize the enormous strength of their adversary.As the voyage presses on with no further sign of the shark, Brody grumpily ladles more chum off the back of the boat when, without warning, the massive head of a Great White shark emerges briefly in their wake. Brody is stunned and alerts the others. Hooper notices the shark beginning to circle the boat, and Quint rushes out for a look. He estimates that the shark is 25 feet long, and weighs three tons. After barking orders to Brody and Hooper, Quint begins to fire harpoons tied to plastic barrels, intended to both slow the shark down and make its presence more visible. Though Quint hits the shark with three harpoons, the barrels have no effect and the shark easily pulls them underwater. Just in time, Hooper manages to attach a tracking device to the beast before it retreats again.That night, the men have dinner and drinks below deck, and Hooper surprisingly begins to bond with Quint as they compare scars from their experiences with various sea creatures. Brody notices that Quint has had a tattoo removed, and Quint admits that the 
+former tattoo represented the US Navy cruiser Indianapolis, on which he had been a sailor in World War II. Quint goes on to illustrate the horrible day in July of 1945 when the Indianapolis was sunk by Japanese torpedoes, leaving over 1,100 men floundering in shark-infested waters. Quint witnessed 800 of his comrades being picked off by sharks, and is clearly affected by the chilling memory. The experience, combined with survivor\'s guilt, had ignited Quint\'s deep-seated hatred of sharks and the ruthless satisfaction he finds in hunting them. After the solemnity of Quint\'s story, the men sing a rowdy sea chantey to lighten the mood, but are interrupted by the returning shark violently crashing into the boat and causing a leak. Quint rushes on deck and fires a rifle at the three telltale barrels, but the shark escapes once again.The next day, the men attempt to repair the boat, with limited success. Seawater has contaminated the diesel fuel, and the black smoke billowing from the exhaust pipe confirms engine damage. When the shark returns, Quint instructs Hooper to grab the barrels with a hook and secure them to the stern. Hooper succeeds, and Quint attempts to drag the shark by powering the boat to full throttle, but the shark uses its incredible strength to 
+pull the boat in the opposite direction, nearly capsizing it and causing further structural damage before Quint cuts the ropes attached to the boat. The shark breaks free from the barrels and submerges again. Quint demonstrates his mad obsession with shark hunting by destroying the radio on which Brody was attempting to call for help. The shark begins to chase the boat, and Quint steers back toward land at full speed, dismissing Hooper\'s protests that he is overtaxing the already damaged engine. When the engine inevitably fails, the boat is left to slowly sink. Quint, strangely calm, offers life jackets to the other men, though he takes none for himself.Running out of options, Hooper resorts to putting on his scuba gear and having Quint and Brody lower him into the water inside a shark-proof cage, his aim being to inject the shark with poison using a harpoon syringe. Quint points out that the needle is too small to pierce the shark\'s hide, but Hooper believes he can inject the beast in the mouth. The cage proves to be no match for the shark, who attacks Hooper with such ferocity 
+that he drops the harpoon and is forced to hide in a reef while his cage is destroyed. Brody and Quint haul up the remains of the shark cage, and can only assume that Hooper is dead. 
+They barely have time to react before the shark leaps from the water like a breaching whale and lands most of its body on the sinking stern of the boat, nearly breaking the vessel in 
+two. Quint and Brody desperately cling to the cabin as the boat is upended, with the shark\'s gaping mouth at the bottom of the drop. Quint ultimately loses his grip and, despite Brody\'s efforts to pull him to safety, slides into the mouth of the shark and is gruesomely killed. The shark, with Quint\'s bloodied corpse in its mouth, slides back into the water.Horrified, and believing himself to be the only survivor of this seemingly doomed mission, Brody hastily enters the cabin of the rapidly sinking boat and finds one of Hooper\'s pressurized air tanks. The shark smashes through the side of the boat, its enormous mouth perilously close to Brody, who attempts to fend it off by bludgeoning it with the tank. The shark retreats, with the air tank now lodged in its jaws.With little more than the boat\'s mast remaining above water, Brody climbs to its summit with a rifle in his hand. Now possessing some of Quint\'s courage and madness, Brody begins to fire at the approaching shark, aiming at the air tank in its mouth. At last, Brody hits his mark. The tank explodes, taking the shark\'s head with it, and Brody laughs triumphantly as blood and shark flesh rain down around him into the sea.Moments after the shark\'s vibrant destruction, Hooper finally surfaces, and the exhausted Brody is relieved to see him alive. The men share a weak chuckle before assembling a makeshift raft and paddling back to Amity\'s shore.']
+Canonical title:Jaws
+Long imdb title:Jaws (1975)
+Long imdb canonical title:Jaws (1975)
+Smart canonical title:Jaws
+Smart long imdb canonical title:Jaws (1975)
+Full-size cover url:https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@.jpg
