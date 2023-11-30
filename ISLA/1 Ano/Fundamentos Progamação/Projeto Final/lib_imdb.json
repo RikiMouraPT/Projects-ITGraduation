@@ -38,9 +38,9 @@
     "original_air_date": "25 Mar 1977 (Portugal)",
     "rating": 8.1
 }
-{
 
-    "votes": 646099,
+
+   { "votes": 646099,
     "imdbid": "0073195",
     "videos": [
     "http://www.imdb.com/title/tt0073195/videoplayer/vi4242122009",
@@ -58,11 +58,11 @@
     "The peaceful community of Amity island is being terrorized. There is something in the sea that is attacking swimmers. They can no longer enjoy the sea and the sun as they used to, and the spreading fear is affecting the numbers of tourists that are normally attracted to this island. After many attempts the great white shark won't go away and sheriff Brody, with friends Hooper and Quint decide to go after the shark and kill it.—Sami Al-Taher <staher2000@yahoo.com>",
     "A Great White Shark decides to make the small beach resort town of Amity his private feeding grounds. This greatly frustrates the town police chief who wants to close the beaches to chase the shark away. He is thwarted in his efforts by the town's mayor who finally relents when nothing else seems to work and the chief, a scientist, and an old fisherman with revenge on his mind take to the sea to kill the beast.—<drewgrgich@netzone.com>"
   ],
-}
+}}
 
 
 
-
+"""
     Title:Jaws
 Year:1975
 Kind:movie
@@ -154,3 +154,4 @@ Long imdb canonical title:Jaws (1975)
 Smart canonical title:Jaws
 Smart long imdb canonical title:Jaws (1975)
 Full-size cover url:https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@.jpg
+"""
