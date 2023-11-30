@@ -312,6 +312,7 @@ def ls_dir():
     separador()
     #endregion
     global full_dir_path
+    console.print(full_dir_path, style="grey54", highlight=False)
     if not os.path.exists(full_dir_path): #Se a pasta NÃO existir, dá erro
         console.print("Deves primeiro exportar um ficheiro para criar a pasta de exportados.", style="red1")
     else:
@@ -360,8 +361,6 @@ def info_filme():
     if filmes: #se tiver algo dentro de filmes == TRUE
         filme = filmes[0] #Pega no primeiro filme encontrado.
         ia.update(filme) #Dá mais infos do filme
-        for chave, valor in filme.items():
-            print(f"{chave.capitalize()}:{valor}")
         print("")
         separador()
         console.print("---------------- [yellow1]DADOS[/yellow1] -----------------")
