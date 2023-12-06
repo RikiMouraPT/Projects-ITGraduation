@@ -16,7 +16,7 @@ import imdb
 ia = imdb.Cinemagoer()
 #Importa filmes de outro ficheiro
 import filmes_db
-#Para escolher um dicionario à sote
+#Para escolher um dicionario à sorte
 import random
 
 #### GLOBAIS ####
@@ -409,7 +409,10 @@ while True: #Repete sempre para mostrar sempre o menu até escolher opção sair
     os.system('cls')
     match menu:
         case "1":
-            introduzir_dados()
+            if len(filmes) == 0: # Se Lista estiver vazia, faz a função.
+                introduzir_dados()
+            else:
+                console.print("Lista de Filmes já não está vazia.", style="red1")
         case "2":
             if len(filmes) == 0: # Se Lista estiver vazia, faz a função.
                 gerar_dados()
