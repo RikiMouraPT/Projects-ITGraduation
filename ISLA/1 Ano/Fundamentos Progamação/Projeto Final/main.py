@@ -1,5 +1,6 @@
 #Delays
 import time
+import sys
 #Para formatar melhor o terminal
 from rich.console import Console
 console = Console()
@@ -18,10 +19,16 @@ import filmes_db
 #Para escolher um dicionario à sote
 import random
 
+#### GLOBAIS ####
 #Para usar variavel na Função ls_dir e no Menu
 ultimo_index = -1
+#Usar para Export/Import/LSDir/ApagarExport
+python_parent_dir_path = os.path.dirname(__file__)
+dir_name = "Ficheiros_Exportados"
+full_dir_path = os.path.join(python_parent_dir_path, dir_name)
+
 #Usado para testes
-"""
+""" FILMES PARA TESTES
 filmes_testes = {
     "Matrix":             18,
     "O Poderoso Chefão":  15,
@@ -38,14 +45,36 @@ filmes_testes = {
 #Dicionario para guardar {Filmes: Pontuação}
 filmes = {}
 
+#Funções MENU
 def separador():
     console.print("----------------------------------------")
+def loading_animation(texto):
+    console.print(texto, style="bold yellow1")
+    animation = ["[■□□□□□□□□□] 10%","[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%", "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"]
+    #region OUTRAS ANIMAÇÕES
+    animation2 =[" ⢿", " ⣻", " ⣽", " ⣾", " ⣷", " ⣯", " ⣟", " ⡿"]
+    animation3 =[" ·", " •", " ●", " •", " ·"]
+    animation4 =[" ◓", " ◑", " ◒", " ◐"]
+    animation5 =[" •", " ○", " •", " ·", " ●", " ·"]
+    animation6 =[" <• ", " <•>", "  •>", "  • "]
+    animation7 =[" ·", " •", " ••", " •••", " ••••", " •••", " ••", " •"]
+    animation8 =[" _", " ▁", " ▂", " ▃", " ▄", " ▅", " ▆", " ▇", " █"]
+    animation9 =["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"]
+    animation10=[" ←", " ↖", " ↑", " ↗", " →", " ↘", " ↓", " ↙"]
+    animation11=[" |", " /", " -", " \\"]
+    #endregion
+    for _ in range(1):
+        for frame in animation:
+            time.sleep(0.3)
+            console.print(frame, end="\r", style="white", highlight=False)
 def introduzir_dados():
+    #region HEADER
     separador()
     console.print("----------- ", end="")
     console.print("Introduzir Dados", style="yellow1", end="")
     console.print(" -----------")
     separador()
+    #endregion
     for i in range(10):
         filme_input = input(f"Nome do {i+1}º filme:")
         while True: #Pede pontuação até que seja um valor entre 0 e 20.
@@ -60,28 +89,27 @@ def introduzir_dados():
         filmes[filme_input] = pontuacao_input
 def gerar_dados():
     global filmes
-    console.print("A gerar dados.", style='yellow1')
-    time.sleep(0.6)
-    console.print("A gerar dados..", style='yellow1')
-    time.sleep(0.6)
-    console.print("A gerar dados...", style='yellow1')
-    time.sleep(0.6)
-    console.print("[b]Dados gerados[/b]\n", style='yellow1')
-    num = random.randint(1,8)
+    separador()
+    loading_animation("A gerar dados")
+    num = random.randint(0,6)
     filmes_lista = [filmes_db.filmes_gerar_1, filmes_db.filmes_gerar_2, filmes_db.filmes_gerar_3, filmes_db.filmes_gerar_4, filmes_db.filmes_gerar_5, filmes_db.filmes_gerar_6, filmes_db.filmes_gerar_7]
     filmes = filmes_lista[num]
+    console.print("[b]\nDados gerados[/b]", style='yellow1')
+    separador()
     #filmes = filmes_testes.copy()
 def alterar_dados():
+    #region HEADER
     separador()
     console.print("------------ ", end="")
     console.print("Alterar Dados", style="yellow1", end="")
     console.print(" -------------")
     separador()
+    #endregion
     filme_alterar = console.input("[yellow1]Que filme quer alterar? [/yellow1]")
     if filme_alterar in filmes:
         while True: #Pede pontuação até que seja um valor entre 0 e 20.
             try:    #Necessário usar try para o caso de colocarem TEXTO no input de PONTUAÇÃO, caso metam texto, vai dar o EXCEPT
-                pontuacao_input = int(console.input("[yellow1]Qual é a nova pontuação? [/yellow1]"))                      #e volta a tentar até ter inteiro
+                pontuacao_input = int(console.input("[yellow1]Qual é a nova pontuação? [/yellow1]"))         #e volta a tentar até ter inteiro
                 if 0 <= pontuacao_input <= 20:
                     break
                 else:
@@ -95,11 +123,13 @@ def alterar_dados():
         console.print(f"O filme [yellow1][b]{filme_alterar}[/b][/yellow1] não foi encontrado na lista.")
         separador()
 def eliminar_dados():
+    #region HEADER
     separador()
     console.print("------------ ", end="")
     console.print("Eliminar Dados", style="yellow1", end="")
     console.print(" ------------")
     separador()
+    #endregion HEADER
     filme_eliminar = console.input("[yellow1]Que filme quer eliminar? [/yellow1]")
     if filme_eliminar in filmes:
         del filmes[filme_eliminar]
@@ -125,12 +155,15 @@ def consultar_dados():
     # Dar print à tabela
     console.print(table, justify="center")
 def pesquisar_dados():
+    #region HEADER
     separador()
     console.print("------------- ", end="")
     console.print(" Pesquisar ", style="yellow1", end="")
     console.print(" --------------")
     separador()
+    #endregion 
     pesquisar_input = console.input("[yellow1]Qual é o filme? [/yellow1]")
+    
     for filme, pontuacao in filmes.items():
         if pesquisar_input == filme:
             console.print(f"O filme [yellow1][b]{pesquisar_input}[/b][/yellow1] tem pontuação de [yellow1][b]{pontuacao}[/b][/yellow1].", highlight=False)
@@ -193,32 +226,54 @@ def podio_dados():
     console.print(tabela_restantes, justify="center")
 def guardar_dados():
     global filmes
+    #region HEADER
     separador()
     console.print("-------------- ", end="")
     console.print("Exportar", style="yellow1", end="")
     console.print(" ----------------")
     separador()
+    #endregion
     ficheiro = console.input("[yellow1]Nome do ficheiro? [/yellow1]")
-    if os.path.exists(f'G:/O meu disco/GitHub/Projects-ITGraduation/ISLA/1 Ano/Fundamentos Progamação/Projeto Final/Ficheiros_Exportados/{ficheiro}.json'):
-        console.print("Não pode guardar um ficheiro com um nome já existente.", style='red1')
+    #Criar pasta no diretorio do ficheiro .py
+    global python_parent_dir_path
+    global dir_name
+    global full_dir_path
+    
+    #Logica para criar ou não a pasta. Dependendo se já existe ou não.
+    if os.path.exists(full_dir_path):
+        console.print("\nPasta ../Ficheiros_Exportados/ já existe!", style="yellow1", highlight=False)
+        time.sleep(1)
+    else:
+        os.mkdir(full_dir_path)
+        console.print("\nPasta ../Ficheiros Exportados/ criada com sucesso em:", style="yellow1", highlight=False)
+        console.print(python_parent_dir_path, style="grey54", highlight=False)
+        time.sleep(0.5)
+
+    #Save File
+    file_path = os.path.join(full_dir_path, ficheiro) #Path para o ficheiro .json
+    if os.path.exists(f'{file_path}.json'):
+        console.print("\nNão pode guardar um ficheiro com um nome já existente.", style='red1')
         separador()
     else:
-        with open(f'G:/O meu disco/GitHub/Projects-ITGraduation/ISLA/1 Ano/Fundamentos Progamação/Projeto Final/Ficheiros_Exportados/{ficheiro}.json', 'w') as fl:
+        with open(f'{file_path}.json', 'w') as fl:
+            loading_animation("A guardar")
             json.dump(filmes, fl)
-            console.print("Lista de Filmes foi guardada com éxito!", style="yellow1")
+            console.print("\nLista de Filmes foi guardada com éxito!", style="yellow1")
             separador()
 def carregar_dados():
     global filmes
-
+    global full_dir_path
+    #region HEADER
     separador()
     console.print("-------------- ", end="")
     console.print("Importar", style="yellow1", end="")
     console.print(" ----------------")
     separador()
-
+    #endregion
     ficheiro = console.input("[yellow1]Nome do ficheiro que quer abrir? [/yellow1]")
-    if os.path.exists(f'G:/O meu disco/GitHub/Projects-ITGraduation/ISLA/1 Ano/Fundamentos Progamação/Projeto Final/Ficheiros_Exportados/{ficheiro}.json'):
-        with open(f'G:/O meu disco/GitHub/Projects-ITGraduation/ISLA/1 Ano/Fundamentos Progamação/Projeto Final/Ficheiros_Exportados/{ficheiro}.json', 'r') as fl:
+    file_path = os.path.join(full_dir_path, ficheiro)
+    if os.path.exists(f'{file_path}.json'):
+        with open(f'{file_path}.json', 'r') as fl:
             filmes = json.load(fl)
             console.print("Ficheiro carregado com sucesso.", style='yellow1')
             separador()
@@ -249,50 +304,57 @@ def eliminar_lista():
         else:
             console.print("[red1]Opção Invalida.[/red1]")
 def ls_dir():
+    #region HEADER
     separador()
     console.print("-------------- ", end="")
     console.print("Diretório", style="yellow1", end="")
     console.print(" ---------------")
     separador()
-
-    path = "G:/O meu disco/GitHub/Projects-ITGraduation/ISLA/1 Ano/Fundamentos Progamação/Projeto Final/Ficheiros_Exportados/"
-    files = os.listdir(path)
-
-    console.print("[yellow1]Ficheiro_Exportados/[/yellow1]")
-    global ultimo_index
-    ultimo_index = int(len(files) - 1)
-    if ultimo_index < 0:
-        print("└──Pasta Vazia")
+    #endregion
+    global full_dir_path
+    console.print(full_dir_path, style="grey54", highlight=False)
+    if not os.path.exists(full_dir_path): #Se a pasta NÃO existir, dá erro
+        console.print("Deves primeiro exportar um ficheiro para criar a pasta de exportados.", style="red1")
     else:
-        for file in files:
-            if file == files[ultimo_index]:
-                print(f"└──{file}")
-            else:
-                print(f"├──{file}")
-    separador()
+        files = os.listdir(full_dir_path)
+        console.print("[yellow1]Ficheiro_Exportados/[/yellow1]")
+        global ultimo_index
+        ultimo_index = int(len(files) - 1)
+        if ultimo_index < 0:
+            print("└──Pasta Vazia")
+        else:
+            for file in files:
+                if file == files[ultimo_index]:
+                    print(f"└──{file}")
+                else:
+                    print(f"├──{file}")
+        separador()
 def apagar_exportado():
+    #region HEADER
     separador()
     console.print("---------- ", end="")
     console.print("Eliminar Ficheiro", style="yellow1", end="")
     console.print(" -----------")
     separador()
-
+    #endregion
+    global full_dir_path
     ficheiro = console.input("[yellow1]Nome do ficheiro? [/yellow1]")
-
-    if os.path.exists(f'G:/O meu disco/GitHub/Projects-ITGraduation/ISLA/1 Ano/Fundamentos Progamação/Projeto Final/Ficheiros_Exportados/{ficheiro}.json'):
-            os.remove(f'G:/O meu disco/GitHub/Projects-ITGraduation/ISLA/1 Ano/Fundamentos Progamação/Projeto Final/Ficheiros_Exportados/{ficheiro}.json')
+    file_path = os.path.join(full_dir_path, ficheiro)
+    if os.path.exists(f'{file_path}.json'):
+            os.remove(f'{file_path}.json')
             console.print(f"[yellow1]{ficheiro}.json[/yellow1] foi removido com éxito!")
             separador()
     else:
             console.print("[red1]Esse ficheiro não existe.[/red1]")
             separador()
 def info_filme(): 
+    #region HEADER
     separador()
     console.print("--------------- ", end="")
     console.print(" Filme ", style="yellow1", end="")
     console.print(" ----------------")
     separador()
-
+    #endregion
     filme_input = console.input("[yellow1]Que filme quer pesquisar? [/yellow1]")
     filmes = ia.search_movie(filme_input)
 
@@ -323,17 +385,6 @@ def info_filme():
         print("Filme não encontrado.")
         separador()
 
-        """"
-        "title": Título do filme.
-        "year": Ano de lançamento do filme.
-        "plot outline": Resumo do filme
-        "runtime": Duração do filme em minutos.
-        "cast": Cast do filme (retorna lista de atores).
-        "director": Diretor do filme.
-        "
-        """
-
-
 ### Menu ###
 while True: #Repete sempre para mostrar sempre o menu até escolher opção sair.
     console.print("\n ### [b]Menu[/b] ###", style="yellow1")
@@ -344,8 +395,8 @@ while True: #Repete sempre para mostrar sempre o menu até escolher opção sair
     print(" 5. Consultar")
     print(" 6. Pesquisar (ver dados de um filme)")
     print(" 7. Pódio")
-    print(" 8. Guardar em ficheiro")
-    print(" 9. Carregar dados do ficheiro")
+    print(" 8. Export")
+    print(" 9. Import")
     print("10. Sair")
     console.print("\n ### [b]Extras[/b] ###", style="yellow1")
     print("15. Eliminar Lista.")
@@ -354,6 +405,8 @@ while True: #Repete sempre para mostrar sempre o menu até escolher opção sair
     print("18. Info Filme\n")
     menu = input("Escolha uma opção do menu: ")
     print("")
+    time.sleep(0.2)
+    os.system('cls')
     match menu:
         case "1":
             introduzir_dados()
