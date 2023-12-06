@@ -18,6 +18,8 @@ ia = imdb.Cinemagoer()
 import filmes_db
 #Para escolher um dicionario à sorte
 import random
+#Para configurar o programa mais facilmente
+import config
 
 #### GLOBAIS ####
 #Para usar variavel na Função ls_dir e no Menu
@@ -47,9 +49,9 @@ filmes = {}
 
 #Funções MENU
 def separador():
-    console.print("----------------------------------------")
+    console.print("----------------------------------------", style= config.cor_separador)
 def loading_animation(texto):
-    console.print(texto, style="bold yellow1")
+    console.print(texto, style= config.cor_primaria)
     animation = ["[■□□□□□□□□□] 10%","[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%", "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"]
     #region OUTRAS ANIMAÇÕES
     animation2 =[" ⢿", " ⣻", " ⣽", " ⣾", " ⣷", " ⣯", " ⣟", " ⡿"]
@@ -66,26 +68,26 @@ def loading_animation(texto):
     for _ in range(1):
         for frame in animation:
             time.sleep(0.3)
-            console.print(frame, end="\r", style="white", highlight=False)
+            console.print(frame, end="\r", style= config.cor_loading_animation, highlight=False)
 def introduzir_dados():
     #region HEADER
     separador()
-    console.print("----------- ", end="")
-    console.print("Introduzir Dados", style="yellow1", end="")
-    console.print(" -----------")
+    console.print("----------- ", end="", style= config.cor_separador)
+    console.print("Introduzir Dados", style=config.cor_primaria, end="")
+    console.print(" -----------", style= config.cor_separador)
     separador()
     #endregion
     for i in range(10):
-        filme_input = input(f"Nome do {i+1}º filme:")
+        filme_input = console.input(f"[{config.cor_secundaria}]Nome do {i+1}º filme:[/{config.cor_secundaria}]")
         while True: #Pede pontuação até que seja um valor entre 0 e 20.
             try:    #Necessário usar try para o caso de colocarem TEXTO no input de PONTUAÇÃO, caso metam texto, vai dar o EXCEPT
-                pontuacao_input = int(input(f"Pontuação do {i+1}º filme: "))                  #e volta a tentar até ter inteiro
+                pontuacao_input = int(console.input(f"[{config.cor_secundaria}]Pontuação do {i+1}º filme: [/{config.cor_secundaria}]"))                 #e volta a tentar até ter inteiro
                 if 0 <= pontuacao_input <= 20:
                     break
                 else:
-                    print("Pontuação deve estar entre 0 e 20 (inclusive). Tente novamente.")
+                    console.print("Pontuação deve estar entre 0 e 20 (inclusive).", style= config.cor_erro, highlight=False)
             except ValueError:
-                print("Por favor, insira um valor inteiro.")
+                console.print("Por favor, insira um valor inteiro.", style= config.cor_erro)
         filmes[filme_input] = pontuacao_input
 def gerar_dados():
     global filmes
@@ -94,53 +96,53 @@ def gerar_dados():
     num = random.randint(0,6)
     filmes_lista = [filmes_db.filmes_gerar_1, filmes_db.filmes_gerar_2, filmes_db.filmes_gerar_3, filmes_db.filmes_gerar_4, filmes_db.filmes_gerar_5, filmes_db.filmes_gerar_6, filmes_db.filmes_gerar_7]
     filmes = filmes_lista[num]
-    console.print("[b]\nDados gerados[/b]", style='yellow1')
+    console.print("[b]\nDados gerados[/b]", style= config.cor_primaria)
     separador()
     #filmes = filmes_testes.copy()
 def alterar_dados():
     #region HEADER
     separador()
-    console.print("------------ ", end="")
-    console.print("Alterar Dados", style="yellow1", end="")
-    console.print(" -------------")
+    console.print("------------ ", end="", style= config.cor_separador)
+    console.print("Alterar Dados", style=config.cor_primaria, end="")
+    console.print(" -------------", style= config.cor_separador)
     separador()
     #endregion
-    filme_alterar = console.input("[yellow1]Que filme quer alterar? [/yellow1]")
+    filme_alterar = console.input(f"[{config.cor_secundaria}]Que filme quer alterar? [/{config.cor_secundaria}]")
     if filme_alterar in filmes:
         while True: #Pede pontuação até que seja um valor entre 0 e 20.
             try:    #Necessário usar try para o caso de colocarem TEXTO no input de PONTUAÇÃO, caso metam texto, vai dar o EXCEPT
-                pontuacao_input = int(console.input("[yellow1]Qual é a nova pontuação? [/yellow1]"))         #e volta a tentar até ter inteiro
+                pontuacao_input = int(console.input(f"[{config.cor_secundaria}]Qual é a nova pontuação? [/{config.cor_secundaria}]"))         #e volta a tentar até ter inteiro
                 if 0 <= pontuacao_input <= 20:
                     break
                 else:
-                    print("Pontuação deve estar entre 0 e 20 (inclusive). Tente novamente.")
+                    console.print("Pontuação deve estar entre 0 e 20 (inclusive).", style= config.cor_erro)
             except ValueError:
-                print("Por favor, insira um valor inteiro.")
+                console.print("Por favor, insira um valor inteiro.", style= config.cor_erro)
         filmes[filme_alterar] = pontuacao_input
-        console.print(f"O filme [yellow1][b]{filme_alterar}[/b][/yellow1] foi alterado para [yellow1][b]{pontuacao_input}[/b][/yellow1] pontos.", highlight=False)
+        console.print(f"O filme [{config.cor_primaria}][b]{filme_alterar}[/b][/{config.cor_primaria}] foi alterado para [{config.cor_primaria}][b]{pontuacao_input}[/b][/{config.cor_primaria}] pontos.", style= config.cor_secundaria, highlight=False)
         separador()
     else:
-        console.print(f"O filme [yellow1][b]{filme_alterar}[/b][/yellow1] não foi encontrado na lista.")
+        console.print(f"O filme [{config.cor_secundaria}][b]{filme_alterar}[/b][/{config.cor_secundaria}] não foi encontrado na lista.")
         separador()
 def eliminar_dados():
     #region HEADER
     separador()
-    console.print("------------ ", end="")
-    console.print("Eliminar Dados", style="yellow1", end="")
-    console.print(" ------------")
+    console.print("------------ ", end="", style= config.cor_separador)
+    console.print("Eliminar Dados", style= config.cor_primaria, end="")
+    console.print(" ------------", style= config.cor_separador)
     separador()
     #endregion HEADER
-    filme_eliminar = console.input("[yellow1]Que filme quer eliminar? [/yellow1]")
+    filme_eliminar = console.input(f"[{config.cor_secundaria}]Que filme quer eliminar? [/{config.cor_secundaria}]")
     if filme_eliminar in filmes:
         del filmes[filme_eliminar]
-        console.print(f"O filme [yellow1][b]{filme_eliminar}[/b][/yellow1] foi eliminado.")
+        console.print(f"O filme [{config.cor_primaria}][b]{filme_eliminar}[/b][/{config.cor_primaria}] foi eliminado.", style= config.cor_secundaria)
         separador()
     else:
-        console.print(f"O filme [yellow1][b]{filme_eliminar}[/b][/yellow1] não foi encontrado na lista.")
+        console.print(f"O filme [{config.cor_primaria}][b]{filme_eliminar}[/b][/{config.cor_primaria}] não foi encontrado na lista.", style= config.cor_secundaria)
         separador()
 def consultar_dados():
     #Criar tabela para dados.
-    table = Table(title="[b]Filmes - Óscares[/b]",title_style="yellow1", box=box.ROUNDED, border_style="medium_spring_green")
+    table = Table(title="[b]Filmes - Óscares[/b]",title_style= config.cor_primaria, box=box.ROUNDED, border_style= config.cor_borda_tabela_consultar)
     # Adicionar as colunas à tabela
     table.add_column("Filme", justify="left", no_wrap=True)
     table.add_column("Pontuação (0-20)", justify="center")
@@ -157,20 +159,20 @@ def consultar_dados():
 def pesquisar_dados():
     #region HEADER
     separador()
-    console.print("------------- ", end="")
-    console.print(" Pesquisar ", style="yellow1", end="")
-    console.print(" --------------")
+    console.print("------------- ", end="", style= config.cor_separador)
+    console.print(" Pesquisar ", style= config.cor_primaria, end="")
+    console.print(" --------------", style= config.cor_separador)
     separador()
     #endregion 
-    pesquisar_input = console.input("[yellow1]Qual é o filme? [/yellow1]")
+    pesquisar_input = console.input(f"[{config.cor_secundaria}]Qual é o filme? [/{config.cor_secundaria}]")
     
     for filme, pontuacao in filmes.items():
         if pesquisar_input == filme:
-            console.print(f"O filme [yellow1][b]{pesquisar_input}[/b][/yellow1] tem pontuação de [yellow1][b]{pontuacao}[/b][/yellow1].", highlight=False)
+            console.print(f"O filme [{config.cor_primaria}][b]{pesquisar_input}[/b][/{config.cor_primaria}] tem pontuação de [config.cor_primaria][b]{pontuacao}[/b][/{config.cor_primaria}].", style= {config.cor_secundaria}, highlight=False)
             separador()
             break
     else:
-        console.print(f"O filme [yellow1][b]{pesquisar_input}[/b][/yellow1] não está na lista.")
+        console.print(f"O filme [{config.cor_primaria}][b]{pesquisar_input}[/b][/{config.cor_primaria}] não está na lista.", style= config.cor_secundaria)
         separador()
 def podio_dados():
     filmes_ordenados = dict(sorted(filmes.items(), key = lambda ordenar_pelo: ordenar_pelo[1], reverse=True))   
@@ -185,19 +187,19 @@ def podio_dados():
     terceira_pontuacao = filmes_ordenados[terceiro_filme]
 
     #TABELA 1º LUGAR
-    Podio1 = Table(title="1ºLugar", box=box.ROUNDED, border_style="yellow1", title_style="yellow1", title_justify="center", expand=True)
+    Podio1 = Table(title="1ºLugar", box=box.ROUNDED, border_style=config.cor_1lugar, title_style=config.cor_1lugar, title_justify="center", expand=True)
     Podio1.add_column("Filme", justify="center")
     Podio1.add_column("Pontos", justify="center")
     Podio1.add_row(primeiro_filme, str(primeira_pontuacao))
 
     #TABELA 2º LUGAR
-    Podio2 = Table(title="2ºLugar", box=box.ROUNDED, border_style="grey78", title_style="grey78", title_justify="center", expand=True)
+    Podio2 = Table(title="2ºLugar", box=box.ROUNDED, border_style=config.cor_2lugar, title_style=config.cor_2lugar, title_justify="center", expand=True)
     Podio2.add_column("Filme", justify="center")
     Podio2.add_column("Pontos", justify="center")
     Podio2.add_row(segundo_filme, str(segunda_pontuacao))
 
     #TABELA 3º LUGAR
-    Podio3 = Table(title="3ºLugar", box=box.ROUNDED, border_style="gold3", title_style="orange3", title_justify="center", expand=True)
+    Podio3 = Table(title="3ºLugar", box=box.ROUNDED, border_style=config.cor_3lugar, title_style=config.cor_3lugar, title_justify="center", expand=True)
     Podio3.add_column("Filme", justify="center")
     Podio3.add_column("Pontos", justify="center")
     Podio3.add_row(terceiro_filme, str(terceira_pontuacao))
@@ -205,12 +207,12 @@ def podio_dados():
     #PRINT PODIO 
     layout = Layout()
     layout.split_row(Podio1, Podio2, Podio3) #Mete tabelas lado a lado
-    console.print(Panel(layout, title="[b]### Pódio ###[/b]",border_style="dodger_blue2" ,height=9, width=120), justify="center") #Print com panel à volta
+    console.print(Panel(layout, title="[b]### Pódio ###[/b]",border_style=config.cor_panel_podio ,height=9, width=120), justify="center") #Print com panel à volta
     #Tabela Restantes
-    tabela_restantes = Table(title="[b]Restantes Ordenados[/b]", border_style="medium_spring_green",box=box.ROUNDED, title_style="medium_spring_green", title_justify="center")
+    tabela_restantes = Table(title="[b]Restantes Ordenados[/b]", border_style=config.cor_borda_tabela_restantes, box=box.ROUNDED, title_style=config.cor_primaria, title_justify="center")
     # Adicionar as colunas à tabela
-    tabela_restantes.add_column("Filme", justify="left", style="white")
-    tabela_restantes.add_column("Pontuação (0-20)", justify="center", style="white")
+    tabela_restantes.add_column("Filme", justify="left")
+    tabela_restantes.add_column("Pontuação (0-20)", justify="center")
     
     filmes_ordenados_inverso = dict(sorted(filmes.items(), key = lambda ordenar_pelo: ordenar_pelo[1], reverse=False))
     #Usa a tabela ordenada ao contrario, para tirar os valores de Podio.
@@ -228,12 +230,12 @@ def guardar_dados():
     global filmes
     #region HEADER
     separador()
-    console.print("-------------- ", end="")
-    console.print("Exportar", style="yellow1", end="")
-    console.print(" ----------------")
+    console.print("-------------- ", end="", style= config.cor_separador)
+    console.print("Exportar", style=config.cor_primaria, end="")
+    console.print(" ----------------", style=config.cor_separador)
     separador()
     #endregion
-    ficheiro = console.input("[yellow1]Nome do ficheiro? [/yellow1]")
+    ficheiro = console.input(f"[{config.cor_secundaria}]Nome do ficheiro? [/{config.cor_secundaria}]")
     #Criar pasta no diretorio do ficheiro .py
     global python_parent_dir_path
     global dir_name
@@ -241,83 +243,90 @@ def guardar_dados():
     
     #Logica para criar ou não a pasta. Dependendo se já existe ou não.
     if os.path.exists(full_dir_path):
-        console.print("\nPasta ../Ficheiros_Exportados/ já existe!", style="yellow1", highlight=False)
+        console.print("\nPasta ../Ficheiros_Exportados/ já existe!", style=config.cor_secundaria, highlight=False)
         time.sleep(1)
     else:
         os.mkdir(full_dir_path)
-        console.print("\nPasta ../Ficheiros Exportados/ criada com sucesso em:", style="yellow1", highlight=False)
-        console.print(python_parent_dir_path, style="grey54", highlight=False)
+        console.print("\nPasta ../Ficheiros Exportados/ criada com sucesso em:", style=config.cor_primaria, highlight=False)
+        console.print(python_parent_dir_path, style=config.cor_path, highlight=False)
         time.sleep(0.5)
 
     #Save File
     file_path = os.path.join(full_dir_path, ficheiro) #Path para o ficheiro .json
     if os.path.exists(f'{file_path}.json'):
-        console.print("\nNão pode guardar um ficheiro com um nome já existente.", style='red1')
+        console.print("\nNão pode guardar um ficheiro com um nome já existente.", style=config.cor_erro)
         separador()
     else:
         with open(f'{file_path}.json', 'w') as fl:
             loading_animation("A guardar")
             json.dump(filmes, fl)
-            console.print("\nLista de Filmes foi guardada com éxito!", style="yellow1")
+            console.print("\nLista de Filmes foi guardada com éxito!", style=config.cor_secundaria)
             separador()
 def carregar_dados():
     global filmes
     global full_dir_path
     #region HEADER
     separador()
-    console.print("-------------- ", end="")
-    console.print("Importar", style="yellow1", end="")
-    console.print(" ----------------")
+    console.print("-------------- ", end="", style=config.cor_separador)
+    console.print("Importar", style=config.cor_primaria, end="")
+    console.print(" ----------------", style=config.cor_separador)
     separador()
     #endregion
-    ficheiro = console.input("[yellow1]Nome do ficheiro que quer abrir? [/yellow1]")
+    ficheiro = console.input(f"[{config.cor_secundaria}]Nome do ficheiro que quer abrir? [/{config.cor_secundaria}]")
     file_path = os.path.join(full_dir_path, ficheiro)
     if os.path.exists(f'{file_path}.json'):
         with open(f'{file_path}.json', 'r') as fl:
             filmes = json.load(fl)
-            console.print("Ficheiro carregado com sucesso.", style='yellow1')
+            console.print("Ficheiro carregado com sucesso.", style=config.cor_secundaria)
             separador()
     else:
-        console.print("Esse ficheiro não existe.", style='red1')
+        console.print("Esse ficheiro não existe.", style=config.cor_secundaria)
         separador()
 def sair():
-    print("A sair.")
+    console.print("A sair.", style=config.cor_primaria)
     time.sleep(0.6)
-    print("A sair..")
+    console.print("A sair..", style=config.cor_primaria)
     time.sleep(0.6)
-    print("A sair...")
+    console.print("A sair...", style=config.cor_primaria, highlight=False) #Highlight false para ficar com a cor direita, senão ... ficava amarelo
     time.sleep(0.6)
     exit()
 #Extras
 def eliminar_lista():
+    #region HEADER
+    separador()
+    console.print("------------ ", end="", style= config.cor_separador)
+    console.print("Eliminar Lista", style= config.cor_primaria, end="")
+    console.print(" ------------", style= config.cor_separador)
+    separador()
+    #endregion HEADER
     while True:
-        opcao = console.input("[yellow1]Tem a certeza que quer apagar a lista de filmes toda?[/yellow1] (y/n) ")
+        opcao = console.input(f"[{config.cor_primaria}]Tem a certeza que quer apagar a lista de filmes toda?[/{config.cor_primaria}] (y/n) ")
         if opcao == "y":
             filmes.clear()
-            console.print("[yellow1][b]Lista Apagada.[/b][/yellow1]")
+            console.print(f"[{config.cor_primaria}][b]Lista Apagada.[/b][/{config.cor_primaria}]")
             time.sleep(0.5)
             break
         elif opcao == "n":
-            console.print("[yellow1][b]Lista Intacta.[/b][/yellow1]")
+            console.print(f"[{config.cor_primaria}][b]Lista Intacta.[/b][/{config.cor_primaria}]")
             time.sleep(0.5)
             break
         else:
-            console.print("[red1]Opção Invalida.[/red1]")
+            console.print(f"[{config.cor_erro}]Opção Invalida.[/{config.cor_erro}]")
 def ls_dir():
     #region HEADER
     separador()
-    console.print("-------------- ", end="")
-    console.print("Diretório", style="yellow1", end="")
-    console.print(" ---------------")
+    console.print("-------------- ", end="", style=config.cor_separador)
+    console.print("Diretório", style=config.cor_primaria, end="")
+    console.print(" ---------------", style=config.cor_separador)
     separador()
     #endregion
     global full_dir_path
-    console.print(full_dir_path, style="grey54", highlight=False)
+    console.print(full_dir_path, style=config.cor_path, highlight=False)
     if not os.path.exists(full_dir_path): #Se a pasta NÃO existir, dá erro
-        console.print("Deves primeiro exportar um ficheiro para criar a pasta de exportados.", style="red1")
+        console.print("Deves primeiro exportar um ficheiro para criar a pasta de exportados.", style=config.cor_erro)
     else:
         files = os.listdir(full_dir_path)
-        console.print("[yellow1]Ficheiro_Exportados/[/yellow1]")
+        console.print("Ficheiro_Exportados/", style=config.cor_primaria)
         global ultimo_index
         ultimo_index = int(len(files) - 1)
         if ultimo_index < 0:
@@ -332,62 +341,67 @@ def ls_dir():
 def apagar_exportado():
     #region HEADER
     separador()
-    console.print("---------- ", end="")
-    console.print("Eliminar Ficheiro", style="yellow1", end="")
-    console.print(" -----------")
+    console.print("---------- ", end="", style=config.cor_separador)
+    console.print("Eliminar Ficheiro", style=config.cor_primaria, end="")
+    console.print(" -----------", style=config.cor_separador)
     separador()
     #endregion
     global full_dir_path
-    ficheiro = console.input("[yellow1]Nome do ficheiro? [/yellow1]")
+    ficheiro = console.input(f"[{config.cor_secundaria}]Nome do ficheiro? [/{config.cor_secundaria}]")
     file_path = os.path.join(full_dir_path, ficheiro)
     if os.path.exists(f'{file_path}.json'):
             os.remove(f'{file_path}.json')
-            console.print(f"[yellow1]{ficheiro}.json[/yellow1] foi removido com éxito!")
+            console.print(f"[{config.cor_primaria}]{ficheiro}.json[/{config.cor_primaria}] foi removido com éxito!")
             separador()
     else:
-            console.print("[red1]Esse ficheiro não existe.[/red1]")
+            console.print("Esse ficheiro não existe.", style=config.cor_erro)
             separador()
 def info_filme(): 
     #region HEADER
     separador()
-    console.print("--------------- ", end="")
-    console.print(" Filme ", style="yellow1", end="")
-    console.print(" ----------------")
+    console.print("--------------- ", end="", style=config.cor_separador)
+    console.print(" Filme ", style=config.cor_primaria, end="")
+    console.print(" ----------------", style=config.cor_separador)
     separador()
     #endregion
-    filme_input = console.input("[yellow1]Que filme quer pesquisar? [/yellow1]")
+    filme_input = console.input(f"[{config.cor_secundaria}]Que filme quer pesquisar? [/{config.cor_secundaria}]")
     filmes = ia.search_movie(filme_input)
 
     if filmes: #se tiver algo dentro de filmes == TRUE
         filme = filmes[0] #Pega no primeiro filme encontrado.
         ia.update(filme) #Dá mais infos do filme
         print("")
+
+        #region HEADER
         separador()
-        console.print("---------------- [yellow1]DADOS[/yellow1] -----------------")
+        console.print("--------------- ", end="", style= config.cor_separador)
+        console.print(" DADOS ", style= config.cor_primaria, end="")
+        console.print(" ----------------", style= config.cor_separador)
         separador()
-        console.print(f'[yellow1]Título: [/yellow1]{filme["title"]}', highlight=False)              #Titulo
-        console.print(f'[yellow1]Ano: [/yellow1]{filme["year"]}', highlight=False)                  #Ano
-        console.print(f'[yellow1]Avaliação: [/yellow1]{filme["rating"]}/10', highlight=False)       #Rating
-        
-        duracoes = filme.get("runtime", "N/A")                                                      #Duração   |
-        duracao = duracoes[0]                                                                       #Duração   |-> Como dá lista de durações, é preciso fazer assim.
-        console.print(f'[yellow1]Duração: [/yellow1]{duracao} minutos', highlight=False)            #Duração   |
-        
-        diretores = filme.get("director", "N/A")                                                    #Diretor   |
-        diretor = diretores[0]                                                                      #Diretor   |-> Como dá lista de diretores, é preciso fazer assim.
-        console.print(f'[yellow1]Diretor do Filme: [/yellow1]{diretor}', highlight=False)           #Diretor   |
-        
-        plot = filme.get("plot outline", "N/A")                                                     #plot
-        console.print(f'[yellow1]Plot: [/yellow1]{plot}', highlight=False)                          #plot
-        #console.print(f'[yellow1]Budget: [/yellow1]{filme["budget"]}', highlight=False)             #Budget estimado
+        #endregion HEADER
+        console.print(f'[{config.cor_secundaria}]]Título: [/{config.cor_secundaria}]{filme["title"]}', highlight=False)          #Titulo
+        console.print(f'[{config.cor_secundaria}]Ano: [/{config.cor_secundaria}]{filme["year"]}', highlight=False)               #Ano
+        console.print(f'[{config.cor_secundaria}]Avaliação: [/{config.cor_secundaria}]{filme["rating"]}/10', highlight=False)    #Rating
+
+        duracoes = filme.get("runtime", "N/A")                                                                                   #Duração   |
+        duracao = duracoes[0]                                                                                                    #Duração   |-> Como dá lista de durações, é preciso fazer assim.
+        console.print(f'[{config.cor_secundaria}]Duração: [/{config.cor_secundaria}]{duracao} minutos', highlight=False)         #Duração   |
+
+        diretores = filme.get("director", "N/A")                                                                                 #Diretor   |
+        diretor = diretores[0]                                                                                                   #Diretor   |-> Como dá lista de diretores, é preciso fazer assim.
+        console.print(f'[{config.cor_secundaria}]Diretor do Filme: [/{config.cor_secundaria}]{diretor}', highlight=False)        #Diretor   |
+
+        plot = filme.get("plot outline", "N/A")                                                                                  #plot
+        console.print(f'[{config.cor_secundaria}]Plot: [/{config.cor_secundaria}]{plot}', highlight=False)                       #plot
+        #console.print(f'[yellow1]Budget: [/yellow1]{filme["budget"]}', highlight=False)                                         #Budget estimado
         separador()
     else:
-        print("Filme não encontrado.")
+        console.print("Filme não encontrado.", style=config.cor_erro)
         separador()
 
 ### Menu ###
 while True: #Repete sempre para mostrar sempre o menu até escolher opção sair.
-    console.print("\n ### [b]Menu[/b] ###", style="yellow1")
+    console.print("\n ### [b]Menu[/b] ###", style=config.cor_primaria)
     print(" 1. Introdução dados")
     print(" 2. Geração dados (preenchimento dos vetores (lista) de forma automática)")
     print(" 3. Alterar dados")
@@ -398,7 +412,7 @@ while True: #Repete sempre para mostrar sempre o menu até escolher opção sair
     print(" 8. Export")
     print(" 9. Import")
     print("10. Sair")
-    console.print("\n ### [b]Extras[/b] ###", style="yellow1")
+    console.print("\n ### [b]Extras[/b] ###", style=config.cor_primaria)
     print("15. Eliminar Lista.")
     print("16. Ver ficheiros exportados")
     print("17. Apagar Ficheiros Exportados")
