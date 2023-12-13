@@ -168,7 +168,7 @@ def pesquisar_dados():
     
     for filme, pontuacao in filmes.items():
         if pesquisar_input == filme:
-            console.print(f"O filme [{config.cor_primaria}][b]{pesquisar_input}[/b][/{config.cor_primaria}] tem pontuação de [config.cor_primaria][b]{pontuacao}[/b][/{config.cor_primaria}].", style= {config.cor_secundaria}, highlight=False)
+            console.print(f"O filme [{config.cor_primaria}][b]{pesquisar_input}[/b][/{config.cor_primaria}] tem pontuação de [{config.cor_primaria}][b]{pontuacao}[/b][/{config.cor_primaria}].", style=config.cor_secundaria, highlight=False)
             separador()
             break
     else:
@@ -277,7 +277,8 @@ def carregar_dados():
     if os.path.exists(f'{file_path}.json'):
         with open(f'{file_path}.json', 'r') as fl:
             filmes = json.load(fl)
-            console.print("Ficheiro carregado com sucesso.", style=config.cor_secundaria)
+            loading_animation("A carregar")
+            console.print("\nFicheiro carregado com sucesso.", style=config.cor_secundaria)
             separador()
     else:
         console.print("Esse ficheiro não existe.", style=config.cor_secundaria)
@@ -303,7 +304,8 @@ def eliminar_lista():
         opcao = console.input(f"[{config.cor_primaria}]Tem a certeza que quer apagar a lista de filmes toda?[/{config.cor_primaria}] (y/n) ")
         if opcao == "y":
             filmes.clear()
-            console.print(f"[{config.cor_primaria}][b]Lista Apagada.[/b][/{config.cor_primaria}]")
+            loading_animation("A eliminar lista")
+            console.print(f"\n[{config.cor_primaria}][b]Lista Apagada.[/b][/{config.cor_primaria}]")
             time.sleep(0.5)
             break
         elif opcao == "n":
@@ -350,8 +352,9 @@ def apagar_exportado():
     ficheiro = console.input(f"[{config.cor_secundaria}]Nome do ficheiro? [/{config.cor_secundaria}]")
     file_path = os.path.join(full_dir_path, ficheiro)
     if os.path.exists(f'{file_path}.json'):
+            loading_animation("A remover")
             os.remove(f'{file_path}.json')
-            console.print(f"[{config.cor_primaria}]{ficheiro}.json[/{config.cor_primaria}] foi removido com éxito!")
+            console.print(f"\n[{config.cor_primaria}]{ficheiro}.json[/{config.cor_primaria}] foi removido com éxito!", style=config.cor_secundaria)
             separador()
     else:
             console.print("Esse ficheiro não existe.", style=config.cor_erro)
@@ -366,10 +369,18 @@ def info_filme():
     #endregion
     filme_input = console.input(f"[{config.cor_secundaria}]Que filme quer pesquisar? [/{config.cor_secundaria}]")
     filmes = ia.search_movie(filme_input)
-
+    top3_filmes = filmes[:config.list_movies]
+    
     if filmes: #se tiver algo dentro de filmes == TRUE
-        filme = filmes[0] #Pega no primeiro filme encontrado.
-        ia.update(filme) #Dá mais infos do filme
+        console.print(f"Foram encontrados os seguintes filmes:\n", style=config.cor_secundaria)
+        i = 1
+        for filme in top3_filmes:
+            console.print(f"[{config.cor_secundaria}][b]{i}-[/b][/{config.cor_secundaria}] {filme['title']} - {filme['year']}", highlight=False)
+            i += 1
+        escolha = int(console.input(f"\n[{config.cor_secundaria}]De qual filme quer ver o info?[{config.cor_secundaria}] "))
+        filme = top3_filmes[escolha-1]
+
+        ia.update(filme) #Dá mais info do filme
         print("")
 
         #region HEADER
@@ -379,7 +390,7 @@ def info_filme():
         console.print(" ----------------", style= config.cor_separador)
         separador()
         #endregion HEADER
-        console.print(f'[{config.cor_secundaria}]]Título: [/{config.cor_secundaria}]{filme["title"]}', highlight=False)          #Titulo
+        console.print(f'[{config.cor_secundaria}]Título: [/{config.cor_secundaria}]{filme["title"]}', highlight=False)          #Titulo
         console.print(f'[{config.cor_secundaria}]Ano: [/{config.cor_secundaria}]{filme["year"]}', highlight=False)               #Ano
         console.print(f'[{config.cor_secundaria}]Avaliação: [/{config.cor_secundaria}]{filme["rating"]}/10', highlight=False)    #Rating
 
@@ -484,7 +495,7 @@ while True: #Repete sempre para mostrar sempre o menu até escolher opção sair
             else:
                 apagar_exportado()
         case "18":
-            info_filme()      
+            info_filme()
         case _:
             console.print("Tem de escolher um numero do menu.", style="red1")
 

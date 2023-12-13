@@ -25,3 +25,5 @@ cor_borda_tabela_restantes = "red1"
 #Export/Import
 cor_path = "grey54"
 
+#Info-Filme
+list_movies = 5
