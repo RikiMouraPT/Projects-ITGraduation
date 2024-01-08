@@ -1,6 +1,5 @@
 #Delays
 import time
-import sys
 #Para formatar melhor o terminal
 from rich.console import Console
 console = Console()
@@ -51,7 +50,7 @@ filmes = {}
 def separador():
     console.print("----------------------------------------", style= config.cor_separador)
 def loading_animation(texto):
-    console.print(texto, style= config.cor_primaria)
+    console.print(texto, style= config.cor_secundaria)
     animation = ["[■□□□□□□□□□] 10%","[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%", "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"]
     #region OUTRAS ANIMAÇÕES
     animation2 =[" ⢿", " ⣻", " ⣽", " ⣾", " ⣷", " ⣯", " ⣟", " ⡿"]
@@ -78,7 +77,7 @@ def introduzir_dados():
     separador()
     #endregion
     for i in range(10):
-        filme_input = console.input(f"[{config.cor_secundaria}]Nome do {i+1}º filme:[/{config.cor_secundaria}]")
+        filme_input = console.input(f"[{config.cor_secundaria}]Nome do {i+1}º filme: [/{config.cor_secundaria}]")
         while True: #Pede pontuação até que seja um valor entre 0 e 20.
             try:    #Necessário usar try para o caso de colocarem TEXTO no input de PONTUAÇÃO, caso metam texto, vai dar o EXCEPT
                 pontuacao_input = int(console.input(f"[{config.cor_secundaria}]Pontuação do {i+1}º filme: [/{config.cor_secundaria}]"))                 #e volta a tentar até ter inteiro
@@ -91,12 +90,18 @@ def introduzir_dados():
         filmes[filme_input] = pontuacao_input
 def gerar_dados():
     global filmes
+    #region HEADER
     separador()
+    console.print("-------------- ", end="", style= config.cor_separador)
+    console.print(" Geração ", style= config.cor_primaria, end="")
+    console.print(" ---------------", style= config.cor_separador)
+    separador()
+    #endregion HEADER
     loading_animation("A gerar dados")
     num = random.randint(0,6)
     filmes_lista = [filmes_db.filmes_gerar_1, filmes_db.filmes_gerar_2, filmes_db.filmes_gerar_3, filmes_db.filmes_gerar_4, filmes_db.filmes_gerar_5, filmes_db.filmes_gerar_6, filmes_db.filmes_gerar_7]
     filmes = filmes_lista[num]
-    console.print("[b]\nDados gerados[/b]", style= config.cor_primaria)
+    console.print("[b]\nDados gerados[/b]", style= config.cor_secundaria)
     separador()
     #filmes = filmes_testes.copy()
 def alterar_dados():
@@ -122,7 +127,7 @@ def alterar_dados():
         console.print(f"O filme [{config.cor_primaria}][b]{filme_alterar}[/b][/{config.cor_primaria}] foi alterado para [{config.cor_primaria}][b]{pontuacao_input}[/b][/{config.cor_primaria}] pontos.", style= config.cor_secundaria, highlight=False)
         separador()
     else:
-        console.print(f"O filme [{config.cor_secundaria}][b]{filme_alterar}[/b][/{config.cor_secundaria}] não foi encontrado na lista.")
+        console.print(f"O filme [{config.cor_primaria}][b]{filme_alterar}[/b][/{config.cor_primaria}] não foi encontrado na lista.", style=config.cor_secundaria)
         separador()
 def eliminar_dados():
     #region HEADER
@@ -247,7 +252,7 @@ def guardar_dados():
         time.sleep(1)
     else:
         os.mkdir(full_dir_path)
-        console.print("\nPasta ../Ficheiros Exportados/ criada com sucesso em:", style=config.cor_primaria, highlight=False)
+        console.print("\nPasta ../Ficheiros Exportados/ criada com sucesso em:", style=config.cor_secundaria, highlight=False)
         console.print(python_parent_dir_path, style=config.cor_path, highlight=False)
         time.sleep(0.5)
 
@@ -301,15 +306,15 @@ def eliminar_lista():
     separador()
     #endregion HEADER
     while True:
-        opcao = console.input(f"[{config.cor_primaria}]Tem a certeza que quer apagar a lista de filmes toda?[/{config.cor_primaria}] (y/n) ")
+        opcao = console.input(f"[{config.cor_secundaria}]Tem a certeza que quer apagar a lista de filmes toda?[/{config.cor_secundaria}] (y/n) ")
         if opcao == "y":
             filmes.clear()
             loading_animation("A eliminar lista")
-            console.print(f"\n[{config.cor_primaria}][b]Lista Apagada.[/b][/{config.cor_primaria}]")
+            console.print(f"\n[{config.cor_secundaria}][b]Lista Apagada.[/b][/{config.cor_secundaria}]")
             time.sleep(0.5)
             break
         elif opcao == "n":
-            console.print(f"[{config.cor_primaria}][b]Lista Intacta.[/b][/{config.cor_primaria}]")
+            console.print(f"[{config.cor_secundaria}][b]Lista Intacta.[/b][/{config.cor_secundaria}]")
             time.sleep(0.5)
             break
         else:
@@ -328,7 +333,7 @@ def ls_dir():
         console.print("Deves primeiro exportar um ficheiro para criar a pasta de exportados.", style=config.cor_erro)
     else:
         files = os.listdir(full_dir_path)
-        console.print("Ficheiro_Exportados/", style=config.cor_primaria)
+        console.print("Ficheiro_Exportados/", style=config.cor_secundaria)
         global ultimo_index
         ultimo_index = int(len(files) - 1)
         if ultimo_index < 0:
@@ -498,5 +503,3 @@ while True: #Repete sempre para mostrar sempre o menu até escolher opção sair
             info_filme()
         case _:
             console.print("Tem de escolher um numero do menu.", style="red1")
-
-    
