@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "programmer": "arduinoisp",
+    "sketch": "ISLA\\1 Ano\\Arquitetura de Computadores\\ProjetoFinal.ino"
+}
