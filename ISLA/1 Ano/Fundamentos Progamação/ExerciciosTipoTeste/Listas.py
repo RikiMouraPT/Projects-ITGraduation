@@ -1,3 +1,24 @@
+def mes_maior_vendas(N, vendas_anual):
+    max = 0
+    for venda in vendas_anual:
+        if venda > max:
+            max = venda
+    return max
+
+def media_vendas(N, vendas_anual):
+    media = 0
+    for venda in vendas_anual:
+        media = media + venda/N
+    return media
+
+def quant_meses_media(N, vendas_anual):
+    qtd_meses = 0
+    media = media_vendas(N, vendas_anual)
+    for venda in vendas_anual:
+        if venda > media:
+            qtd_meses += 1
+    return qtd_meses
+
 vendas_anual = []
 
 while True:
@@ -15,21 +36,6 @@ for i in range(N):
     valor_mes = float(input(f"Digite o valor de vendas do mês {i+1}: "))
     vendas_anual.append(valor_mes)
 
-
-def mes_maior_vendas(N, vendas_anual):
-    return vendas_anual.index(max(vendas_anual)) + 1
-
-def media_vendas(N, vendas_anual):
-    
-    return sum(vendas_anual)/len(vendas_anual)
-
-def quant_meses_media(N, vendas_anual):
-    qtd_meses = 0
-    media = media_vendas(N, vendas_anual)
-    for venda in vendas_anual:
-        if venda > media:
-            qtd_meses += 1
-    return qtd_meses
 
 mes_maior = mes_maior_vendas(N, vendas_anual)
 print("Mês com maior vendas: ", mes_maior)

@@ -1,5 +1,7 @@
+import os
+
 irs = 20
-seg_social = 11
+ss = 11
 
 def cabecalho(texto):
     print("="*15)
@@ -43,7 +45,6 @@ def guardar_ficheiro(lista_dados):
 
     for i in range(len(lista_dados)):
         for j in range(5): 
-            print(j)
             ficheiro.write(f"{lista_dados[i][j]}, ")
         ficheiro.write("\n")
     ficheiro.close()
@@ -53,20 +54,20 @@ def guardar_ficheiro(lista_dados):
     input("ENTER p/ continuar....") 
     
 def abrir_ficheiro():
-    print("================")
-    print("Guardar Ficheiro")
-    print("================")
+    global
+    cabecalho("Guardar Ficheiro")
     ficheiro = open("dados.txt","r")
     print()
     contador = 1
-    
+
     for linha in ficheiro.readlines():
         if (contador > 1):
-            campos = linha.split(";")
-            registo = [int(campos[0]), campos[1].lstrip(), float(campos[2].rstrip("\n"))] # retira "\n" do campo
+            campos = linha.split(",")
+            registo = [int(campos[0]), campos[1], float(campos[2]), float(campos[3]), float(campos[4].rstrip("\n"))]
+            print(registo)
             lista_dados.append(registo)
             contador = contador + 1
-        
+        #Numero, Nome, Salario, IRS, Seg Social
     print(lista_dados)
     print()
     print("Ficheiro aberto!")
@@ -88,7 +89,7 @@ def main():
         print("6. Sair")
         
         op = input("Escolha uma opção do menu.")
-        
+        os.system('cls')
         match op:
             case '1':
                 ler_dados()
@@ -99,7 +100,7 @@ def main():
             case '4':
                 guardar_ficheiro(lista_dados)
             case '5':
-                pass
+                abrir_ficheiro()
             case '6':
                 exit()
             
