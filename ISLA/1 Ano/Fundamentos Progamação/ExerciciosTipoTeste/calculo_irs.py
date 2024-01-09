@@ -13,9 +13,9 @@ Construa uma função (calcula_irs) (Python) que receba como parâmetro um valor
  """
 
 def calcula_irs(valor):
-    if valor < 1000:
+    if valor <= 1000:
         irs = valor*0.10
-    elif 1000 <= valor <= 1500:
+    elif valor <= 1500:
         irs = valor*0.20
     else:
         irs = valor*0.30

@@ -20,6 +20,7 @@ def mes_maior_vendas(N, vendas_anual):
     return vendas_anual.index(max(vendas_anual)) + 1
 
 def media_vendas(N, vendas_anual):
+    
     return sum(vendas_anual)/len(vendas_anual)
 
 def quant_meses_media(N, vendas_anual):
