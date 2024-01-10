@@ -214,10 +214,6 @@ def eliminar_dados():
         
 
 def main():
-
-    
-    abrir_ficheiro()
-
     while True:
         cabecalho("M E N U")
         print(" 1. Introduzir dados")
