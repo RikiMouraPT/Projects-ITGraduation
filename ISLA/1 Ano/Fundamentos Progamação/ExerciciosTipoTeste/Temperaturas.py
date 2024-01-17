@@ -6,19 +6,26 @@ das temperaturas, a temperatura máxima e temperatura mínima.
 temperaturas = []
 media = 0
 tam_lista = 5
-max = 0
-min = 999
+
 for i in range(tam_lista):
-    temperatura = float(input(f"Digite a {i+1}º temperatura em graus Celsius: "))
+    while True:
+        try:
+            temperatura = float(input(f"Digite a {i+1}º temperatura em graus Celsius: "))
+            break
+        except ValueError:
+            print("Digite uma temperatura.")
     media = media + temperatura/tam_lista
-    if temperatura > max:
-        max = temperatura
-    if temperatura < min:
-        min = temperatura
+    if i == 0:
+        max_temp = temperatura
+        min_temp = temperatura
+    if temperatura > max_temp:
+        max_temp = temperatura
+    if temperatura < min_temp:
+        min_temp = temperatura
     temperaturas.append(temperatura)
 
 print("Media: ", media)
-print("Maximo: ", max)
-print("Minimo: ", min)
+print("Maximo: ", max_temp)
+print("Minimo: ", min_temp)
 
 print("Temperaturas: ", temperaturas)

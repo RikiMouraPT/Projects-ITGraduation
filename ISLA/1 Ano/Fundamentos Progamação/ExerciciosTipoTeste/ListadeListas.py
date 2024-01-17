@@ -36,7 +36,11 @@ def salario_maximo(lista_dados):
     for funcionario in lista_dados:
         salarios.append(funcionario[2])
     
-    return print("Maximo Salario é: ", max(salarios))
+    for salario in salarios:
+        max_sal = 0
+        if salario > max_sal:
+            max_sal = salario
+    return print("Maximo Salario é: ", max_sal)
 
 def guardar_ficheiro(lista_dados):
     print("================")
