@@ -1,0 +1,8 @@
+G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.GeneratedMSBuildEditorConfig.editorconfig
+G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.AssemblyInfoInputs.cache
+G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.AssemblyInfo.cs
+G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.csproj.CoreCompileInputs.cache
+G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.sourcelink.json
+G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.dll
+G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\refint\001 - Array Simples.dll
+G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.pdb

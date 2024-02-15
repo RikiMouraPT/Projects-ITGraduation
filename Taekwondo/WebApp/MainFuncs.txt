@@ -1,0 +1,17 @@
+- Numero de campos para as batalhas
+- Numero de participantes
+- Digitar nome dos participantes, importar com csv?
+- Tamanho dos grupos, agrupar em 2, 3 ou 4,
+
+- Vencedor entre dois será decidido em três categorias 'Luta', 'Quebra' e 'Técnica'
+Quem tiver mais pontos passa para a frente e guarda este valor para fazer uma soma até ao final.
+- Vencedores jogam com vencedores e sempre assim até um ultimo pódio
+
+- No fim mostra pódio
+
+
+
+---Extras----
+- Pagina configuração
+    - Tamanho podio (default = 3)
+    - Quantas vezes cada participante luta (default = 2)
