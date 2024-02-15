@@ -6,3 +6,18 @@ G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas d
 G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.dll
 G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\refint\001 - Array Simples.dll
 G:\O meu disco\GitHub\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.pdb
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\bin\Debug\net8.0\001 - Array Simples.exe
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\bin\Debug\net8.0\001 - Array Simples.deps.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\bin\Debug\net8.0\001 - Array Simples.runtimeconfig.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\bin\Debug\net8.0\001 - Array Simples.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\bin\Debug\net8.0\001 - Array Simples.pdb
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.AssemblyInfoInputs.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.AssemblyInfo.cs
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.csproj.CoreCompileInputs.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.sourcelink.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\refint\001 - Array Simples.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.pdb
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\001 - Array Simples.genruntimeconfig.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001 - Array Simples\obj\Debug\net8.0\ref\001 - Array Simples.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\O meu disco\\GitHub\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\001 - Array Simples.csproj",
+      "projectUniqueName": "C:\\Users\\rikim\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\001 - Array Simples.csproj",
       "projectName": "001 - Array Simples",
-      "projectPath": "G:\\O meu disco\\GitHub\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\001 - Array Simples.csproj",
+      "projectPath": "C:\\Users\\rikim\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\001 - Array Simples.csproj",
       "packagesPath": "C:\\Users\\rikim\\.nuget\\packages\\",
-      "outputPath": "G:\\O meu disco\\GitHub\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\obj\\",
+      "outputPath": "C:\\Users\\rikim\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rikim\\AppData\\Roaming\\NuGet\\NuGet.Config",
