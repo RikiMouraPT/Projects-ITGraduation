@@ -23,6 +23,12 @@ namespace _001___ArraySimples
                         {
                             Console.Write($"Digite a {i + 1}º nota: ");
                             notas[i] = Convert.ToInt32(Console.ReadLine());
+
+                            if (!IsValid(notas[i])) //Verifica se a nota não é válida
+                            {
+                                Console.WriteLine("Nota inválida, por favor insira uma nota entre 0 e 20.");
+                                i--;
+                            }
                         }
 
                         Console.WriteLine("\nPressione ENTER p/ Continuar");
@@ -136,8 +142,12 @@ namespace _001___ArraySimples
             return Convert.ToInt32(Console.ReadLine());
         }
 
-        static bool IsValid()
+        static bool IsValid(int input)
         {
+            if (input < 0 || input > 20)
+            {
+                return false;
+            }
             return true;
         }
     }
