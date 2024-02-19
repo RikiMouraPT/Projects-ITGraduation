@@ -1,0 +1,5 @@
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\publish\CompoundInterest.exe
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\publish\CompoundInterest.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\publish\CompoundInterest.deps.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\publish\CompoundInterest.runtimeconfig.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\publish\CompoundInterest.pdb

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CompoundInterest</id>
+    <version>1.0.0</version>
+    <authors>CompoundInterest</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="81dcc3c395a3191f385571d0f093357750f49686" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Debug\net8.0\CompoundInterest.runtimeconfig.json" target="lib\net8.0\CompoundInterest.runtimeconfig.json" />
+    <file src="C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Debug\net8.0\CompoundInterest.dll" target="lib\net8.0\CompoundInterest.dll" />
+  </files>
+</package>

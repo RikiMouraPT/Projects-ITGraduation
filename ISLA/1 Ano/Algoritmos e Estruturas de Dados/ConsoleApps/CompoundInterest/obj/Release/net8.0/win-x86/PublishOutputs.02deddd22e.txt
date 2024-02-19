@@ -1,0 +1,2 @@
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\publish\win-x86\CompoundInterest.pdb
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\publish\win-x86\CompoundInterest.exe

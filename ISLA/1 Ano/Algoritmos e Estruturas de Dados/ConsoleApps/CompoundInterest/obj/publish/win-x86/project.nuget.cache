@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kYKY90iPK0qczieBPeenEMneTfXHcgS2aqtif2ycB6+G18EsmyjDyDXwwANCsWtpoATwyyRL/qzXM2RzagHiZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\CompoundInterest\\CompoundInterest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rikim\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.2\\microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
+    "C:\\Users\\rikim\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.2\\microsoft.netcore.app.runtime.win-x86.8.0.2.nupkg.sha512",
+    "C:\\Users\\rikim\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.2\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.2.nupkg.sha512",
+    "C:\\Users\\rikim\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.2\\microsoft.aspnetcore.app.runtime.win-x86.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

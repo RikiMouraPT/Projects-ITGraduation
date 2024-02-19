@@ -1,0 +1,15 @@
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\CompoundInterest.exe
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\CompoundInterest.deps.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\CompoundInterest.runtimeconfig.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\CompoundInterest.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\bin\Release\net8.0\CompoundInterest.pdb
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\CompoundInterest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\CompoundInterest.AssemblyInfoInputs.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\CompoundInterest.AssemblyInfo.cs
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\CompoundInterest.csproj.CoreCompileInputs.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\CompoundInterest.sourcelink.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\CompoundInterest.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\refint\CompoundInterest.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\CompoundInterest.pdb
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\CompoundInterest.genruntimeconfig.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\CompoundInterest\obj\Release\net8.0\ref\CompoundInterest.dll
