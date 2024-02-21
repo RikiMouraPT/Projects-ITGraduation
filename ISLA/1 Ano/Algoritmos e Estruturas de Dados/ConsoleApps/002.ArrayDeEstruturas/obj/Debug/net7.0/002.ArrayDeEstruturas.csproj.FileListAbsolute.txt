@@ -1,0 +1,15 @@
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\002.ArrayDeEstruturas.csproj.AssemblyReference.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\002.ArrayDeEstruturas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\002.ArrayDeEstruturas.AssemblyInfoInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\002.ArrayDeEstruturas.AssemblyInfo.cs
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\002.ArrayDeEstruturas.csproj.CoreCompileInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\bin\Debug\net7.0\002.ArrayDeEstruturas.exe
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\bin\Debug\net7.0\002.ArrayDeEstruturas.deps.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\bin\Debug\net7.0\002.ArrayDeEstruturas.runtimeconfig.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\bin\Debug\net7.0\002.ArrayDeEstruturas.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\bin\Debug\net7.0\002.ArrayDeEstruturas.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\002.ArrayDeEstruturas.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\refint\002.ArrayDeEstruturas.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\002.ArrayDeEstruturas.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\002.ArrayDeEstruturas.genruntimeconfig.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\002.ArrayDeEstruturas\obj\Debug\net7.0\ref\002.ArrayDeEstruturas.dll

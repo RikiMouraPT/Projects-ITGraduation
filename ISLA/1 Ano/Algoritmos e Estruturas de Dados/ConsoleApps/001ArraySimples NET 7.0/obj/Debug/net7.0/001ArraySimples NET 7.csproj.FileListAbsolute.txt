@@ -1,0 +1,15 @@
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\bin\Debug\net7.0\001ArraySimples NET 7.exe
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\bin\Debug\net7.0\001ArraySimples NET 7.deps.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\bin\Debug\net7.0\001ArraySimples NET 7.runtimeconfig.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\bin\Debug\net7.0\001ArraySimples NET 7.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\bin\Debug\net7.0\001ArraySimples NET 7.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\001ArraySimples NET 7.csproj.AssemblyReference.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\001ArraySimples NET 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\001ArraySimples NET 7.AssemblyInfoInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\001ArraySimples NET 7.AssemblyInfo.cs
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\001ArraySimples NET 7.csproj.CoreCompileInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\001ArraySimples NET 7.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\refint\001ArraySimples NET 7.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\001ArraySimples NET 7.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\001ArraySimples NET 7.genruntimeconfig.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\001ArraySimples NET 7.0\obj\Debug\net7.0\ref\001ArraySimples NET 7.dll
