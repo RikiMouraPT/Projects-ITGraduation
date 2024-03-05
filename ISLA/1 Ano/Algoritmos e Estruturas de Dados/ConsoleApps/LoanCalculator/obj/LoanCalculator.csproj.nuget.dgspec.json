@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\001 - Array Simples.csproj": {}
+    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\LoanCalculator\\LoanCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\001 - Array Simples.csproj": {
+    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\LoanCalculator\\LoanCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\001 - Array Simples.csproj",
-        "projectName": "001 - Array Simples",
-        "projectPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\001 - Array Simples.csproj",
+        "projectUniqueName": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\LoanCalculator\\LoanCalculator.csproj",
+        "projectName": "LoanCalculator",
+        "projectPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\LoanCalculator\\LoanCalculator.csproj",
         "packagesPath": "C:\\Users\\rikim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001 - Array Simples\\obj\\",
+        "outputPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\LoanCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rikim\\AppData\\Roaming\\NuGet\\NuGet.Config",
