@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanCalculator", "LoanCalcu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001ArraySimples NET 7", "001ArraySimples NET 7.0\001ArraySimples NET 7.csproj", "{C943A3CE-C200-4449-BE3A-D91F73902D8F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002.ArrayDeEstruturas", "002 - ArrayDeEstruturas\002.ArrayDeEstruturas.csproj", "{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002 - ArrayDeEstruturas", "002 - ArrayDeEstruturas\002 - ArrayDeEstruturas.csproj", "{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
