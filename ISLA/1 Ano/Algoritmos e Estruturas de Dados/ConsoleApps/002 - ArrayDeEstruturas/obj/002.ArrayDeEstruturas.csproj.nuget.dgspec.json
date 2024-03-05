@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001ArraySimples NET 7.0\\001ArraySimples NET 7.csproj": {}
+    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\002 - ArrayDeEstruturas\\002.ArrayDeEstruturas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001ArraySimples NET 7.0\\001ArraySimples NET 7.csproj": {
+    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\002 - ArrayDeEstruturas\\002.ArrayDeEstruturas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001ArraySimples NET 7.0\\001ArraySimples NET 7.csproj",
-        "projectName": "001ArraySimples NET 7",
-        "projectPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001ArraySimples NET 7.0\\001ArraySimples NET 7.csproj",
+        "projectUniqueName": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\002 - ArrayDeEstruturas\\002.ArrayDeEstruturas.csproj",
+        "projectName": "002.ArrayDeEstruturas",
+        "projectPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\002 - ArrayDeEstruturas\\002.ArrayDeEstruturas.csproj",
         "packagesPath": "C:\\Users\\rikim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\001ArraySimples NET 7.0\\obj\\",
+        "outputPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\002 - ArrayDeEstruturas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rikim\\AppData\\Roaming\\NuGet\\NuGet.Config",
