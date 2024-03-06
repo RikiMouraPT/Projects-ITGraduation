@@ -36,6 +36,9 @@ namespace _002.ArrayDeEstruturas
                     case 4:
                         AlterarDados(ref aColaboradores);
                         break;
+                    case 5:
+                        EliminarColaborador(ref aColaboradores);
+                        break;
                     default:
                         Console.WriteLine("Opção não existe.");
                         break;
@@ -44,12 +47,13 @@ namespace _002.ArrayDeEstruturas
             Console.ReadLine();
         }
         static int Menu()
-        { 
+        {
             Console.WriteLine("------------MENU------------");
             Console.WriteLine("1 - Inserir Colaboradores.");
             Console.WriteLine("2 - Listar Colaboradores.");
             Console.WriteLine("3 - Consultar Colaborador.");
             Console.WriteLine("4 - Alterar Dados Colaborador.");
+            Console.WriteLine("5 - Remover Colaborador.");
             Console.WriteLine("0 - Sair do programa");
             Console.WriteLine("----------------------------");
 
@@ -64,7 +68,7 @@ namespace _002.ArrayDeEstruturas
 
             Console.WriteLine("Quantos colaboradores quer inserir?");
             int nColab = Convert.ToInt32(Console.ReadLine());
-        
+
             //Verificar tamanho do array atual
             int tamanhoAtual = aColaboradores.Length;
             //Obter tamanho total
@@ -73,7 +77,7 @@ namespace _002.ArrayDeEstruturas
             Array.Resize(ref aColaboradores, novoTamanhoArray);
             //Inserir os dados no array
 
-            for(int i = tamanhoAtual; i < novoTamanhoArray; i++)
+            for (int i = tamanhoAtual; i < novoTamanhoArray; i++)
             {
                 Console.WriteLine("--- Inserir Dados ---");
 
@@ -83,7 +87,7 @@ namespace _002.ArrayDeEstruturas
                     Console.Write("Inserir o código: ");
                     int codigo = Convert.ToInt32(Console.ReadLine());
 
-                    if (VerificaCodigo(aColaboradores, codigo)) //Verifica se se o codigo do colab já está em uso ou não
+                    if (!VerificaCodigo(aColaboradores, codigo)) //Verifica se se o codigo do colab já está em uso ou não
                     {
                         aColaboradores[i].codColab = codigo;
                         fNumValido = true;
@@ -93,7 +97,7 @@ namespace _002.ArrayDeEstruturas
                         Console.WriteLine("Código Existente!");
                     }
                 } while (!fNumValido);
-                
+
                 Console.Write("Inserir o nome: ");
                 aColaboradores[i].nomColab = Console.ReadLine();
 
@@ -125,13 +129,13 @@ namespace _002.ArrayDeEstruturas
             for (int i = 0; i < aColaboradores.Length; i++)
             {
                 Console.WriteLine(
-                    $"--- Colaborador ---\n"+
+                    $"--- Colaborador ---\n" +
                     $"Código: {aColaboradores[i].codColab}\n" +
                     $"Nome: {aColaboradores[i].nomColab}\n" +
                     $"Morada: {aColaboradores[i].morColab}\n" +
                     $"Género: {aColaboradores[i].genColab} \n" +
                     $"Idade: {aColaboradores[i].idaColab} \n" +
-                    $"Vencimento: {aColaboradores[i].venColab}\n"+
+                    $"Vencimento: {aColaboradores[i].venColab}\n" +
                     $"--------------------\n"
                     );
             }
@@ -145,10 +149,10 @@ namespace _002.ArrayDeEstruturas
             {
                 if (num == aColaboradores[i].codColab)
                 {
-                    return false;
+                    return true;
                 }
             }
-            return true;
+            return false;
         }
         static void ConsultarColaborador(sColaborador[] aColaboradores)
         {
@@ -158,7 +162,7 @@ namespace _002.ArrayDeEstruturas
 
             Console.WriteLine("Qual o codigo do colaborador a consultar?");
             int codigoColab = Convert.ToInt32(Console.ReadLine());
-            if (!VerificaCodigo(aColaboradores, codigoColab))
+            if (VerificaCodigo(aColaboradores, codigoColab))
             {
                 for (int i = 0; i < aColaboradores.Length; i++)
                 {
@@ -191,10 +195,16 @@ namespace _002.ArrayDeEstruturas
             Console.WriteLine("----------AlterarDados----------");
             Console.WriteLine("--------------------------------\n");
 
+            ListarColab(aColaboradores);
+
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("----------AlterarDados----------");
+            Console.WriteLine("--------------------------------\n");
+
             Console.WriteLine("Qual o codigo do colaborador a alterar?");
             int codigoColab = Convert.ToInt32(Console.ReadLine());
 
-            if (!VerificaCodigo(aColaboradores, codigoColab))
+            if (VerificaCodigo(aColaboradores, codigoColab))
             {
                 for (int i = 0; i < aColaboradores.Length; i++)
                 {
@@ -271,6 +281,45 @@ namespace _002.ArrayDeEstruturas
             }
             Console.WriteLine("Esse codigo não existe!");
 
+        }
+        static void EliminarColaborador(ref sColaborador[] aColaboradores)
+        {
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("------------Eliminar------------");
+            Console.WriteLine("--------------------------------\n");
+            ListarColab(aColaboradores);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("------------Eliminar------------");
+            Console.WriteLine("--------------------------------\n");
+
+            Console.WriteLine("Qual o codigo do colaborador a apagar?");
+            int codigoColab = Convert.ToInt32(Console.ReadLine());
+
+            if (VerificaCodigo(aColaboradores, codigoColab))
+            {
+                for (int i = 0; i < aColaboradores.Length; i++)
+                {
+                    if (codigoColab == aColaboradores[i].codColab)
+                    {
+                        for (int j = i; j < aColaboradores.Length - 1; j++)
+                        {
+                            aColaboradores[j].codColab = aColaboradores[j + 1].codColab;
+                            aColaboradores[j].nomColab = aColaboradores[j + 1].nomColab;
+                            aColaboradores[j].morColab = aColaboradores[j + 1].morColab;
+                            aColaboradores[j].idaColab = aColaboradores[j + 1].idaColab;
+                            aColaboradores[j].genColab = aColaboradores[j + 1].genColab;
+                            aColaboradores[j].venColab = aColaboradores[j + 1].venColab;
+                        }
+
+                        Array.Resize(ref aColaboradores, aColaboradores.Length - 1);
+                        Console.WriteLine("--------------------------------");
+                        Console.WriteLine("-----------Nova Lista-----------");
+                        Console.WriteLine("--------------------------------\n");
+                        ListarColab(aColaboradores);
+                    }
+                }
+            }
+            Console.WriteLine("Esse codigo não existe!");
         }
     }
 }

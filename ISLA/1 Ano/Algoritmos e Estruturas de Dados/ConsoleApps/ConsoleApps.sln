@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001 - Array Simples", "001 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompoundInterest", "CompoundInterest\CompoundInterest.csproj", "{7293EB46-7596-4E7E-A2D5-54E0C95AAAD7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanCalculator", "LoanCalculator\LoanCalculator.csproj", "{0FA9313D-525A-4363-A0C9-FEE53FDC7FD7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001ArraySimples NET 7", "001ArraySimples NET 7.0\001ArraySimples NET 7.csproj", "{C943A3CE-C200-4449-BE3A-D91F73902D8F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002 - ArrayDeEstruturas", "002 - ArrayDeEstruturas\002 - ArrayDeEstruturas.csproj", "{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}"
@@ -27,10 +25,6 @@ Global
 		{7293EB46-7596-4E7E-A2D5-54E0C95AAAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7293EB46-7596-4E7E-A2D5-54E0C95AAAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7293EB46-7596-4E7E-A2D5-54E0C95AAAD7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FA9313D-525A-4363-A0C9-FEE53FDC7FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FA9313D-525A-4363-A0C9-FEE53FDC7FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FA9313D-525A-4363-A0C9-FEE53FDC7FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FA9313D-525A-4363-A0C9-FEE53FDC7FD7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C943A3CE-C200-4449-BE3A-D91F73902D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C943A3CE-C200-4449-BE3A-D91F73902D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C943A3CE-C200-4449-BE3A-D91F73902D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
