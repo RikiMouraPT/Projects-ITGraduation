@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("001ArraySimples NET 7")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87c5b76d402cc63f84021c197a0f4629530926db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5e63d39376b0d61f6031c83fa2c5ed8c47db3fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("001ArraySimples NET 7")]
 [assembly: System.Reflection.AssemblyTitleAttribute("001ArraySimples NET 7")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

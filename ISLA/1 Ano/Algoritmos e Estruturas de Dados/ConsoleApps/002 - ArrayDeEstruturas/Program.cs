@@ -1,5 +1,9 @@
 ﻿using System.Security.AccessControl;
 using System.Security.Cryptography;
+using System;
+using System.IO;
+using System.Text;
+using System.Globalization;
 
 namespace _002.ArrayDeEstruturas
 {
@@ -39,6 +43,12 @@ namespace _002.ArrayDeEstruturas
                     case 5:
                         EliminarColaborador(ref aColaboradores);
                         break;
+                    case 6:
+                        GuardarFicheiro(aColaboradores);
+                        break;
+                    case 7:
+                        LerFicheiro();
+                        break;
                     default:
                         Console.WriteLine("Opção não existe.");
                         break;
@@ -54,6 +64,8 @@ namespace _002.ArrayDeEstruturas
             Console.WriteLine("3 - Consultar Colaborador.");
             Console.WriteLine("4 - Alterar Dados Colaborador.");
             Console.WriteLine("5 - Remover Colaborador.");
+            Console.WriteLine("6 - Guardar Ficheiro.");
+            Console.WriteLine("7 - Ler Ficheiro.");
             Console.WriteLine("0 - Sair do programa");
             Console.WriteLine("----------------------------");
 
@@ -321,5 +333,33 @@ namespace _002.ArrayDeEstruturas
             }
             Console.WriteLine("Esse codigo não existe!");
         }
+        static void GuardarFicheiro(sColaborador[] aColaboradores)
+        {
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("------------Guardar-------------");
+            Console.WriteLine("--------------------------------\n");
+
+            string dados = "Código; Nome; Morada; Idade; Género; Vencimento\n";
+            for (int i = 0; i < aColaboradores.Length; i++)
+            {
+                dados += $"{aColaboradores[i].codColab};{aColaboradores[i].nomColab};{aColaboradores[i].morColab};{aColaboradores[i].idaColab};{aColaboradores[i].genColab};{aColaboradores[i].venColab}\n";
+            }
+            string path = "C:\\Users\\rikim\\OneDrive\\Ambiente de Trabalho\\colaboradores.csv";
+            File.WriteAllText(path, dados, Encoding.UTF8);
+        }
+        /*static void LerFicheiro()
+        {
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("--------------Ler---------------");
+            Console.WriteLine("--------------------------------\n");
+
+            string path = "C:\\Users\\rikim\\OneDrive\\Ambiente de Trabalho\\colaboradores.csv";
+            string[] lines = File.ReadAllLines(path, Encoding.UTF8);
+            for (int i = 1; i < lines.Length; i++)
+            {
+                string[] colunas = lines[i].Split(";");
+                Console.WriteLine($"Código: {colunas[0]} - Nome: {colunas[1]} - Morada: {colunas[2]} - Idade: {colunas[3]} - Género: {colunas[4]} - Vencimento: {colunas[5]}");
+            }
+        }*/
     }
 }
