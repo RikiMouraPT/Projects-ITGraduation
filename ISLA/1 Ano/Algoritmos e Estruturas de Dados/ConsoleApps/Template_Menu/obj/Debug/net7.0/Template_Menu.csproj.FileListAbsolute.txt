@@ -1,0 +1,15 @@
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\bin\Debug\net7.0\Template_Menu.exe
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\bin\Debug\net7.0\Template_Menu.deps.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\bin\Debug\net7.0\Template_Menu.runtimeconfig.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\bin\Debug\net7.0\Template_Menu.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\bin\Debug\net7.0\Template_Menu.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\Template_Menu.csproj.AssemblyReference.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\Template_Menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\Template_Menu.AssemblyInfoInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\Template_Menu.AssemblyInfo.cs
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\Template_Menu.csproj.CoreCompileInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\Template_Menu.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\refint\Template_Menu.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\Template_Menu.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\Template_Menu.genruntimeconfig.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\Template_Menu\obj\Debug\net7.0\ref\Template_Menu.dll

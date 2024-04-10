@@ -1,0 +1,15 @@
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\bin\Debug\net7.0\005 - StructDentroDeStruct.exe
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\bin\Debug\net7.0\005 - StructDentroDeStruct.deps.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\bin\Debug\net7.0\005 - StructDentroDeStruct.runtimeconfig.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\bin\Debug\net7.0\005 - StructDentroDeStruct.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\bin\Debug\net7.0\005 - StructDentroDeStruct.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\005 - StructDentroDeStruct.csproj.AssemblyReference.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\005 - StructDentroDeStruct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\005 - StructDentroDeStruct.AssemblyInfoInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\005 - StructDentroDeStruct.AssemblyInfo.cs
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\005 - StructDentroDeStruct.csproj.CoreCompileInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\005 - StructDentroDeStruct.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\refint\005 - StructDentroDeStruct.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\005 - StructDentroDeStruct.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\005 - StructDentroDeStruct.genruntimeconfig.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\005 - StructDentroDeStruct\obj\Debug\net7.0\ref\005 - StructDentroDeStruct.dll
