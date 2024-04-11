@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompoundInterest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5e63d39376b0d61f6031c83fa2c5ed8c47db3fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71a0aea9b3afb69013387198317dcc7bf4030eae")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompoundInterest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompoundInterest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,6 +4,7 @@ using System;
 using System.IO;
 using System.Text;
 using System.Globalization;
+using System.Diagnostics;
 
 namespace _002.ArrayDeEstruturas
 {
@@ -47,7 +48,7 @@ namespace _002.ArrayDeEstruturas
                         GuardarFicheiro(aColaboradores);
                         break;
                     case 7:
-                        LerFicheiro();
+
                         break;
                     default:
                         Console.WriteLine("Opção não existe.");

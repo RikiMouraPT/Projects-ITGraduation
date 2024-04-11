@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001ArraySimples NET 7", "00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002 - ArrayDeEstruturas", "002 - ArrayDeEstruturas\002 - ArrayDeEstruturas.csproj", "{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 - ArrayDeEstruturas-Exercicio", "003 - ArrayDeEstruturas-Exercicio\003 - ArrayDeEstruturas-Exercicio.csproj", "{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
