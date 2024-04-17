@@ -84,6 +84,13 @@ namespace _003___ArrayDeEstruturas_Exercicio
                         break;
                     default:
                         Console.WriteLine("Opção não existe.");
+                        MyListener listener = new MyListener();
+                        Debug.Listeners.Add(listener);
+
+                        // this ends up in MyListener.WriteLine, but only in a debug version
+                        Debug.WriteLine("This is a debug log message");
+
+                        Debug.Listeners.Remove(listener);
                         break;
                 }
             } while (opcao != 0);
@@ -113,6 +120,7 @@ namespace _003___ArrayDeEstruturas_Exercicio
             Console.WriteLine("23 - Percentagem de Alunos com dividas.");
             Console.WriteLine("\n0 - Sair do programa");
             Console.WriteLine("----------------------------");
+            
 
             Console.Write("Digite uma opção.");
             try

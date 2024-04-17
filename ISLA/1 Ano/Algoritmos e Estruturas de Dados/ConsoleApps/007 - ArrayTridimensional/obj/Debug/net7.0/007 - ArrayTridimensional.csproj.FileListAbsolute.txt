@@ -1,0 +1,15 @@
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\bin\Debug\net7.0\007 - ArrayTridimensional.exe
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\bin\Debug\net7.0\007 - ArrayTridimensional.deps.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\bin\Debug\net7.0\007 - ArrayTridimensional.runtimeconfig.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\bin\Debug\net7.0\007 - ArrayTridimensional.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\bin\Debug\net7.0\007 - ArrayTridimensional.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\007 - ArrayTridimensional.csproj.AssemblyReference.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\007 - ArrayTridimensional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\007 - ArrayTridimensional.AssemblyInfoInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\007 - ArrayTridimensional.AssemblyInfo.cs
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\007 - ArrayTridimensional.csproj.CoreCompileInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\007 - ArrayTridimensional.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\refint\007 - ArrayTridimensional.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\007 - ArrayTridimensional.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\007 - ArrayTridimensional.genruntimeconfig.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\007 - ArrayTridimensional\obj\Debug\net7.0\ref\007 - ArrayTridimensional.dll

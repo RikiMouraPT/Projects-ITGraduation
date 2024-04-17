@@ -8,10 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _004___StructComArray
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\004 - StructComArray\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
-=======
 build_property.ProjectDir = C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\004 - StructComArray\
->>>>>>> 64cdc90dae6e9ffca8d24cb3957d224a30e89d32
