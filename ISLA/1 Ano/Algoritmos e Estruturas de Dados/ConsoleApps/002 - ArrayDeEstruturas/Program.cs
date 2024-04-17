@@ -48,7 +48,14 @@ namespace _002.ArrayDeEstruturas
                         GuardarFicheiro(aColaboradores);
                         break;
                     case 7:
+<<<<<<< HEAD
 
+=======
+                        LerFicheiro(ref aColaboradores);
+                        break;
+                    case 8:
+                        MaxMinMedVencimento(aColaboradores);
+>>>>>>> 64cdc90dae6e9ffca8d24cb3957d224a30e89d32
                         break;
                     default:
                         Console.WriteLine("Opção não existe.");
@@ -67,6 +74,7 @@ namespace _002.ArrayDeEstruturas
             Console.WriteLine("5 - Remover Colaborador.");
             Console.WriteLine("6 - Guardar Ficheiro.");
             Console.WriteLine("7 - Ler Ficheiro.");
+            Console.WriteLine("8 - Max,Min e Média dos salários.");
             Console.WriteLine("0 - Sair do programa");
             Console.WriteLine("----------------------------");
 
@@ -337,30 +345,71 @@ namespace _002.ArrayDeEstruturas
         static void GuardarFicheiro(sColaborador[] aColaboradores)
         {
             Console.WriteLine("--------------------------------");
-            Console.WriteLine("------------Guardar-------------");
+            Console.WriteLine("-------FICHEIRO GUARDADO--------");
             Console.WriteLine("--------------------------------\n");
 
-            string dados = "Código; Nome; Morada; Idade; Género; Vencimento\n";
+            string dados = "Código; Nome; Morada; Género; Idade; Vencimento\n";
             for (int i = 0; i < aColaboradores.Length; i++)
             {
-                dados += $"{aColaboradores[i].codColab};{aColaboradores[i].nomColab};{aColaboradores[i].morColab};{aColaboradores[i].idaColab};{aColaboradores[i].genColab};{aColaboradores[i].venColab}\n";
+                dados += $"{aColaboradores[i].codColab};{aColaboradores[i].nomColab};{aColaboradores[i].morColab};{aColaboradores[i].genColab};{aColaboradores[i].idaColab};{aColaboradores[i].venColab}\n";
             }
-            string path = "C:\\Users\\rikim\\OneDrive\\Ambiente de Trabalho\\colaboradores.csv";
+            string path = "C:\\Users\\a22309442\\Desktop\\colaboradores.csv";
+            //string path = "C:\\Users\\rikim\\OneDrive\\Ambiente de Trabalho\\colaboradores.csv";
             File.WriteAllText(path, dados, Encoding.UTF8);
         }
-        /*static void LerFicheiro()
+        static void LerFicheiro(ref sColaborador[] aColaboradores)
         {
             Console.WriteLine("--------------------------------");
-            Console.WriteLine("--------------Ler---------------");
+            Console.WriteLine("---------FICHEIRO LIDO----------");
             Console.WriteLine("--------------------------------\n");
 
-            string path = "C:\\Users\\rikim\\OneDrive\\Ambiente de Trabalho\\colaboradores.csv";
+            // string path = "C:\\Users\\rikim\\OneDrive\\Ambiente de Trabalho\\colaboradores.csv";
+            string path = "C:\\Users\\a22309442\\Desktop\\colaboradores.csv";
             string[] lines = File.ReadAllLines(path, Encoding.UTF8);
+
+            Array.Resize(ref aColaboradores, lines.Length - 1);
+
             for (int i = 1; i < lines.Length; i++)
             {
                 string[] colunas = lines[i].Split(";");
-                Console.WriteLine($"Código: {colunas[0]} - Nome: {colunas[1]} - Morada: {colunas[2]} - Idade: {colunas[3]} - Género: {colunas[4]} - Vencimento: {colunas[5]}");
+
+                aColaboradores[i - 1].codColab = Convert.ToInt32(colunas[0]);
+                aColaboradores[i - 1].nomColab = colunas[1];
+                aColaboradores[i - 1].morColab = colunas[2];
+                aColaboradores[i - 1].genColab = colunas[3];
+                aColaboradores[i - 1].idaColab = Convert.ToInt32(colunas[4]);
+                aColaboradores[i - 1].venColab = Convert.ToInt32(colunas[5]);
             }
-        }*/
+        }
+        static void MaxMinMedVencimento(sColaborador[] aColaboradores)
+        {
+            double max = aColaboradores[0].venColab;
+            double min = aColaboradores[0].venColab;
+            double soma = 0;
+            for (int i = 0; i < aColaboradores.Length; i++)
+            {
+                if (aColaboradores[i].venColab > max)
+                {
+                    max = aColaboradores[i].venColab;
+                }
+                else if (aColaboradores[i].venColab < min)
+                {
+                    min = aColaboradores[i].venColab;
+                }
+                soma += aColaboradores[i].venColab;
+            }
+            float media = (float) (soma / aColaboradores.Length);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("------------VALORES-------------");
+            Console.WriteLine("--------------------------------\n");
+            Console.WriteLine("-----------MAIOR-----------");
+            Console.WriteLine($"O maior vencimento é: {max}");
+            Console.WriteLine("-----------MENOR-----------");
+            Console.WriteLine($"O menor vencimento é: {min}");
+            Console.WriteLine("-----------MEDIO-----------");
+            Console.WriteLine($"A media vencimento é: {media}");
+            Console.WriteLine();
+
+        }
     }
 }

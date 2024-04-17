@@ -5,9 +5,15 @@
     "\\ISLA\\1 Ano",
     "\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados",
     "\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps",
+<<<<<<< HEAD
     "\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\002 - ArrayDeEstruturas",
     "\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\003 - ArrayDeEstruturas-Exercicio"
   ],
   "SelectedNode": "\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\003 - ArrayDeEstruturas-Exercicio\\Program.cs",
+=======
+    "\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\002 - ArrayDeEstruturas"
+  ],
+  "SelectedNode": "\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\002 - ArrayDeEstruturas\\Program.cs",
+>>>>>>> 64cdc90dae6e9ffca8d24cb3957d224a30e89d32
   "PreviewInSolutionExplorer": false
 }
