@@ -11,15 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001ArraySimples NET 7", "00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002 - ArrayDeEstruturas", "002 - ArrayDeEstruturas\002 - ArrayDeEstruturas.csproj", "{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}"
 EndProject
-<<<<<<< HEAD
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 - ArrayDeEstruturas-Exercicio", "003 - ArrayDeEstruturas-Exercicio\003 - ArrayDeEstruturas-Exercicio.csproj", "{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 - StructComArray", "004 - StructComArray\004 - StructComArray.csproj", "{FF26AD6A-EC8B-434B-8708-60E9F023113A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003 - ArrayDeEstruturas-Exercicio", "003 - ArrayDeEstruturas-Exercicio\003 - ArrayDeEstruturas-Exercicio.csproj", "{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005 - StructDentroDeStruct", "005 - StructDentroDeStruct\005 - StructDentroDeStruct.csproj", "{FE275A5E-A039-4D95-94B6-57D56625F654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004 - StructComArray", "004 - StructComArray\004 - StructComArray.csproj", "{FF26AD6A-EC8B-434B-8708-60E9F023113A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template_Menu", "Template_Menu\Template_Menu.csproj", "{24222567-7739-4068-960D-F2A5A476AA93}"
->>>>>>> 64cdc90dae6e9ffca8d24cb3957d224a30e89d32
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005 - StructDentroDeStruct", "005 - StructDentroDeStruct\005 - StructDentroDeStruct.csproj", "{FE275A5E-A039-4D95-94B6-57D56625F654}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template_Menu", "Template_Menu\Template_Menu.csproj", "{24222567-7739-4068-960D-F2A5A476AA93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006 - ArrayBidimensional", "006 - ArrayBidimensional\006 - ArrayBidimensional.csproj", "{47A8D1EF-283D-4AED-805E-FD039EC79C84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007 - ArrayTridimensional", "007 - ArrayTridimensional\007 - ArrayTridimensional.csproj", "{EAD06FBE-2B97-4F46-8145-AB79AE58FCD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008 - JaggedArray-Exercicio", "008 - JaggedArray-Exercicio\008 - JaggedArray-Exercicio.csproj", "{6504DFCF-DB61-4723-AB46-F51C26BA89BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,12 +47,10 @@ Global
 		{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F586425-E3FA-4DAF-9890-1A069C0A9D0B}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C120862-7B8F-4758-8EB1-8DEF21FD64ED}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{FF26AD6A-EC8B-434B-8708-60E9F023113A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF26AD6A-EC8B-434B-8708-60E9F023113A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF26AD6A-EC8B-434B-8708-60E9F023113A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,7 +63,18 @@ Global
 		{24222567-7739-4068-960D-F2A5A476AA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24222567-7739-4068-960D-F2A5A476AA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24222567-7739-4068-960D-F2A5A476AA93}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 64cdc90dae6e9ffca8d24cb3957d224a30e89d32
+		{47A8D1EF-283D-4AED-805E-FD039EC79C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A8D1EF-283D-4AED-805E-FD039EC79C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A8D1EF-283D-4AED-805E-FD039EC79C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A8D1EF-283D-4AED-805E-FD039EC79C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD06FBE-2B97-4F46-8145-AB79AE58FCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD06FBE-2B97-4F46-8145-AB79AE58FCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD06FBE-2B97-4F46-8145-AB79AE58FCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD06FBE-2B97-4F46-8145-AB79AE58FCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6504DFCF-DB61-4723-AB46-F51C26BA89BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6504DFCF-DB61-4723-AB46-F51C26BA89BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6504DFCF-DB61-4723-AB46-F51C26BA89BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6504DFCF-DB61-4723-AB46-F51C26BA89BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
