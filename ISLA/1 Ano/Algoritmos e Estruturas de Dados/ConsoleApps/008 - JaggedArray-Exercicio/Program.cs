@@ -12,39 +12,69 @@
             //Variaveis
             Student[] aStudents = new Student[2];
 
-            InserirAluno(ref aStudents);
-            ListarDados(aStudents);
+            InserirAlunos(ref aStudents);
+            ListarAlunos(aStudents);
 
-            /*
-            aStudents[0] = new Student();
-            aStudents[0].uc = new int[3][]; // 3 Disciplinas
-            aStudents[0].nome = "Maria";
-            aStudents[0].uc[0] = new int[] { 12, 15, 7, 9 };
-            aStudents[0].uc[1] = new int[] { 12, 15 };
-            aStudents[0].uc[2] = new int[] { 12, 18, 20, 14, 17 };
-
-            aStudents[1] = new Student();
-            aStudents[1].uc = new int[2][]; // 3 Disciplinas
-
-            aStudents[1].nome = "Ricardo";
-            aStudents[1].uc[0] = new int[] { 12 };
-            aStudents[1].uc[1] = new int[] { 12, 15, 17 };
-
-            //listagem
-            Console.WriteLine("Listagem de Alunos");
-            //inserção dos valores com FORs
-            */
         }
-        static void ListarDados(Student[] aStudents)
+        static void ListarAlunos(Student[] aStudents)
         {
+            Console.WriteLine("------------------------");
+            Console.WriteLine("------- LISTAGEM -------");
+            Console.WriteLine("------------------------\n");
 
+            for (int i = 0; i < aStudents.Length ; i++)
+            { 
+                Console.WriteLine($"--- {i + 1}º Aluno ---");
+                Console.WriteLine($"Nome: {aStudents[i].nome}");
+
+                for (int j = 0; j < aStudents[i].uc.Length; j++) 
+                {
+                    Console.WriteLine($"Disciplina {j + 1}");
+
+                    for (int k = 0; k < aStudents[i].uc[j].Length; k++)
+                    {
+                        Console.WriteLine($"Nota {k + 1}: {aStudents[i].uc[j][k]}");
+                    }
+                    Console.WriteLine("");
+                }               
+            }
 
             Console.WriteLine("Pressione ENTER p/ continuar.");
             Console.ReadKey();
         }
-        static void InserirAluno(ref Student[] aStudents)
+        static void InserirAlunos(ref Student[] aStudents)
         {
+            Console.WriteLine("------------------------");
+            Console.WriteLine("------- INSERIR --------");
+            Console.WriteLine("------------------------\n");
 
+            for (int l = 0; l < aStudents.Length; l++)  
+            {
+                aStudents[l] = new Student();
+                Console.Write("Nome: ");
+                aStudents[l].nome = Console.ReadLine();
+
+                Console.Write("Numero de Disciplinas: ");
+                int nDisciplinas = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("");
+
+                aStudents[l].uc = new int[nDisciplinas][];
+
+                for (int i = 0; i < nDisciplinas; i++)
+                {
+                    Console.WriteLine($"Disciplina {i + 1}");
+                    Console.Write("Quantidade de Notas: ");
+                    int nNotas = Convert.ToInt32(Console.ReadLine());
+                    aStudents[l].uc[i] = new int[nNotas];// Atribui o tamanho das notas consoante o valor inserido
+
+                    for (int j = 0; j < nNotas; j++)
+                    {
+                        Console.Write($"{j + 1}ª Nota: ");
+                        aStudents[l].uc[i][j] = Convert.ToInt32(Console.ReadLine());
+                    }
+                    Console.WriteLine("");
+                }
+            }
         }
     }
 }
