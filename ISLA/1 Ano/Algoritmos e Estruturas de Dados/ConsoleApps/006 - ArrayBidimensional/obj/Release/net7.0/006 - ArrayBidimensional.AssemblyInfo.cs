@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("006 - ArrayBidimensional")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73ff9d166ee163ce9819d0d600be49746dc8c16c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bab452693cf7c1a73f5cf0d3ca3479c222421b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("006 - ArrayBidimensional")]
 [assembly: System.Reflection.AssemblyTitleAttribute("006 - ArrayBidimensional")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
