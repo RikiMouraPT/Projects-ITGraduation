@@ -1,4 +1,4 @@
-﻿namespace _008___JaggedArray
+﻿namespace _008___JaggedArray_Exercicio
 {
     internal class Program
     {//Ricardo Moura 17/04/2024

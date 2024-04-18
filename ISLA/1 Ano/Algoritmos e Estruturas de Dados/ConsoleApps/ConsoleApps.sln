@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006 - ArrayBidimensional", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007 - ArrayTridimensional", "007 - ArrayTridimensional\007 - ArrayTridimensional.csproj", "{EAD06FBE-2B97-4F46-8145-AB79AE58FCD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008 - JaggedArray", "008 - JaggedArray\008 - JaggedArray.csproj", "{641A850B-D8E2-46F0-9905-CB64E06020DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008 - JaggedArray-Exercicio", "008 - JaggedArray-Exercicio\008 - JaggedArray-Exercicio.csproj", "{6504DFCF-DB61-4723-AB46-F51C26BA89BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +71,10 @@ Global
 		{EAD06FBE-2B97-4F46-8145-AB79AE58FCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD06FBE-2B97-4F46-8145-AB79AE58FCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD06FBE-2B97-4F46-8145-AB79AE58FCD7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{641A850B-D8E2-46F0-9905-CB64E06020DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{641A850B-D8E2-46F0-9905-CB64E06020DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{641A850B-D8E2-46F0-9905-CB64E06020DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{641A850B-D8E2-46F0-9905-CB64E06020DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6504DFCF-DB61-4723-AB46-F51C26BA89BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6504DFCF-DB61-4723-AB46-F51C26BA89BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6504DFCF-DB61-4723-AB46-F51C26BA89BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6504DFCF-DB61-4723-AB46-F51C26BA89BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
