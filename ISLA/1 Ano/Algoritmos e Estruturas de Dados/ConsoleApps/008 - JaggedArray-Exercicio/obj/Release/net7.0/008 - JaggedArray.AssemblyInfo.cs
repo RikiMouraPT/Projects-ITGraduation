@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("008 - JaggedArray")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc99000ace47671dcad6135f50323886ee979995")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73ff9d166ee163ce9819d0d600be49746dc8c16c")]
 [assembly: System.Reflection.AssemblyProductAttribute("008 - JaggedArray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("008 - JaggedArray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

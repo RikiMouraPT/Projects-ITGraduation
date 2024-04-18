@@ -11,10 +11,10 @@
         {
             //Variaveis
             Student[] aStudents = new Student[2];
+            InserirAluno();
 
             aStudents[0] = new Student();
             aStudents[0].uc = new int[3][]; // 3 Disciplinas
-
             aStudents[0].nome = "Maria";
             aStudents[0].uc[0] = new int[] { 12, 15, 7, 9 };
             aStudents[0].uc[1] = new int[] { 12, 15 };
@@ -28,9 +28,22 @@
             aStudents[1].uc[1] = new int[] { 12, 15, 17 };
 
             //listagem
-
+            Console.WriteLine("Listagem de Alunos");
             //inserção dos valores com FORs
+        }
+        static void ListarDados(Student aStudents)
+        {
 
+        }
+        static void InserirAluno(Student aStudent)
+        {
+            aStudents = new Student();
+            //Pedir ao utilizador o nome do aluno
+            Console.Write("Nome do Aluno: ");
+            aStudents.nome = Console.ReadLine();
+            Console.
+
+            aStudents.uc = new int[3][]; // 3 Disciplinas
         }
     }
 }
