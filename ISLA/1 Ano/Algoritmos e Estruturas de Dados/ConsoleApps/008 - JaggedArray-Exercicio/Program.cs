@@ -58,7 +58,7 @@
                 int nDisciplinas = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("");
 
-                aStudents[l].uc = new int[nDisciplinas][];
+                aStudents[l].uc = new int[nDisciplinas][];// Atribui o tamanho das UCs consoante o valor inserido
 
                 for (int i = 0; i < nDisciplinas; i++)
                 {
@@ -75,6 +75,8 @@
                     Console.WriteLine("");
                 }
             }
+            Console.WriteLine("Pressione ENTER p/ continuar.");
+            Console.ReadKey();
         }
     }
 }
