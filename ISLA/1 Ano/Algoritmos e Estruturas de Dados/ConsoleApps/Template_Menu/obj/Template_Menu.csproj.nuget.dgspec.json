@@ -1,27 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\Template_Menu.csproj": {}
+    "C:\\Users\\a22309442\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\Template_Menu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\Template_Menu.csproj": {
+    "C:\\Users\\a22309442\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\Template_Menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\Template_Menu.csproj",
+        "projectUniqueName": "C:\\Users\\a22309442\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\Template_Menu.csproj",
         "projectName": "Template_Menu",
-        "projectPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\Template_Menu.csproj",
-        "packagesPath": "C:\\Users\\rikim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\obj\\",
+        "projectPath": "C:\\Users\\a22309442\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\Template_Menu.csproj",
+        "packagesPath": "C:\\Users\\a22309442\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a22309442\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\ConsoleApps\\Template_Menu\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rikim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\a22309442\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
