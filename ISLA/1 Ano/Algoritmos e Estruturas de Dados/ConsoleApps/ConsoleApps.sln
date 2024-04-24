@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009 - Fibonacci", "009 - Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010 - SomasSucessivas", "010 - SomasSucessivas\010 - SomasSucessivas.csproj", "{C7339417-6BA9-4A7A-9F3D-F3EC8A9E62D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011 - BubbleSort", "011 - BubbleSort\011 - BubbleSort.csproj", "{3C2355BE-315D-49DF-8CC6-79AA068F4C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012 - Recursividade", "012 - Recursividade\012 - Recursividade.csproj", "{1CBA2252-DB24-42FD-A8AA-8E420A48A877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{C7339417-6BA9-4A7A-9F3D-F3EC8A9E62D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7339417-6BA9-4A7A-9F3D-F3EC8A9E62D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7339417-6BA9-4A7A-9F3D-F3EC8A9E62D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2355BE-315D-49DF-8CC6-79AA068F4C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2355BE-315D-49DF-8CC6-79AA068F4C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2355BE-315D-49DF-8CC6-79AA068F4C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2355BE-315D-49DF-8CC6-79AA068F4C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CBA2252-DB24-42FD-A8AA-8E420A48A877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBA2252-DB24-42FD-A8AA-8E420A48A877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBA2252-DB24-42FD-A8AA-8E420A48A877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBA2252-DB24-42FD-A8AA-8E420A48A877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

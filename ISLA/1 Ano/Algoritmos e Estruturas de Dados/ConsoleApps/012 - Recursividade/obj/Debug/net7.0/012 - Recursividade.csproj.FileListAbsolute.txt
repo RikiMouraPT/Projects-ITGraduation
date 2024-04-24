@@ -1,0 +1,15 @@
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\bin\Debug\net7.0\012 - Recursividade.exe
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\bin\Debug\net7.0\012 - Recursividade.deps.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\bin\Debug\net7.0\012 - Recursividade.runtimeconfig.json
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\bin\Debug\net7.0\012 - Recursividade.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\bin\Debug\net7.0\012 - Recursividade.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\012 - Recursividade.csproj.AssemblyReference.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\012 - Recursividade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\012 - Recursividade.AssemblyInfoInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\012 - Recursividade.AssemblyInfo.cs
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\012 - Recursividade.csproj.CoreCompileInputs.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\012 - Recursividade.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\refint\012 - Recursividade.dll
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\012 - Recursividade.pdb
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\012 - Recursividade.genruntimeconfig.cache
+C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\ConsoleApps\012 - Recursividade\obj\Debug\net7.0\ref\012 - Recursividade.dll
