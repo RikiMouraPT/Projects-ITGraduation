@@ -12,13 +12,14 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\a22309442\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\rikim\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\a22309442\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
       "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "configProperties": {
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }

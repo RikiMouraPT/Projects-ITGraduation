@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 - Calculadora", "001 - Calculadora\001 - Calculadora.csproj", "{38914EE9-DBD8-4272-AAB4-7FDEC1B844EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001 - Calculadora", "001 - Calculadora\001 - Calculadora.csproj", "{38914EE9-DBD8-4272-AAB4-7FDEC1B844EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002 - Multibanco", "002 - Multibanco\002 - Multibanco.csproj", "{94075836-1652-4B98-8FBC-BD7DF86B298A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{38914EE9-DBD8-4272-AAB4-7FDEC1B844EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38914EE9-DBD8-4272-AAB4-7FDEC1B844EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38914EE9-DBD8-4272-AAB4-7FDEC1B844EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94075836-1652-4B98-8FBC-BD7DF86B298A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94075836-1652-4B98-8FBC-BD7DF86B298A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94075836-1652-4B98-8FBC-BD7DF86B298A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94075836-1652-4B98-8FBC-BD7DF86B298A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

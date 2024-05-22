@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("005 - StructDentroDeStruct")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bab452693cf7c1a73f5cf0d3ca3479c222421b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bde945f3ea432f56b783de26ee2b246766f0aed9")]
 [assembly: System.Reflection.AssemblyProductAttribute("005 - StructDentroDeStruct")]
 [assembly: System.Reflection.AssemblyTitleAttribute("005 - StructDentroDeStruct")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
