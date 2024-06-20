@@ -1,0 +1,18 @@
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\bin\Debug\net7.0-windows\002 - Multibanco.exe
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\bin\Debug\net7.0-windows\002 - Multibanco.deps.json
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\bin\Debug\net7.0-windows\002 - Multibanco.runtimeconfig.json
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\bin\Debug\net7.0-windows\002 - Multibanco.dll
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\bin\Debug\net7.0-windows\002 - Multibanco.pdb
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\_002___Multibanco.FormMultibanco.resources
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\002 - Multibanco.csproj.GenerateResource.cache
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\002 - Multibanco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\002 - Multibanco.AssemblyInfoInputs.cache
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\002 - Multibanco.AssemblyInfo.cs
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\002 - Multibanco.csproj.CoreCompileInputs.cache
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\002 - Multibanco.sourcelink.json
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\002 - Multibanco.dll
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\refint\002 - Multibanco.dll
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\002 - Multibanco.pdb
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\002 - Multibanco.genruntimeconfig.cache
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\ref\002 - Multibanco.dll
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\002 - Multibanco\obj\Debug\net7.0-windows\_002___Multibanco.Properties.Resources.resources

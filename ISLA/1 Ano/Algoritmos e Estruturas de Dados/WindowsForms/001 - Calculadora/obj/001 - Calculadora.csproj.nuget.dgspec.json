@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rikim\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\001 - Calculadora.csproj": {}
+    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\001 - Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rikim\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\001 - Calculadora.csproj": {
+    "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\001 - Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rikim\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\001 - Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\001 - Calculadora.csproj",
         "projectName": "001 - Calculadora",
-        "projectPath": "C:\\Users\\rikim\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\001 - Calculadora.csproj",
+        "projectPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\001 - Calculadora.csproj",
         "packagesPath": "C:\\Users\\rikim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rikim\\Source\\Repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\rikim\\source\\repos\\Projects-ITGraduation\\ISLA\\1 Ano\\Algoritmos e Estruturas de Dados\\WindowsForms\\001 - Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rikim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

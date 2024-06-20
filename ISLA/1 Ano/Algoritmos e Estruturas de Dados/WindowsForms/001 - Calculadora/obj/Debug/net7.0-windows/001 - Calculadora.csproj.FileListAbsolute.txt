@@ -16,3 +16,21 @@ C:\Users\a22309442\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Es
 C:\Users\a22309442\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.genruntimeconfig.cache
 C:\Users\a22309442\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\ref\001 - Calculadora.dll
 C:\Users\a22309442\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\_001___Calculadora.Properties.Resources.resources
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\bin\Debug\net7.0-windows\001 - Calculadora.exe
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\bin\Debug\net7.0-windows\001 - Calculadora.deps.json
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\bin\Debug\net7.0-windows\001 - Calculadora.runtimeconfig.json
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\bin\Debug\net7.0-windows\001 - Calculadora.dll
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\bin\Debug\net7.0-windows\001 - Calculadora.pdb
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\_001___Calculadora.Form1.resources
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\_001___Calculadora.Properties.Resources.resources
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.csproj.GenerateResource.cache
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.AssemblyInfoInputs.cache
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.AssemblyInfo.cs
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.sourcelink.json
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.dll
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\refint\001 - Calculadora.dll
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.pdb
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\001 - Calculadora.genruntimeconfig.cache
+C:\Users\rikim\Source\Repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\001 - Calculadora\obj\Debug\net7.0-windows\ref\001 - Calculadora.dll

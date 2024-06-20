@@ -1,0 +1,35 @@
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\009 - Projeto Final.exe
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\009 - Projeto Final.deps.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\009 - Projeto Final.runtimeconfig.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\009 - Projeto Final.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\009 - Projeto Final.pdb
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formLogin.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.csproj.GenerateResource.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.AssemblyInfoInputs.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.AssemblyInfo.cs
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.csproj.CoreCompileInputs.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.sourcelink.json
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\refint\009 - Projeto Final.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.pdb
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.genruntimeconfig.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\ref\009 - Projeto Final.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.Properties.Resources.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formAnalises.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formProdutos.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formVendas.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formVendedores.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formMenu.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formInserirVendedor.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formCriarConta.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formAlterarVendedor.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\_009___Projeto_Final.formEliminarVendedor.resources
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Projeto Final.csproj.AssemblyReference.cache
+C:\Users\rikim\source\repos\Projects-ITGraduation\ISLA\1 Ano\Algoritmos e Estruturas de Dados\WindowsForms\009 - Projeto Final\obj\Debug\net7.0-windows\009 - Pr.CC87D529.Up2Date
