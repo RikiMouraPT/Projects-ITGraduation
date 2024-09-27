@@ -31,6 +31,8 @@ namespace _001
             aluno.Telefone = "0001";
 
             aluno2.Codigo = aluno.Codigo + 1;
+
+            aluno2 = aluno.Copy2();
         }
     }
 }
