@@ -16,5 +16,21 @@ namespace _001
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = 0;
+            string x = string.Empty;
+
+
+            Aluno aluno = new Aluno();
+            Aluno aluno2 = new Aluno();
+
+            aluno.Codigo = 3;
+            aluno.Nome = "Ricardo";
+            aluno.Telefone = "0001";
+
+            aluno2.Codigo = aluno.Codigo + 1;
+        }
     }
 }

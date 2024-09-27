@@ -1,0 +1,87 @@
+Tarefa 01
+1. Web - Cliente
+2. Internet e Web
+3. Modelo OSI; Modelo TCP/IP.
+4. Web Design vs Web Development
+5. UI (User Interface) vs UX (User Experience)
+6. Aspetos a ter em consideração no projeto de um web site
+7. Domínio e alojamento
+8. Estrutura Cliente – Servidor
+9. HTML, CSS e JS
+
+Respostas:
+1- Refere-se a tudo o que o utilizador interage diretamente num site. 
+O cliente (geralmente um navegador como Chrome, Firefox, etc.) é responsável 
+por receber e interpretar os pedidos enviados para o servidor, mostrando os
+resultados ao utilizador. As tecnologias mais comuns no lado do cliente são HTML, CSS e JavaScript.
+
+2- A Internet é uma rede global de computadores interconectados que 
+comunicam entre si. A Web (World Wide Web) é um serviço que corre 
+sobre a Internet, permitindo o acesso a documentos e recursos interligados 
+por meio de URLs e acessíveis através de navegadores. Em suma, a Internet 
+é a infraestrutura, e a Web é um dos serviços disponíveis nessa rede.
+
+3- Modelo OSI: Um modelo conceptual que divide a comunicação de redes em 7 
+camadas (Física, Ligação de Dados, Rede, Transporte, Sessão, Apresentação, 
+Aplicação), cada uma com funções específicas.
+
+Modelo TCP/IP: Mais prático e simplificado, usado na comunicação real. 
+Tem 4 camadas (Interface de Rede, Internet, Transporte e Aplicação) e é 
+a base da Internet moderna.
+
+4- Web Design: Foca-se no aspeto visual e na experiência do utilizador. 
+Inclui a criação de layouts, escolha de cores, tipografia, e design responsivo.
+
+Web Development: Refere-se ao desenvolvimento técnico do site, envolvendo 
+o codigo e funcionalidade. Pode ser dividido em desenvolvimento 
+frontend (HTML, CSS, JavaScript) e backend (servidores, bases de dados).
+
+5- UI (Interface do Utilizador): Refere-se ao design dos elementos que o 
+utilizador vê e com os quais interage, como botões, menus, e layouts.
+
+UX (Experiência do Utilizador): Envolve a usabilidade e a eficiência com
+que um utilizador interage com um sistema, com foco na satisfação e facilidade de uso.
+
+6- Design responsivo, Usabilidade, Acessibilidade, SEO (Search Engine Optimization), Segurança
+
+7- Domínio: O nome do site (por exemplo, www.google.com), que serve como o endereço na Web.
+Alojamento (Hosting): Onde os arquivos e dados do site são armazenados e disponibilizados para acesso através da Internet.
+
+8. Estrutura Cliente – Servidor
+O Cliente é o dispositivo (como o computador) que envia pedidos a um 
+Servidor, que processa esses pedidos e devolve os dados necessários. 
+Por exemplo, quando vista-se um site, o navegador (cliente) envia uma requisição ao 
+servidor, que responde com o conteúdo da página.
+
+9. HTML, CSS e JS
+HTML (HyperText Markup Language): A estrutura básica do conteúdo da página (texto, imagens, vídeos).
+CSS (Cascading Style Sheets): A forma como os elementos HTML são apresentados, controlando cores, layouts e estilo geral.
+JavaScript (JS): Linguagem de programação que permite adicionar interatividade, como animações, validações de formulários e outras funcionalidades dinâmicas.
+
+
+
+Tarefa 4
+
+Tag HTML: Marca elementos no documento HTML. Exemplo: <p> para parágrafos.
+Tag Head vs Tag Body:
+Head: Contém metadados (título, links, etc.).
+Body: Contém o conteúdo visível (texto, imagens).
+
+Tags do Head:
+<title>: Define o título da página na aba do navegador.
+<style>: Aplica CSS diretamente na página.
+<script>: Adiciona JavaScript para funcionalidades dinâmicas.
+<link>: Liga a recursos externos como CSS.
+<meta>: Fornece metadados (ex.: charset).
+<base>: Define o URL base para links relativos.
+
+Tag Div e Tags HTML5:
+<div>: Elemento genérico para agrupar conteúdo.
+<header>: Cabeçalho da página ou secção.
+<footer>: Rodapé da página.
+<nav>: Secção de navegação.
+<section>: Divide a página em secções.
+<article>: Conteúdo independente, como artigos.
+<aside>: Conteúdo relacionado, como barras laterais.
+<figure>: Agrupa conteúdo multimédia (imagens).
+Semântica das tags: Melhoram a acessibilidade e compreensão do conteúdo pelos motores de busca e utilizadores.
