@@ -1,0 +1,39 @@
+CSS em linha (inline)
+Vantagens:
+Permite aplicar estilos rapidamente a elementos específicos.
+Útil para alterações rápidas ou personalização de estilos em situações pontuais.
+
+Desvantagens:
+Difícil de manter e atualizar em projetos maiores, pois o código de estilo fica espalhado.
+Aumenta o tamanho do código HTML, tornando-o mais confuso.
+Pouca reutilização de código.
+
+
+CSS interno (internal)
+Vantagens:
+Facilita a organização do estilo para uma única página.
+Melhora a centralização e organização dos estilos comparado ao uso em linha.
+
+Desvantagens:
+Não é reutilizável em várias páginas, o que pode resultar em duplicação de código.
+Em projetos maiores, torna-se mais difícil de gerir à medida que o número de estilos aumenta.
+
+
+CSS externo (external)
+Vantagens:
+Reutilizável em múltiplas páginas, facilitando a manutenção.
+Melhora a organização, separando o estilo do conteúdo HTML.
+Diminui o tamanho dos ficheiros HTML, tornando-os mais limpos e leves.
+
+Desvantagens:
+Se o ficheiro CSS externo falhar ao carregar, o site pode aparecer sem estilos.
+Leva a mais pedidos HTTP, o que pode ligeiramente aumentar o tempo de carregamento da página (especialmente em redes lentas).
+
+
+IDs
+Um ID é um identificador único, utilizado para distinguir um único elemento dentro do documento HTML. No ficheiro 
+HTML, um ID é atribuído através do atributo id.
+
+Classes
+Uma classe pode ser utilizada para agrupar vários elementos HTML, permitindo a aplicação do mesmo estilo 
+a vários componentes de uma página. Ao contrário dos IDs, as classes podem ser repetidas em vários elementos.

@@ -1,0 +1,32 @@
+header{ 
+    background-color:rgb(222, 61, 61); 
+    color:white; 
+    text-align:center; 
+    padding:5px; 
+} 
+nav { 
+    line-height:30px; 
+    background-color:#eeeeee; 
+    height:200px; 
+    width:150px; 
+    float:left; 
+    padding:15px;         
+} 
+section { 
+    width:100px; 
+    float:left; 
+    padding:10px;     
+} 
+footer { 
+    background-color:black; 
+    color:white; 
+    clear:both; 
+    text-align:center; 
+    padding:5px;      
+}
+p  { 
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+    color: #703e3e; 
+    text-align: justify; 
+}
