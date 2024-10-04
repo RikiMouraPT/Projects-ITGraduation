@@ -38,6 +38,7 @@ namespace Practice001
 
         private void button2_Click(object sender, EventArgs e)
         {
+            #region Lista   
             int a = 0;
             string x = string.Empty;
             DateTime data = new DateTime(2024, 1, 10);
@@ -57,7 +58,30 @@ namespace Practice001
             Produto p4 = new Produto(id, nome, dataCompra, dataVenda);
             //------------
 
-            this.listBox1.Items.Add(p1.ID + " - " + p1.Nome);   
+
+            ProdutoCollection produtos = new ProdutoCollection();
+
+            produtos.Add(p1);
+            produtos.Add(p2);
+            produtos.Add(p3);
+            produtos.Add(p4);
+
+            this.listBox1.DataSource = produtos;
+            #endregion
+
+            int contador = 0;
+
+            DateTime DiaHoje = DateTime.Today;
+
+            foreach (Produto item in produtos)
+            {
+                DateTime dataDeVenda = item.DataVenda;
+
+                if ( dataDeVenda < DiaHoje)
+                {
+                    contador++;
+                }
+            }
         }
     }
 }

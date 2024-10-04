@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice001.Venda
 {
-    internal class Produto
+    public class Produto
     {
         #region Construtores
         public Produto()
@@ -58,8 +58,5 @@ namespace Practice001.Venda
             set { dataVenda = value; }
         }
         #endregion
-
-
     }
-
 }
