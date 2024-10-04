@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _007___ArrayTridimensional
-build_property.ProjectDir = C:\Users\a22309442\Source\Repos\Projects-ITGraduation\ISLA\Year 1\Algorithms and Data Structures\ConsoleApps\007 - ArrayTridimensional\
+build_property.ProjectDir = C:\Users\rikim\Source\Repos\RikiMouraPT\Projects-ITGraduation\ISLA\Year 1\Algorithms and Data Structures\ConsoleApps\007 - ArrayTridimensional\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

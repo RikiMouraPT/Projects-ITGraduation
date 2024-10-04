@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _001
+namespace Practice001
 {
     internal class Aluno
     {
