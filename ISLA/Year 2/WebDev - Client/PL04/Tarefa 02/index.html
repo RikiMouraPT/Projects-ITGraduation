@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en"> 
+<head> 
+  <title>Formulário</title>  
+  <meta charset="UTF-8">
+  <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    max-width: 630px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+div {
+    margin-bottom: 15px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 10px;   
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(86, 250, 86);
+    color: black;
+    cursor: pointer;
+}
+button[type="reset"] {
+    background-color: rgb(255, 0, 0, 0.8);
+}
+button:hover {
+    opacity: 0.9;
+}
+
+  </style>
+</head> 
+<body> 
+    <h1>Formulário</h1> 
+    <form method="POST" action="#"> 
+        <div class="inputs">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="email" id="email" placeholder="E-mail">
+            <input type="date" id="dataNasc" placeholder="Data de Nascimento">
+            <input type="text" id="morada" placeholder="Morada">
+            <input type="text" id="localidade" placeholder="Localidade">
+            <input type="text" id="telefone" placeholder="Telefone">
+
+            <label>Sexo</label>
+            <input type="radio" id="masc" name="sexo" value="masc"/> Masculino
+            <input type="radio" id="fem" name="sexo" value="fem"/> Feminino
+
+            <select id="cpostal">
+                <option selected>Codigo Postal</option>
+                <option value="4200">4200</option>
+                <option value="4410">4410</option>
+                <option value="4450">4450</option>
+            </select>
+
+            <label> Aulas que pretende frequentar?</label>
+            <input type="checkbox" id="pilates" value="pilates"/> Pilates
+            <input type="checkbox" id="zumba" value="zumba"/> Zumba
+            <input type="checkbox" id="crossfit" value="crossfit"/> Crossfit
+            <input type="checkbox" id="cardio" value="cardio"/> Cardio
+            <input type="checkbox" id="musculacao" value="musculacao"/> Musculação
+
+            <label>Quais os dias da semana que pensa frequentar</label>
+            <input type="checkbox" id="seg" value="seg"/> Segunda
+            <input type="checkbox" id="ter" value="ter"/> Terça
+            <input type="checkbox" id="qua" value="qua"/> Quarta
+            <input type="checkbox" id="qui" value="qui"/> Quinta
+            <input type="checkbox" id="sex" value="sex"/> Sexta
+            <input type="checkbox" id="sab" value="sab"/> Sábado
+            <input type="checkbox" id="dom" value="dom"/> Domingo
+            
+            <label>Quer PT?</label>
+            <input type="radio" id="sim" name="pt" value="sim"/> Sim
+            <input type="radio" id="nao" name="pt" value="nao"/> Não
+
+            <label>Quer plano alimentar?</label>
+            <input type="radio" id="sim" name="plano" value="sim"/> Sim
+            <input type="radio" id="nao" name="plano" value="nao"/> Não
+
+            <input type="text" id="doencas" placeholder="Doenças ou outras patologias importantes para o PT?">
+
+        </div>
+        <div class="botoes">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form> 
+</body> 
+</html>

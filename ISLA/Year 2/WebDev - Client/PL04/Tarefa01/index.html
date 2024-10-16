@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en"> 
+<head> 
+  <title>Formulário</title>  
+  <meta charset="UTF-8">
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    div {
+        margin-bottom: 15px;
+    }
+    input[type="email"],
+    input[type="password"],
+    input[type="text"],
+    select {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 10px;
+    }
+    button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        background-color: #5cb85c;
+        color: white;
+        cursor: pointer;
+    }
+    button[type="reset"] {
+        background-color: #d9534f;
+    }
+    button:hover {
+        opacity: 0.9;
+    }
+  </style>
+</head> 
+<body> 
+    <h1>Formulário</h1> 
+    <form method="POST" action="#"> 
+        <div> 
+            <input type="email" id="email" placeholder="E-mail"/> 
+        </div> 
+        <div> 
+            <input type="password" id="password" placeholder="Password"/> 
+        </div> 
+        <div> 
+            <input type="text" id="nome" placeholder="Nome"/> 
+        </div> 
+        <div> 
+            <input type="text" id="localidade" placeholder="Localidade"/> 
+        </div> 
+        <div> 
+            <label>Codigo-Postal</label> 
+            <select id="cpostal"> 
+                <option selected>Escolha...</option> 
+                <option value="4200">4200</option> 
+                <option value="4410">4410</option> 
+                <option value="4450">4450</option> 
+            </select> 
+        </div> 
+        <div> 
+            <label>Sexo</label> 
+            <input type="radio" id="masc" name="sexo" value="masc"/> Masculino  
+            <input type="radio" id="fem" name="sexo" value="fem"/> Feminino 
+        </div>
+        <div> 
+            <label>Tipo de Transporte</label> 
+            <input type="checkbox" id="carro" name="trasp" value="carro"/> Carro  
+            <input type="checkbox" id="bus" name="trasp" value="bus"/> Bus 
+            <input type="checkbox" id="metro" name="trasp" value="metro"/> Metro 
+        </div> 
+        <div> 
+            <button type="submit">Enviar</button> 
+            <button type="reset">Limpar</button> 
+        </div> 
+    </form> 
+</body> 
+</html>

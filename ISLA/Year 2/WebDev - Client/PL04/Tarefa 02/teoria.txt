@@ -1,0 +1,21 @@
+a. POST envia dados de forma segura, sem exibir na URL; GET anexa os dados à URL e é mais visível.
+
+b. O atributo action define o URL ou o destino para onde os dados do formulário são enviados.
+
+c. Tipos de input:
+text: Entrada de texto simples;
+password: Oculta os caracteres digitados;
+email: Valida e-mails;
+url: Valida URLs;
+number: Apenas números;
+radio: Escolha única entre opções;
+checkbox: Seleção múltipla;
+date: Escolhe uma data;
+submit: Submete o formulário;
+reset: Reseta o formulário;
+color: Seleção de cores.
+
+d. select cria um menu suspenso.
+input list usa um campo de texto com sugestões automáticas.
+
+e. A tag textarea é usada para inserir grandes blocos de texto.
