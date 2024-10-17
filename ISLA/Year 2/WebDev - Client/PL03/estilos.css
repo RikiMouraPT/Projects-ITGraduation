@@ -1,0 +1,106 @@
+header {
+    background-color: #696969;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header p {
+    font-size: 3rem;
+    margin: 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.columns{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    display: inline-block;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.description{
+    display: block;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Footer */
+footer {
+    background-color: #696969;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.linha {
+    margin: 10px;
+    color: #ffffff;
+}
+
+.linha_final {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.linha img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+/* GALERIA */
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.imagens img {
+    margin: 1rem;
+}
+
+.imagens img:hover {
+    transform: scale(1.1);
+    border: #ff0000 solid 2px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+table th, table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table th {
+    background-color: #696969;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
