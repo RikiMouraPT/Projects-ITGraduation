@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Private\\ISLA\\Programacao1\\2023\\Fichas\\Ficha2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0120AFFB-7B5B-4521-A3A8-A13A2D082BAB}|Ficha2\\Ficha2.csproj|d:\\private\\isla\\programacao1\\2023\\fichas\\ficha2\\ficha2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0120AFFB-7B5B-4521-A3A8-A13A2D082BAB}|Ficha2\\Ficha2.csproj|solutionrelative:ficha2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0120AFFB-7B5B-4521-A3A8-A13A2D082BAB}|Ficha2\\Ficha2.csproj|D:\\Private\\ISLA\\Programacao1\\2023\\Fichas\\Ficha2\\ficha2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0120AFFB-7B5B-4521-A3A8-A13A2D082BAB}|Ficha2\\Ficha2.csproj|solutionrelative:ficha2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1562279363:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Private\\ISLA\\Programacao1\\2023\\Fichas\\Ficha2\\Ficha2\\Form1.cs",
+              "RelativeDocumentMoniker": "Ficha2\\Form1.cs",
+              "ToolTip": "D:\\Private\\ISLA\\Programacao1\\2023\\Fichas\\Ficha2\\Ficha2\\Form1.cs",
+              "RelativeToolTip": "Ficha2\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-13T21:51:45.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Private\\ISLA\\Programacao1\\2023\\Fichas\\Ficha2\\Ficha2\\Form1.cs",
+              "RelativeDocumentMoniker": "Ficha2\\Form1.cs",
+              "ToolTip": "D:\\Private\\ISLA\\Programacao1\\2023\\Fichas\\Ficha2\\Ficha2\\Form1.cs [Design]",
+              "RelativeToolTip": "Ficha2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2023-10-13T21:51:39.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
