@@ -1,0 +1,7 @@
+C:\Users\rikim\source\repos\RikiMouraPT\Projects-ITGraduation\ISLA\Year 2\Object Oriented Programming\ProjectExample\CamadaDados\obj\Debug\CamadaDados.csproj.AssemblyReference.cache
+C:\Users\rikim\source\repos\RikiMouraPT\Projects-ITGraduation\ISLA\Year 2\Object Oriented Programming\ProjectExample\CamadaDados\obj\Debug\CamadaDados.csproj.CoreCompileInputs.cache
+C:\Users\rikim\source\repos\RikiMouraPT\Projects-ITGraduation\ISLA\Year 2\Object Oriented Programming\ProjectExample\CamadaDados\bin\Debug\CamadaDados.dll.config
+C:\Users\rikim\source\repos\RikiMouraPT\Projects-ITGraduation\ISLA\Year 2\Object Oriented Programming\ProjectExample\CamadaDados\bin\Debug\CamadaDados.dll
+C:\Users\rikim\source\repos\RikiMouraPT\Projects-ITGraduation\ISLA\Year 2\Object Oriented Programming\ProjectExample\CamadaDados\bin\Debug\CamadaDados.pdb
+C:\Users\rikim\source\repos\RikiMouraPT\Projects-ITGraduation\ISLA\Year 2\Object Oriented Programming\ProjectExample\CamadaDados\obj\Debug\CamadaDados.dll
+C:\Users\rikim\source\repos\RikiMouraPT\Projects-ITGraduation\ISLA\Year 2\Object Oriented Programming\ProjectExample\CamadaDados\obj\Debug\CamadaDados.pdb
