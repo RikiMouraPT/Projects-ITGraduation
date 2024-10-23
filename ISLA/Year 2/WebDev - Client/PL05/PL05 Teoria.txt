@@ -1,0 +1,25 @@
+Tarefa 01
+4.
+a. Container tem largura fixa, enquanto container-fluid 
+ocupa toda a largura disponível, sendo ideal para layouts full-width.
+
+b. O sistema de grelhas usa até 12 colunas, onde a classe 
+col cria divisões de largura variável que se ajustam 
+automaticamente em cada linha.
+
+c. Responsivo significa que o layout se adapta a diferentes 
+tamanhos de ecrã; as media queries são usadas para aplicar 
+estilos específicos a estes tamanhos.
+
+5.
+a. CSS Grid é um sistema de layout bidimensional que permite 
+organizar elementos em linhas e colunas, oferecendo maior 
+controle sobre o posicionamento.
+
+b. Bootstrap é uma framework CSS que facilita o design de 
+layouts responsivos através de classes pré-definidas e componentes 
+prontos.
+
+c. CSS Grid oferece maior flexibilidade para layouts personalizados,
+enquanto o Bootstrap é mais rápido para layouts padrões, com uma 
+abordagem baseada em classes fixas.
