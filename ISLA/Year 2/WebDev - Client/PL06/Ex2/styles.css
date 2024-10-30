@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .styled-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(255, 0, 191);
+    border: 2px black solid;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .styled-button:hover {
+    background-color: rgb(251, 255, 0);
+    color: black;
+    transform: scale(1.2);
+  }
+  

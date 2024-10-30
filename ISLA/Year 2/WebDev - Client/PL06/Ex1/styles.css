@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    animation: boxAnimation 4s infinite;
+  }
+  
+  @keyframes boxAnimation {
+    25% {
+      background-color: lightgreen;
+    }
+    50% {
+      color: white;
+    }
+    75% {
+      width: 150px;
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  
