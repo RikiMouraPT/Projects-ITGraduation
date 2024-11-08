@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8D50012-DF51-41F5-B9D3-2F2471B24A80}|CamadaDados\\CamadaDados.csproj|c:\\users\\rikim\\source\\repos\\rikimourapt\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projectexample\\camadadados\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8D50012-DF51-41F5-B9D3-2F2471B24A80}|CamadaDados\\CamadaDados.csproj|C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\camadadados\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8D50012-DF51-41F5-B9D3-2F2471B24A80}|CamadaDados\\CamadaDados.csproj|solutionrelative:camadadados\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E8238B1-D784-457E-95B7-3AB62CB9BA12}|Project\\Project.csproj|c:\\users\\rikim\\source\\repos\\rikimourapt\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projectexample\\project\\formfornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E8238B1-D784-457E-95B7-3AB62CB9BA12}|Project\\Project.csproj|C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\project\\formfornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E8238B1-D784-457E-95B7-3AB62CB9BA12}|Project\\Project.csproj|solutionrelative:project\\formfornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B256AD3E-192F-448E-B0CA-900AB1EF60B0}|CamadaNegocio\\CamadaNegocio.csproj|c:\\users\\rikim\\source\\repos\\rikimourapt\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projectexample\\camadanegocio\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B256AD3E-192F-448E-B0CA-900AB1EF60B0}|CamadaNegocio\\CamadaNegocio.csproj|C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\camadanegocio\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B256AD3E-192F-448E-B0CA-900AB1EF60B0}|CamadaNegocio\\CamadaNegocio.csproj|solutionrelative:camadanegocio\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,14 +19,14 @@
       "RelativeMoniker": "D:0:0:{5E8238B1-D784-457E-95B7-3AB62CB9BA12}|Project\\Project.csproj|solutionrelative:project\\formfornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B256AD3E-192F-448E-B0CA-900AB1EF60B0}|CamadaNegocio\\CamadaNegocio.csproj|c:\\users\\rikim\\source\\repos\\rikimourapt\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projectexample\\camadanegocio\\fornecedorcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B256AD3E-192F-448E-B0CA-900AB1EF60B0}|CamadaNegocio\\CamadaNegocio.csproj|C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\camadanegocio\\fornecedorcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B256AD3E-192F-448E-B0CA-900AB1EF60B0}|CamadaNegocio\\CamadaNegocio.csproj|solutionrelative:camadanegocio\\fornecedorcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 210,
+      "VerticalTabListWidth": 222,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -66,9 +66,9 @@
               "Title": "Fornecedor.cs",
               "DocumentMoniker": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\CamadaDados\\Fornecedor.cs",
               "RelativeDocumentMoniker": "CamadaDados\\Fornecedor.cs",
-              "ToolTip": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\CamadaDados\\Fornecedor.cs*",
-              "RelativeToolTip": "CamadaDados\\Fornecedor.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwB4AAAAQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\CamadaDados\\Fornecedor.cs",
+              "RelativeToolTip": "CamadaDados\\Fornecedor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T21:03:35.529Z",
               "EditorCaption": ""
@@ -81,7 +81,7 @@
               "RelativeDocumentMoniker": "CamadaNegocio\\Fornecedor.cs",
               "ToolTip": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\CamadaNegocio\\Fornecedor.cs",
               "RelativeToolTip": "CamadaNegocio\\Fornecedor.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T20:59:24.489Z",
               "EditorCaption": ""
@@ -96,8 +96,7 @@
               "RelativeToolTip": "CamadaNegocio\\FornecedorCollection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T20:32:50.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T20:32:50.3Z"
             },
             {
               "$type": "Document",
@@ -107,7 +106,7 @@
               "RelativeDocumentMoniker": "Project\\FormFornecedor.cs",
               "ToolTip": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\Project\\FormFornecedor.cs",
               "RelativeToolTip": "Project\\FormFornecedor.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwCUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T20:26:26.486Z",
               "EditorCaption": ""

@@ -12,6 +12,29 @@ namespace CamadaNegocio
         public int CodigoFornecedor { get; set; }
         public string NomeFornecedor { get; set; }
 
+        public static Fornecedor ObterCodigoFornecedor(int codigoFornecedor)
+        {
+            DataTable dataTable = CamadaDados.Fornecedor.ObterCodigoFornecedor(codigoFornecedor);
+
+            Fornecedor fornecedor = null;
+
+            if (dataTable != null && dataTable.Rows.Count > 0)
+            {
+                DataRow dataRow = dataTable.Rows[0];
+
+                if (dataRow != null)
+                {
+                    fornecedor = new Fornecedor();
+
+                    fornecedor.CodigoFornecedor = dataRow.Field<int>("CodigoFornecedor");
+                    fornecedor.NomeFornecedor = dataRow.Field<string>("NomeFornecedor");
+
+                }
+            }
+
+            return fornecedor;
+        }
+
         public static FornecedorCollection ObterLista()
         {
             //Base de dados dá sempre uma DataTable

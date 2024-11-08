@@ -3,8 +3,10 @@
     "",
     "\\ISLA",
     "\\ISLA\\Year 2",
-    "\\ISLA\\Year 2\\Object Oriented Programming"
+    "\\ISLA\\Year 2\\Object Oriented Programming",
+    "\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample",
+    "\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\CamadaDados"
   ],
-  "SelectedNode": "\\ISLA\\Year 2\\Object Oriented Programming",
+  "SelectedNode": "\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\CamadaDados\\Fornecedor.cs",
   "PreviewInSolutionExplorer": false
 }
