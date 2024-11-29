@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|c:\\users\\rikim\\source\\repos\\rikimourapt\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projetofinal\\camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|solutionrelative:camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|c:\\users\\rikim\\source\\repos\\rikimourapt\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projetofinal\\camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|solutionrelative:camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1562279363:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.cs",
+              "DocumentMoniker": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs",
+              "RelativeDocumentMoniker": "CamadaInterface\\About.cs",
+              "ToolTip": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs*",
+              "RelativeToolTip": "CamadaInterface\\About.cs*",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:42:34.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs",
+              "RelativeDocumentMoniker": "CamadaInterface\\About.cs",
+              "ToolTip": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs [Design]*",
+              "RelativeToolTip": "CamadaInterface\\About.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:40:37.903Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

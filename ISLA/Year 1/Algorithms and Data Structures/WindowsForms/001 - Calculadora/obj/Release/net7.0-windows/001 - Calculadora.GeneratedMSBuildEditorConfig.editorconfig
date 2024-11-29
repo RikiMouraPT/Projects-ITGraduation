@@ -17,3 +17,6 @@ build_property.RootNamespace = _001___Calculadora
 build_property.ProjectDir = C:\Users\rikim\Source\Repos\RikiMouraPT\Projects-ITGraduation\ISLA\Year 1\Algorithms and Data Structures\WindowsForms\001 - Calculadora\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
