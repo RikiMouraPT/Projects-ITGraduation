@@ -5,7 +5,6 @@ C:\Users\Ricardo\source\repos\Projects-ITGraduation\ISLA\Year 2\Advanced Program
 C:\Users\Ricardo\source\repos\Projects-ITGraduation\ISLA\Year 2\Advanced Programming\Testing\Example1\Example1\obj\Debug\MainWindow.g.cs
 C:\Users\Ricardo\source\repos\Projects-ITGraduation\ISLA\Year 2\Advanced Programming\Testing\Example1\Example1\obj\Debug\App.g.cs
 C:\Users\Ricardo\source\repos\Projects-ITGraduation\ISLA\Year 2\Advanced Programming\Testing\Example1\Example1\obj\Debug\Example1_MarkupCompile.cache
-C:\Users\Ricardo\source\repos\Projects-ITGraduation\ISLA\Year 2\Advanced Programming\Testing\Example1\Example1\obj\Debug\Example1_MarkupCompile.lref
 C:\Users\Ricardo\source\repos\Projects-ITGraduation\ISLA\Year 2\Advanced Programming\Testing\Example1\Example1\obj\Debug\MainWindow.baml
 C:\Users\Ricardo\source\repos\Projects-ITGraduation\ISLA\Year 2\Advanced Programming\Testing\Example1\Example1\obj\Debug\Example1.g.resources
 C:\Users\Ricardo\source\repos\Projects-ITGraduation\ISLA\Year 2\Advanced Programming\Testing\Example1\Example1\obj\Debug\Example1.Properties.Resources.resources

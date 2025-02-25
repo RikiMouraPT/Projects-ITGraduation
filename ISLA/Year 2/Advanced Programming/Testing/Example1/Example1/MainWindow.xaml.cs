@@ -22,7 +22,7 @@ namespace Example1
     {
         public MainWindow()
         {
-            InitializeComponent();
+            // InitializeComponent();
         }
     }
 }

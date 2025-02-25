@@ -1,25 +1,54 @@
-﻿<Window x:Class="Example1.MainWindow"
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="CrazyDashboard.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Example1"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Crazy Dashboard" Height="600" Width="900" Background="Black">
 
-    <Grid ShowGridLines="True">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition Height="50"></RowDefinition>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
+    <Grid>
+        <!-- Sidebar -->
+        <Grid Background="#222" Width="200" HorizontalAlignment="Left">
+            <StackPanel>
+                <TextBlock Text="Dashboard" Foreground="White" FontSize="20" FontWeight="Bold" Margin="20"/>
+                <Button Content="Home" Background="Transparent" Foreground="White" BorderThickness="0"/>
+                <Button Content="Analytics" Background="Transparent" Foreground="White" BorderThickness="0"/>
+                <Button Content="Settings" Background="Transparent" Foreground="White" BorderThickness="0"/>
+            </StackPanel>
+        </Grid>
 
-        <Button Grid.Row="0" Grid.Column="0">A</Button>
-        <Button Grid.Row="78" Grid.Column="1">B</Button>
+        <!-- Main Content -->
+        <Grid Margin="200,0,0,0" Background="#333">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
+            <!-- Top Bar -->
+            <StackPanel Orientation="Horizontal" Background="#444" Grid.Row="0">
+                <TextBlock Text="Welcome to the Crazy Dashboard!" Foreground="White" FontSize="16"/>
+            </StackPanel>
+
+            <!-- Dashboard Content -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Cards -->
+                <StackPanel Grid.Column="0">
+                    <Border Background="#555" Margin="10" CornerRadius="10">
+                        <TextBlock Text="Total Users: 5,230" Foreground="White" FontSize="14"/>
+                    </Border>
+                    <Border Background="#777" Margin="10" CornerRadius="10">
+                        <TextBlock Text="Revenue: $12,300" Foreground="White" FontSize="14"/>
+                    </Border>
+                </StackPanel>
+
+                <!-- Chart Placeholder -->
+                <Border Grid.Column="1" Background="#666" Margin="10" CornerRadius="10">
+                    <TextBlock Text="[Graph Placeholder]" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+                </Border>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
