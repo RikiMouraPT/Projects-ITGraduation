@@ -3,7 +3,12 @@
     "",
     "\\ISLA",
     "\\ISLA\\Year 2",
-    "\\ISLA\\Year 2\\Advanced Programming"
+    "\\ISLA\\Year 2\\Object Oriented Programming",
+    "\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample",
+    "\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\CamadaDados",
+    "\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\CamadaNegocio",
+    "\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface"
   ],
+  "SelectedNode": "\\ISLA\\Year 2\\Object Oriented Programming\\ProjectExample\\CamadaDados",
   "PreviewInSolutionExplorer": false
 }

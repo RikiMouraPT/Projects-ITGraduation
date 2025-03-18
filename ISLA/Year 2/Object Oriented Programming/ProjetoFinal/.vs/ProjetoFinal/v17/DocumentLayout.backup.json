@@ -1,13 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\",
+  "WorkspaceRootPath": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|c:\\users\\rikim\\source\\repos\\rikimourapt\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projetofinal\\camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09BC595F-C5EA-48A5-B355-1ED873F96C97}|CamadaNegocio\\CamadaNegocio.csproj|c:\\users\\ricardo\\source\\repos\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projetofinal\\camadanegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09BC595F-C5EA-48A5-B355-1ED873F96C97}|CamadaNegocio\\CamadaNegocio.csproj|solutionrelative:camadanegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|c:\\users\\ricardo\\source\\repos\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projetofinal\\camadainterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|solutionrelative:camadainterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB86DA6-17BA-4A7B-ADB3-DFAF30526C6E}|CamadaDados\\CamadaDados.csproj|c:\\users\\ricardo\\source\\repos\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projetofinal\\camadadados\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB86DA6-17BA-4A7B-ADB3-DFAF30526C6E}|CamadaDados\\CamadaDados.csproj|solutionrelative:camadadados\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|c:\\users\\ricardo\\source\\repos\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projetofinal\\camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|solutionrelative:camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|c:\\users\\rikim\\source\\repos\\rikimourapt\\projects-itgraduation\\isla\\year 2\\object oriented programming\\projetofinal\\camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FCCA9BC2-E23A-4766-A82C-B3AF64A131AF}|CamadaInterface\\CamadaInterface.csproj|solutionrelative:camadainterface\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaNegocio\\Class1.cs",
+              "RelativeDocumentMoniker": "CamadaNegocio\\Class1.cs",
+              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaNegocio\\Class1.cs",
+              "RelativeToolTip": "CamadaNegocio\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T21:37:01.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\Program.cs",
+              "RelativeDocumentMoniker": "CamadaInterface\\Program.cs",
+              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\Program.cs",
+              "RelativeToolTip": "CamadaInterface\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T21:37:00.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaDados\\Class1.cs",
+              "RelativeDocumentMoniker": "CamadaDados\\Class1.cs",
+              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaDados\\Class1.cs",
+              "RelativeToolTip": "CamadaDados\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T21:36:52Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -54,28 +105,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "About.cs",
-              "DocumentMoniker": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs",
+              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs",
               "RelativeDocumentMoniker": "CamadaInterface\\About.cs",
-              "ToolTip": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs*",
-              "RelativeToolTip": "CamadaInterface\\About.cs*",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAkwG4AAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs",
+              "RelativeToolTip": "CamadaInterface\\About.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T09:42:34.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "About.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs",
+              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs",
               "RelativeDocumentMoniker": "CamadaInterface\\About.cs",
               "ToolTip": "C:\\Users\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs [Design]*",
-              "RelativeToolTip": "CamadaInterface\\About.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\rikim\\source\\repos\\RikiMouraPT\\Projects-ITGraduation\\ISLA\\Year 2\\Object Oriented Programming\\ProjetoFinal\\CamadaInterface\\About.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T09:40:37.903Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-29T09:40:37.903Z"
             }
           ]
         }
