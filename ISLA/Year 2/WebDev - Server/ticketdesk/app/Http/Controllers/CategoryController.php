@@ -26,7 +26,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.category.create');
     }
 
     /**
@@ -34,7 +34,15 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $name = $request->name;
+        $status = $request->status;
+
+        $category = new Category();
+        $category->name = $name;
+        $category->status = $status;
+        $category->save();
+        
+        return redirect()->route('admin.category.index')->with('success', 'Category saved successfully!');
     }
 
     /**
