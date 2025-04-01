@@ -158,10 +158,22 @@
   <div class="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
     <ul>
       <li>Admin</li>
-      <li>Dashboard</li>
+      @if(Route::currentRouteName() == 'admin.category.index')
+        <li>Category</li>
+      @elseif(Route::currentRouteName() == 'admin.category.create')
+        <li>Category</li>
+        <li>Create</li>
+      @elseif(Route::currentRouteName() == 'admin.category.show')
+        <li>Category</li>
+        <li>View</li>
+      @elseif (Route::currentRouteName() == 'admin.category.edit')
+        <li>Category</li>
+        <li>Edit</li>
+      @endif
     </ul>
   </div>
 </section>
+
 
 <section class="section main-section">
   @yield('content')  

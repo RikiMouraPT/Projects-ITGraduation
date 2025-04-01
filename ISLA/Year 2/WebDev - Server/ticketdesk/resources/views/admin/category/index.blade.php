@@ -31,12 +31,21 @@
                     <td data-label="Updated">{{ $category->updated_at }}</td>
                     <td class="actions-cell">
                         <div class="buttons right nowrap">
-                            <button class="button small blue --jb-modal"  data-target="sample-modal-2" type="button">
-                            <span class="icon"><i class="mdi mdi-eye"></i></span>
-                            </button>
-                            <button class="button small red --jb-modal" data-target="sample-modal" type="button">
-                            <span class="icon"><i class="mdi mdi-trash-can"></i></span>
-                            </button>
+                            <a href="{{ route('admin.category.show', $category->id) }}" 
+                            class="button blue">
+                                <span>View</span>
+                            </a>
+                            <a href="{{ route('admin.category.edit', $category->id) }}" 
+                            class="button blue">
+                                <span>Edit</span>
+                            </a>
+                            <form method="POST" action="{{ route('admin.category.destroy', $category->id) }}">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="button red" onclick="return confirm('Are you sure you want to delete this category?');">
+                                    <span>Delete</span>
+                                </button>
+                            </form>
                         </div>
                     </td>
                 </tr>
