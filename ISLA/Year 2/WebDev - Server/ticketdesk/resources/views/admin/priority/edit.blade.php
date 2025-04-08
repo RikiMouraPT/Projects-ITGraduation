@@ -3,12 +3,12 @@
 @section('content')
 
 @if ($errors->any())
-  <div class="notification red">
+  <div class="red">
     <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0">
       <div>
         <ul>
           @foreach ($errors->all() as $error)
-            <li>{{ $error }}</li>
+          <li>{{ $error }}</li>
           @endforeach
         </ul>
       </div>
@@ -16,7 +16,7 @@
   </div>
 @endif
 
-<form method="post" action="{{ route('admin.category.update' , $category->id) }}">
+<form method="post" action="{{ route('admin.priority.update' , $priority->id) }}">
     @csrf
     @method('PUT')
     <div class="field">
@@ -24,7 +24,7 @@
       <div class="field-body">
         <div class="field">
           <div class="control">
-            <input class="input" type="text" placeholder="Name" name='name' value="{{ $category->name }}" required>
+            <input class="input" type="text" placeholder="Name" name='name' value="{{ $priority->name }}" required>
           </div>
         </div>
       </div>
@@ -35,8 +35,8 @@
             <div class="select">
                 <select name='status' required>
                     <option>Select a Status
-                    <option value="active" {{ $category->status == 'active' ? 'selected' : '' }}>Active</option>
-                    <option value="inactive" {{ $category->status == 'inactive' ? 'selected' : '' }}>Inactive</option>
+                    <option value="active" {{ $priority->status == 'active' ? 'selected' : '' }}>Active</option>
+                    <option value="inactive" {{ $priority->status == 'inactive' ? 'selected' : '' }}>Inactive</option>
                 </select>
             </div>
         </div>

@@ -34,6 +34,11 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            'name' => 'required|string|max:255|min:3|unique:categories',
+            'status' => 'required|in:active,inactive',
+        ]);
+
         $category = new Category();
         $category->name = $request->name;
         $category->status = $request->status;
@@ -71,6 +76,11 @@ class CategoryController extends Controller
      */
     public function update(Request $request, string $id)
     {
+        $request->validate([
+            'name' => 'required|string|max:255|min:3|unique:categories,name,' . $id,
+            'status' => 'required|in:active,inactive',
+        ]);
+
         if (Category::where('id', $id)->exists()) {
             
             $category = Category::findOrFail($id);
@@ -80,7 +90,7 @@ class CategoryController extends Controller
             
             $category->save();
 
-            return redirect()->route('admin.category.index')->with('sucess', 'Category updated successfully!');
+            return redirect()->route('admin.category.index')->with('success', 'Category updated successfully!');
         } else {
             return redirect()->route('admin.category.index')->with('error', 'Category not found.');
         }

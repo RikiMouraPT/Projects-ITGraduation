@@ -16,7 +16,7 @@
   </div>
 @endif
 
-<form method="post" action="{{ route('admin.category.store') }}">
+<form method="post" action="{{ route('admin.priority.store') }}">
   @csrf
     <div class="field">
       <label class="label">Name</label>

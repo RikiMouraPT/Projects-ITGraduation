@@ -102,54 +102,32 @@
         </a>
       </li>
     </ul>
-    <p class="menu-label">Examples</p>
+    <p class="menu-label">Menu</p>
     <ul class="menu-list">
-      <li class="--set-active-tables-html">
-        <a href="{{ route('admin.category.index') }}">
-          <span class="icon"><i class="mdi mdi-table"></i></span>
-          <span class="menu-item-label">Categorias</span>
-        </a>
-      </li>
-      <li class="--set-active-forms-html">
-        <a href="forms.html">
-          <span class="icon"><i class="mdi mdi-square-edit-outline"></i></span>
-          <span class="menu-item-label">Forms</span>
-        </a>
-      </li>
-      <li class="--set-active-profile-html">
-        <a href="profile.html">
-          <span class="icon"><i class="mdi mdi-account-circle"></i></span>
-          <span class="menu-item-label">Profile</span>
-        </a>
-      </li>
       <li>
         <a href="login.html">
           <span class="icon"><i class="mdi mdi-lock"></i></span>
-          <span class="menu-item-label">Login</span>
+          <span class="menu-item-label">Tickets</span>
         </a>
       </li>
-      <li>
-        <a class="dropdown">
-          <span class="icon"><i class="mdi mdi-view-list"></i></span>
-          <span class="menu-item-label">Submenus</span>
-          <span class="icon"><i class="mdi mdi-plus"></i></span>
+      <li class="--set-active-tables-html">
+        <a href="{{ route('admin.category.index') }}">
+          <span class="icon"><i class="mdi mdi-table"></i></span>
+          <span class="menu-item-label">Categories</span>
         </a>
-        <ul>
-          <li>
-            <a href="#void">
-              <span>Sub-item One</span>
-            </a>
-          </li>
-          <li>
-            <a href="#void">
-              <span>Sub-item Two</span>
-            </a>
-          </li>
-        </ul>
       </li>
-    </ul>
-    <p class="menu-label">About</p>
-    <ul class="menu-list">
+      <li class="--set-active-forms-html">
+        <a href="{{ route('admin.level.index') }}">
+          <span class="icon"><i class="mdi mdi-square-edit-outline"></i></span>
+          <span class="menu-item-label">Levels</span>
+        </a>
+      </li>
+      <li class="--set-active-profile-html">
+        <a href="{{ route('admin.priority.index') }}">
+          <span class="icon"><i class="mdi mdi-account-circle"></i></span>
+          <span class="menu-item-label">Priorities</span>
+        </a>
+      </li>
     </ul>
   </div>
 </aside>
@@ -169,7 +147,30 @@
       @elseif (Route::currentRouteName() == 'admin.category.edit')
         <li>Category</li>
         <li>Edit</li>
+      @elseif (Route::currentRouteName() == 'admin.level.index')
+        <li>Level</li>
+      @elseif (Route::currentRouteName() == 'admin.level.create')
+        <li>Level</li>
+        <li>Create</li>
+      @elseif (Route::currentRouteName() == 'admin.level.show')
+        <li>Level</li>
+        <li>View</li>
+      @elseif (Route::currentRouteName() == 'admin.level.edit')
+        <li>Level</li>
+        <li>Edit</li>
+      @elseif (Route::currentRouteName() == 'admin.priority.index')
+        <li>Priority</li>
+      @elseif (Route::currentRouteName() == 'admin.priority.create')
+        <li>Priority</li>
+        <li>Create</li>
+      @elseif (Route::currentRouteName() == 'admin.priority.show')
+        <li>Priority</li>
+        <li>View</li>
+      @elseif (Route::currentRouteName() == 'admin.priority.edit')
+        <li>Priority</li>
+        <li>Edit</li>
       @endif
+      
     </ul>
   </div>
 </section>
