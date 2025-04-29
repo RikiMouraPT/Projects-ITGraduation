@@ -57,9 +57,9 @@
       <div class="navbar-item dropdown has-divider has-user-avatar">
         <a class="navbar-link">
           <div class="user-avatar">
-            <img src="https://avatars.dicebear.com/v2/initials/john-doe.svg" alt="John Doe" class="rounded-full">
+            <img src="https://avatar.iran.liara.run/public/48" alt="John Doe" class="">
           </div>
-          <div class="is-user-name"><span>Ricardo Moura</span></div>
+          <div class="is-user-name"><span>{{ Auth::user()->name ?? "Not Logged In"}}</span></div>
           <span class="icon"><i class="mdi mdi-chevron-down"></i></span>
         </a>
         <div class="navbar-dropdown">
@@ -80,7 +80,16 @@
       </div>
       <a title="Log out" class="navbar-item desktop-icon-only">
         <span class="icon"><i class="mdi mdi-logout"></i></span>
-        <span>Log out</span>
+        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{{ route('logout') }}"
+             onclick="event.preventDefault();
+                           document.getElementById('logout-form').submit();">
+              {{ ('Logout') }}
+          </a>
+          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+              @csrf
+          </form>
+        </div>
       </a>
     </div>
   </div>
