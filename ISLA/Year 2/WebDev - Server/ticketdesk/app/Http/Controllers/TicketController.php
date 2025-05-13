@@ -28,7 +28,6 @@ class TicketController extends Controller
             ->select('tickets.*', 'priorities.name as priority_name', 'categories.name as category_name')
             ->get();
 
-
         return view('welcome', compact('tickets'));
     }
 
@@ -64,6 +63,7 @@ class TicketController extends Controller
         $ticket->priority_id = $request->priority_id;
         $ticket->level_id = $request->level_id;
         $ticket->user_id = Auth::user()->id;
+        $ticket->status = 'open';
         $ticket->save();
 
         return redirect()->route('ticket.index')->with('success', 'Ticket created successfully.');

@@ -11,7 +11,6 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-        
     </head>
     <body class="text-gray-100 bg-gradient-to-br from-gray-900 to-gray-800 min-h-screen">
         <div class="max-w-md mx-auto px-4 py-12">

@@ -41,9 +41,9 @@
     <a class="navbar-item mobile-aside-button">
       <span class="icon"><i class="mdi mdi-forwardburger mdi-24px"></i></span>
     </a>
-    <div class="navbar-item">
-      <div class="control"><input placeholder="Search everywhere..." class="input"></div>
-    </div>
+    <a href="{{ route('welcome') }}" class="text-white flex items-center justify-center bg-gray-600 hover:bg-gray-700 p-4 m-4 rounded-xl">
+      Welcome
+    </a>
   </div>
   <div class="navbar-brand is-right">
     <a class="navbar-item --jb-navbar-menu-toggle" data-target="navbar-menu">
@@ -114,7 +114,7 @@
     <p class="menu-label">Menu</p>
     <ul class="menu-list">
       <li>
-        <a href="login.html">
+        <a href="">
           <span class="icon"><i class="mdi mdi-lock"></i></span>
           <span class="menu-item-label">Tickets</span>
         </a>

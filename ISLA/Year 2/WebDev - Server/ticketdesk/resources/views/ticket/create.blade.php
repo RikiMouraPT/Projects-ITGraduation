@@ -42,13 +42,13 @@
             
                     <div>
                         <label class="block text-sm font-medium text-gray-300 mb-1">Title</label>
-                        <input type="text" name="title" required placeholder="Título do ticket"
+                        <input type="text" name="title" required placeholder="Title"
                             class="w-full px-4 py-2 rounded-xl bg-gray-900 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500 placeholder-gray-500 transition">
                     </div>
             
                     <div>
                         <label class="block text-sm font-medium text-gray-300 mb-1">Description</label>
-                        <textarea name="description" rows="4" required placeholder="Descreve o problema..."
+                        <textarea name="description" rows="4" required placeholder="Description"
                             class="w-full px-4 py-2 rounded-xl bg-gray-900 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500 placeholder-gray-500 transition"></textarea>
                     </div>
             
