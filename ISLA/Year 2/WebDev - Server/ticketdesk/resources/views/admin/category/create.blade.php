@@ -29,6 +29,19 @@
       </div>
     </div>
     <div class="field">
+      <label class="label">Level</label>
+      <div class="control">
+        <div class="select">
+          <select name='level_id' required>
+            <option>Select a Level
+            @foreach ($levels as $level)
+            <option value="{{ $level->id }}">{{ $level->name }}</option>
+            @endforeach
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="field">
       <label class="label">Status</label>
       <div class="control">
         <div class="select">

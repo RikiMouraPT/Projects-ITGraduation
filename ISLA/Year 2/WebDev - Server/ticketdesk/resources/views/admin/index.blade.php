@@ -114,7 +114,7 @@
     <p class="menu-label">Menu</p>
     <ul class="menu-list">
       <li>
-        <a href="">
+        <a href="{{ route('ticket.index') }}">
           <span class="icon"><i class="mdi mdi-lock"></i></span>
           <span class="menu-item-label">Tickets</span>
         </a>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use App\Http\Requests\StoreCategoryRequest;
 use App\Http\Requests\UpdateCategoryRequest;
+use App\Models\Level;
 use Illuminate\Http\Request;
 
 class CategoryController extends Controller
@@ -26,7 +27,8 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('admin.category.create');
+        $levels = Level::all();
+        return view('admin.category.create', compact('levels'));
     }
 
     /**
@@ -36,12 +38,14 @@ class CategoryController extends Controller
     {
         $request->validate([
             'name' => 'required|string|max:255|min:3|unique:categories',
+            'level_id' => 'required|exists:levels,id',
             'status' => 'required|in:active,inactive',
         ]);
 
         $category = new Category();
         $category->name = $request->name;
         $category->status = $request->status;
+        $category->level_id = $request->level_id;
         $category->save();
         
         return redirect()->route('admin.category.index')->with('success', 'Category saved successfully!');

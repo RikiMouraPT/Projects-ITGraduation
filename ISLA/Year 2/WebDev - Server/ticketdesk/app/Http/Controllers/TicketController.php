@@ -3,11 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Ticket;
-use App\Http\Requests\StoreTicketRequest;
-use App\Http\Requests\UpdateTicketRequest;
 use App\Models\Category;
 use App\Models\Priority;
-use App\Models\Level;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -19,14 +16,10 @@ class TicketController extends Controller
      */
     public function index()
     {
-        // Falta relações nos models para usar isto
-        //$tickets = Ticket::all();
-
-        $tickets = DB::table('tickets')
-            ->join('priorities', 'tickets.priority_id', '=', 'priorities.id')
-            ->join('categories', 'tickets.category_id', '=', 'categories.id')
-            ->select('tickets.*', 'priorities.name as priority_name', 'categories.name as category_name')
+        $tickets = Ticket::with(['priority', 'category'])
+            ->where('user_id', Auth::id())
             ->get();
+
 
         return view('welcome', compact('tickets'));
     }
@@ -38,8 +31,7 @@ class TicketController extends Controller
     {
         $categories = Category::all();
         $priorities = Priority::all();
-        $levels = Level::all();
-        return view('ticket.create', compact('categories', 'priorities', 'levels'));
+        return view('ticket.create', compact('categories', 'priorities'));
     }
 
     /**
@@ -52,16 +44,13 @@ class TicketController extends Controller
             'description' => 'required|string',
             'category_id' => 'required|exists:categories,id',
             'priority_id' => 'required|exists:priorities,id',
-            'level_id' => 'required|exists:levels,id',
         ]);
 
         $ticket = new Ticket();
         $ticket->title = $request->title;
         $ticket->description = $request->description;
-        $ticket->date = now();
         $ticket->category_id = $request->category_id;
         $ticket->priority_id = $request->priority_id;
-        $ticket->level_id = $request->level_id;
         $ticket->user_id = Auth::user()->id;
         $ticket->status = 'open';
         $ticket->save();
@@ -88,7 +77,7 @@ class TicketController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateTicketRequest $request, Ticket $ticket)
+    public function update(Request $request, Ticket $ticket)
     {
         //
     }

@@ -66,6 +66,7 @@
                     </div>
                 @endauth
             </div>
+        </div>
             @auth
                 <!-- Ticket Area -->
 
@@ -76,7 +77,7 @@
                     </a>
                 </div>
                 <!-- Ticket List -->
-                <div class="mt-6">
+                <div class="mt-6 mx-24">
                     <h2 class="text-2xl font-semibold text-center mb-4 text-white">Tickets</h2>
                     <ul class="space-y-4">
                         @forelse ($tickets as $ticket)
@@ -95,15 +96,21 @@
                                     </div>
                                 </div>
 
-                                <div class="mt-4 flex flex-row flex-wrap gap-2">
+                                <div class="mt-2 mb-4 flex flex-row flex-wrap gap-4">
                                     <span class="px-3 py-1 text-sm font-medium rounded-full bg-blue-600 text-white">
-                                        Priority: {{ $ticket->priority_name }}
+                                        Priority: {{ $ticket->priority->name }}
                                     </span>
                                     <span class="px-3 py-1 text-sm font-medium rounded-full bg-purple-600 text-white">
-                                        Category: {{ $ticket->category_name }}
+                                        Category: {{ $ticket->category->name }}
+                                    </span>
+                                    <span class="px-3 py-1 text-sm font-medium rounded-full bg-pink-600 text-white">
+                                        Level: {{ $ticket->category->level->name }}
                                     </span>
                                 </div>
-                                <p class="text-gray-300 mt-2">{{ Str::limit($ticket->description, 100) }}</p>
+                                <div class="flex flex-col space-y-1">
+                                    <p class="text-gray-400">Description:</p>
+                                    <p class="text-gray-300">{{ Str::limit($ticket->description, 100) }}</p>
+                                </div>
                             </li>
                         @empty
                             <li class="bg-gray-800 p-6 rounded-xl shadow-lg text-center text-gray-300">
@@ -112,12 +119,10 @@
                         @endforelse
                     </ul>
                 </div>
-
             @endauth
-            <!-- Footer -->
-            <div class="mt-10 text-center text-gray-500 text-sm">
-                <p>© {{ date('Y') }} Ricardo Moura. All rights reserved.</p>
-            </div>
+        <!-- Footer -->
+        <div class="mt-10 text-center text-gray-500 text-sm">
+            <p>© {{ date('Y') }} Ricardo Moura. All rights reserved.</p>
         </div>
     </body>
 </html>

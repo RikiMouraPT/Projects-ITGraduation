@@ -20,4 +20,20 @@ class Ticket extends Model
         'status',
         'closed_at'
     ];
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+    public function priority()
+    {
+        return $this->belongsTo(Priority::class);
+    }
+    public function level()
+    {
+        return $this->belongsTo(Level::class);
+    }
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

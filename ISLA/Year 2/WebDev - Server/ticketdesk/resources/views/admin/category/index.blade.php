@@ -17,6 +17,7 @@
                 <tr>
                     <th>Name</th>
                     <th>Status</th>
+                    <th>Level</th>
                     <th>Created</th>
                     <th>Updated</th>
                     <th></th>
@@ -27,6 +28,7 @@
                 <tr>
                     <td data-label="Name">{{ $category->name }}</td>
                     <td data-label="Status">{{ $category->status }}</td>
+                    <td data-label="Level">{{ $category->level->name }}</td>
                     <td data-label="Created">{{ $category->created_at }}</td>
                     <td data-label="Updated">{{ $category->updated_at }}</td>
                     <td class="actions-cell">

@@ -14,4 +14,13 @@ class Level extends Model
         'name',
         'status'
     ];
+
+    public function categories()
+    {
+        return $this->hasMany(Category::class);
+    }
+    public function tickets()
+    {
+        return $this->hasMany(Ticket::class);
+    }
 }

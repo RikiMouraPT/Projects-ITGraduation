@@ -74,17 +74,6 @@
                         </select>
                     </div>
             
-                    <div>
-                        <label class="block text-sm font-medium text-gray-300 mb-1">Level</label>
-                        <select name="level_id" required
-                            class="w-full px-4 py-2 rounded-xl bg-gray-900 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-pink-500 transition">
-                            <option value="">Choose a level</option>
-                            @foreach ($levels as $level)
-                                <option value="{{ $level->id }}">{{ $level->name }}</option>
-                            @endforeach
-                        </select>
-                    </div>
-            
                     <div class="flex justify-between mt-6">
                         <button type="submit"
                             class="px-6 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold transition">

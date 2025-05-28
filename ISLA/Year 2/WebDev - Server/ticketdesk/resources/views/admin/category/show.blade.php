@@ -14,6 +14,14 @@
       </div>
     </div>
     <div class="field">
+      <label class="label">Level</label>
+      <div class="control">
+        <div class="select">
+          <input class="input" type="text" placeholder="Level" name='level' value="{{ ucfirst($category->level->name) }}" disabled>
+        </div>
+      </div>
+    </div>
+    <div class="field">
       <label class="label">Status</label>
       <div class="control">
         <input class="input" type="text" placeholder="Name" name='name' value="{{ ucfirst($category->status) }}" disabled>
