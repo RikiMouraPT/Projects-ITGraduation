@@ -71,7 +71,9 @@ class TicketController extends Controller
      */
     public function edit(Ticket $ticket)
     {
-        //
+        $categories = Category::all();
+        $priorities = Priority::all();
+        return view('ticket.edit', compact('ticket', 'categories', 'priorities'));
     }
 
     /**
@@ -79,7 +81,20 @@ class TicketController extends Controller
      */
     public function update(Request $request, Ticket $ticket)
     {
-        //
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'required|string',
+            'category_id' => 'required|exists:categories,id',
+            'priority_id' => 'required|exists:priorities,id',
+        ]);
+
+        $ticket->title = $request->title;
+        $ticket->description = $request->description;
+        $ticket->category_id = $request->category_id;
+        $ticket->priority_id = $request->priority_id;
+        $ticket->save();
+        
+        return redirect()->route('ticket.index')->with('success', 'Ticket updated successfully.');
     }
 
     /**
@@ -87,6 +102,7 @@ class TicketController extends Controller
      */
     public function destroy(Ticket $ticket)
     {
-        //
+        $ticket->delete();
+        return redirect()->route('ticket.index')->with('success', 'Ticket deleted successfully.');
     }
 }

@@ -87,12 +87,21 @@
                                         {{ $ticket->title }}
                                     </a>
                                     <div class="flex items-center space-x-4">
-                                        <span class="text-sm text-gray-400">{{ $ticket->date }}</span>
+                                        <span class="text-sm text-gray-400">{{ $ticket->created_at }}</span>
                                         <span class="px-3 py-1 text-sm font-medium rounded-full 
                                             {{ $ticket->status === 'open' ? 'bg-green-600' : 'bg-red-600' }} text-white">
                                             {{ ucfirst($ticket->status) }}
                                         </span>
-
+                                        <a href="{{ route('ticket.edit', $ticket->id) }}" class="px-3 py-1 text-sm font-medium rounded-full bg-amber-300 text-black">
+                                            Edit
+                                        </a>
+                                        <form method="POST" action="{{ route('ticket.destroy', $ticket->id) }}" onsubmit="return confirm('Are you sure you want to delete this ticket?');">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="px-3 py-1 text-sm font-medium rounded-full bg-red-300 text-black">
+                                                Delete
+                                            </button>
+                                        </form>
                                     </div>
                                 </div>
 

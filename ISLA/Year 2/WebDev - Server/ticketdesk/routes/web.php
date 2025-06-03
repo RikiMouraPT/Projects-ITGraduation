@@ -21,12 +21,7 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::resource('priority', PriorityController::class)->names('admin.priority');
 });
 
-// User
-Route::get('/ticket', [TicketController::class, 'index'])->name('ticket.index');
-Route::get('/ticket/create', [TicketController::class, 'create'])->name('ticket.create');
-Route::post('/ticket/store', [TicketController::class, 'store'])->name('ticket.store');
-Route::get('/ticket/{ticket}', [TicketController::class, 'show'])->name('ticket.show');
-
+Route::resource('ticket', TicketController::class)->names('ticket');
 
 Auth::routes();
 
