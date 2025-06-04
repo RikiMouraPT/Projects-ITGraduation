@@ -107,10 +107,10 @@
 
                                 <div class="mt-2 mb-4 flex flex-row flex-wrap gap-4">
                                     <span class="px-3 py-1 text-sm font-medium rounded-full bg-blue-600 text-white">
-                                        Priority: {{ $ticket->priority->name }}
+                                        Priority: {{ $ticket->priority_name }}
                                     </span>
                                     <span class="px-3 py-1 text-sm font-medium rounded-full bg-purple-600 text-white">
-                                        Category: {{ $ticket->category->name }}
+                                        Category: {{ $ticket->category_name }}
                                     </span>
                                     <span class="px-3 py-1 text-sm font-medium rounded-full bg-pink-600 text-white">
                                         Level: {{ $ticket->category->level->name }}

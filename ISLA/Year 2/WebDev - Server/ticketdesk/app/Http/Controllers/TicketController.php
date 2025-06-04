@@ -16,9 +16,33 @@ class TicketController extends Controller
      */
     public function index()
     {
-        $tickets = Ticket::with(['priority', 'category'])
-            ->where('user_id', Auth::id())
-            ->get();
+        if(Auth::check() && Auth::User()->role == 'agent')
+        {      
+            /*$tickets = Ticket::with(['priority', 'category'])
+                ->where('user_id', Auth::id())
+                ->get();*/
+
+            $tickets = DB::table('tickets')
+                ->join('priorities', 'tickets.priority_id', '=', 'priorities.id')
+                ->join('categories', 'tickets.category_id', '=', 'categories.id')
+                ->select('tickets.*', 'priorities.name as priority_name', 'categories.name as category_name')
+                ->where('categories.level_id', Auth::user()->level_id)
+                ->get();
+        }
+        else if (Auth::check() && Auth::User()->role == 'user')
+        {
+            //Tickets using the DB facade to get all tickets of the logged-in user
+            $tickets = DB::table('tickets')
+                ->join('priorities', 'tickets.priority_id', '=', 'priorities.id')
+                ->join('categories', 'tickets.category_id', '=', 'categories.id')
+                ->select('tickets.*', 'priorities.name as priority_name', 'categories.name as category_name')
+                ->where('tickets.user_id', Auth::id())
+                ->get();
+        }
+        else
+        {
+            $tickets = [];
+        }
 
 
         return view('welcome', compact('tickets'));
